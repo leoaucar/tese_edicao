@@ -12,11 +12,13 @@ Etapas: revisão de literatura → coleta de dados secundários → produção d
 
 ### Capítulo empírico 1 — `chapters/04-Processo de industrialização (1808-1973).tex`
 
-- [x] Revisão de literatura
-- [x] Coleta de dados secundários
-- [x] Produção de imagens e tabelas
-- [x] Escrita do texto
-- [x] Revisão de texto e citações
+> Atualizado em 29/08/2026 após a rodada `specs/2026-08-29_capitulo_historico_1_review/`: a importação do docx original revelou que o capítulo está bem menos pronto do que o status "Completo" indicava. Aproximadamente metade do texto é esboço/nota de rascunho (não texto corrido), e há dezenas de citações incompletas (`\aiflag{...}` no `.tex`). Ver `specs/2026-08-29_capitulo_historico_1_review/plan.md` para o relato completo.
+
+- [~] Revisão de literatura -- citações presentes ao longo do texto, mas a bibliografia em `references.bib` é só stub (autor/ano); falta exportar a biblioteca real do Zotero.
+- [~] Coleta de dados secundários -- 2 tabelas e 4 figuras já incorporadas; múltiplos pontos ainda marcados `[FIGURA A INSERIR: ...]` no texto.
+- [~] Produção de imagens e tabelas -- idem acima; parte dos gráficos planejados pelo autor ainda não existem como arquivo.
+- [~] Escrita do texto -- cerca de metade do capítulo (especialmente da seção "1945-1964" em diante) é esboço/anotação, não prosa finalizada (ver blocos `\begin{esboco}` no `.tex`).
+- [ ] Revisão de texto e citações -- primeira passada de IA já aplicada (marcações em vermelho/tachado no `.tex`); aguardando o ciclo iterativo com o usuário (ver "Ciclo de Revisão Iterativo" em `specs/constitution.md`).
 
 Prazo final: -
 

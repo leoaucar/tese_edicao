@@ -39,6 +39,17 @@ Todo capítulo avança por um conjunto fixo de etapas, dependendo do seu tipo. O
 
 Um capítulo só é considerado pronto para envio ao orientador (`advisor_reviews/`) quando todas as suas etapas estiverem marcadas como concluídas em `specs/status_capitulos.md`.
 
+## Ciclo de Revisão Iterativo
+
+A etapa "Revisão de texto e citações" não é um processo único ("one and done") — é um ciclo iterativo entre usuário e IA, repetido quantas vezes forem necessárias dentro da mesma rodada (mesma branch/pasta `specs/YYYY-MM-DD_descrição/`):
+
+1. A IA revisa a versão atual do capítulo e insere sugestões marcadas (vermelho/tachado, ver convenção abaixo).
+2. O usuário trabalha sobre o texto: aceita, rejeita ou reescreve trechos, incorporando ou não as sugestões, e evolui o rascunho manualmente.
+3. A IA revisa novamente a versão atualizada — não apenas o que mudou, mas o capítulo como um todo, já que uma mudança pode ter efeitos em outras partes do texto.
+4. Repete a partir do passo 2 até o usuário considerar o capítulo pronto (ex.: para envio ao orientador).
+
+Cada iteração desse ciclo deve corresponder a um commit na branch da rodada, para manter um histórico claro de como o capítulo evoluiu. O status em `specs/status_capitulos.md` reflete isso com o marcador `[~]` (parcial) enquanto o ciclo está em andamento, só virando `[x]` quando o usuário encerrar a etapa.
+
 ## Papel da IA na Revisão de Texto
 
 Durante a etapa "Revisão de texto e citações" (ver Workflow de Capítulos), a IA deve:
@@ -61,7 +72,9 @@ A IA NÃO deve:
 - Texto sugerido pela IA é escrito diretamente no `.tex` do capítulo, em **vermelho**, usando os pacotes `xcolor` (cor) e `ulem`/`soul` (tachado) — assim a sugestão aparece no PDF compilado e é carregada também na exportação para DOCX.
 - Texto que a IA sugere remover fica **tachado** no próprio arquivo, nunca apagado — a decisão de remover é do usuário.
 - Toda sugestão deve ser claramente visível e reversível pelo leitor; nenhuma edição da IA deve ser indistinguível do texto original.
-- `main.tex` inclui `xcolor` e `ulem` (modo `normalem` para não afetar `\emph`) no preâmbulo para suportar essa convenção.
+- `main.tex` inclui `xcolor` e `ulem` (modo `normalem` para não afetar `\emph`) no preâmbulo para suportar essa convenção, além de dois comandos/ambientes reutilizáveis definidos lá (implementados na rodada `specs/2026-08-29_capitulo_historico_1_review/`):
+  - `\aiflag{texto}` — marca em vermelho um trecho já existente no rascunho que precisa de atenção (citação incompleta, placeholder do tipo "(fonte)", nota de figura pendente etc.). Usar `\sout{trecho antigo} \aiflag{sugestão}` quando a sugestão substitui um trecho específico.
+  - `\begin{esboco}...\end{esboco}` — envolve trechos que são anotações/esboço do autor (bullets, listas de nomes, notas tipo "COMPARAR X COM Y"), não texto corrido pronto para revisão fina. Formatado em cinza/itálico para não ser confundido com texto final nem com sugestão da IA.
 
 ### Princípio geral
 

@@ -1,12 +1,29 @@
 \documentclass[12pt]{report}
 
 \usepackage[utf8]{inputenc}
+\DeclareUnicodeCharacter{1EBD}{\~e}
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
 \usepackage{graphicx}
 \usepackage{csvsimple}
 \usepackage{xcolor}
 \usepackage[normalem]{ulem}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc}
+
+% --- Convenção de marcação da revisão de IA (specs/constitution.md) ---
+% Sugestão da IA: texto em vermelho.
+\newcommand{\aiflag}[1]{\textcolor{red}{#1}}
+% Trecho de rascunho/esboço do autor, ainda não escrito como texto corrido
+% (specs/constitution.md, "Ciclo de Revisão Iterativo").
+\newenvironment{esboco}{%
+  \par\noindent\textcolor{gray}{\textbf{[ESBOÇO --- A DESENVOLVER]}}\par
+  \begin{quotation}\color{gray}\itshape
+}{%
+  \end{quotation}
+}
 
 \title{Título da Tese}
 \author{Leonardo Aucar}
