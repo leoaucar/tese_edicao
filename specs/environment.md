@@ -141,10 +141,12 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
     }
   },
 
-  // Requer a extensão "LTeX" (valentjn.vscode-ltex) — instalar manualmente
-  // via Ctrl+Shift+X, buscar "LTeX". Verificação ortográfica/gramatical
-  // consciente de LaTeX (ignora corretamente \comandos e chaves de citação);
-  // português brasileiro.
+  // Requer a extensão "LTeX+" (ltex-plus.vscode-ltex-plus) — instalar
+  // manualmente via Ctrl+Shift+X, buscar "LTeX+". A extensão original
+  // valentjn.vscode-ltex está depreciada/arquivada; este é o fork
+  // atualmente mantido, mas manteve as mesmas chaves "ltex.*" abaixo.
+  // Verificação ortográfica/gramatical consciente de LaTeX (ignora
+  // corretamente \comandos e chaves de citação); português brasileiro.
   "ltex.language": "pt-BR",
   "ltex.enabled": ["latex", "tex"],
   // Nomes próprios e termos do projeto que são sinalizados como erro de
@@ -160,7 +162,7 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
 }
 ```
 
-- **Extensões necessárias**: `james-yu.latex-workshop` (já instalada); para o destaque de `\aiflag`/`esboco`, `fabiospampinato.vscode-highlight`; para a correção ortográfica em português, `valentjn.vscode-ltex`. Todas de instalação manual — o CLI `code --install-extension` está quebrado nesta máquina por um conflito de `PATH` com o Anaconda, não relacionado ao projeto.
-- `valentjn.vscode-ltex` baixa seu próprio runtime Java + modelos de idioma na primeira ativação (download maior, ocorre uma vez). Falsos positivos recorrentes (nomes próprios, siglas) devem ser adicionados a `ltex.dictionary.pt-BR` em vez de ignorados manualmente a cada vez.
+- **Extensões necessárias**: `james-yu.latex-workshop` (já instalada); para o destaque de `\aiflag`/`esboco`, `fabiospampinato.vscode-highlight`; para a correção ortográfica em português, `ltex-plus.vscode-ltex-plus` ("LTeX+" no Marketplace — **não** instalar `valentjn.vscode-ltex`, que está depreciado/arquivado desde abril de 2026). Todas de instalação manual — o CLI `code --install-extension` está quebrado nesta máquina por um conflito de `PATH` com o Anaconda, não relacionado ao projeto.
+- `ltex-plus.vscode-ltex-plus` baixa seu próprio runtime + modelos de idioma na primeira ativação (download maior, ocorre uma vez; depois funciona offline). Falsos positivos recorrentes (nomes próprios, siglas) devem ser adicionados a `ltex.dictionary.pt-BR` em vez de ignorados manualmente a cada vez.
 - Após criar/editar `.vscode/settings.json`, recarregar a janela do VS Code (`Ctrl+Shift+P` → "Reload Window") para aplicar.
 - `latex-workshop.latex.outDir` mantém o build automático do LaTeX Workshop (que roda a cada save) escrevendo em `outputs/`, em vez de poluir a raiz do projeto — ver a seção de compilação manual acima para o motivo.
