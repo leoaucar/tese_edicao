@@ -49,3 +49,20 @@ git checkout <branch-da-rodada-em-andamento>
 ```
 
 Depois de instaladas as ferramentas acima, `pdflatex main.tex` deve compilar sem configuração adicional.
+
+## Compilar manualmente durante a revisão
+
+```powershell
+pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
+```
+
+- Rodar **duas vezes** sempre que citações, referências cruzadas (`\ref`/`\label`) ou o sumário mudarem — a primeira passada escreve o `.aux`, a segunda resolve as referências contra ele.
+- Rodar `bibtex` entre duas passadas de `pdflatex` sempre que entradas `\citep`/`\citet` forem adicionadas/alteradas (o `natbib` só recarrega o `.bbl` depois disso):
+  ```powershell
+  pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
+  bibtex outputs\main
+  pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
+  pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
+  ```
+- Alternativa mais simples: `latexmk -pdf -output-directory=outputs main.tex` — detecta sozinho quantas passadas (e se `bibtex`) são necessárias e reroda até estabilizar. Preferível para iteração rápida durante revisão.
+- Se `pdflatex`/`latexmk` não forem encontrados no PATH mesmo após instalar o MiKTeX, abra um terminal novo (o PATH de usuário só é lido na criação do processo).
