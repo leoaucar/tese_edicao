@@ -139,10 +139,28 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
         { "backgroundColor": "#88888833" }
       ]
     }
+  },
+
+  // Requer a extensão "LTeX" (valentjn.vscode-ltex) — instalar manualmente
+  // via Ctrl+Shift+X, buscar "LTeX". Verificação ortográfica/gramatical
+  // consciente de LaTeX (ignora corretamente \comandos e chaves de citação);
+  // português brasileiro.
+  "ltex.language": "pt-BR",
+  "ltex.enabled": ["latex", "tex"],
+  // Nomes próprios e termos do projeto que são sinalizados como erro de
+  // ortografia — adicionar conforme novos falsos positivos aparecerem.
+  "ltex.dictionary": {
+    "pt-BR": [
+      "Furtado", "Suzigan", "Tavares", "Mello", "Prado", "Fernandes",
+      "Buescu", "Nogueira", "Wallerstein", "Braudel", "Mahoney", "Falleti",
+      "Pierson", "Vargas", "Jânio", "Jango", "Kubitschek", "SUMOC", "BNDE",
+      "CEPAL", "CMBEU", "Zotero", "aiflag", "esboco"
+    ]
   }
 }
 ```
 
-- **Extensões necessárias**: `james-yu.latex-workshop` (já instalada) e, para o destaque de `\aiflag`/`esboco`, `fabiospampinato.vscode-highlight` (instalação manual — o CLI `code --install-extension` está quebrado nesta máquina por um conflito de `PATH` com o Anaconda, não relacionado ao projeto).
+- **Extensões necessárias**: `james-yu.latex-workshop` (já instalada); para o destaque de `\aiflag`/`esboco`, `fabiospampinato.vscode-highlight`; para a correção ortográfica em português, `valentjn.vscode-ltex`. Todas de instalação manual — o CLI `code --install-extension` está quebrado nesta máquina por um conflito de `PATH` com o Anaconda, não relacionado ao projeto.
+- `valentjn.vscode-ltex` baixa seu próprio runtime Java + modelos de idioma na primeira ativação (download maior, ocorre uma vez). Falsos positivos recorrentes (nomes próprios, siglas) devem ser adicionados a `ltex.dictionary.pt-BR` em vez de ignorados manualmente a cada vez.
 - Após criar/editar `.vscode/settings.json`, recarregar a janela do VS Code (`Ctrl+Shift+P` → "Reload Window") para aplicar.
 - `latex-workshop.latex.outDir` mantém o build automático do LaTeX Workshop (que roda a cada save) escrevendo em `outputs/`, em vez de poluir a raiz do projeto — ver a seção de compilação manual acima para o motivo.
