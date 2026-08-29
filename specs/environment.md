@@ -66,3 +66,83 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   ```
 - Alternativa mais simples: `latexmk -pdf -output-directory=outputs main.tex` — detecta sozinho quantas passadas (e se `bibtex`) são necessárias e reroda até estabilizar. Preferível para iteração rápida durante revisão.
 - Se `pdflatex`/`latexmk` não forem encontrados no PATH mesmo após instalar o MiKTeX, abra um terminal novo (o PATH de usuário só é lido na criação do processo).
+
+## Configuração do VS Code / LaTeX Workshop
+
+`.vscode/settings.json` é ignorado pelo git (`.gitignore`, configuração pessoal de editor) — o conteúdo abaixo é a referência para recriá-lo em qualquer máquina.
+
+```json
+{
+  "latex-workshop.latex.outDir": "%DIR%/outputs",
+
+  // Fonte um pouco maior e mais legível para edição de prosa em .tex.
+  "[latex]": {
+    "editor.fontSize": 16,
+    "editor.lineHeight": 26
+  },
+  "[tex]": {
+    "editor.fontSize": 16,
+    "editor.lineHeight": 26
+  },
+
+  // Colore pares de {...}/[...] aninhados — LaTeX aninha chaves com
+  // frequência (\citep[p.~91]{buescu1984}) e isso facilita ver o par.
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // Cores mais contrastantes/diferenciadas para tokens LaTeX (ajustado para
+  // o tema "Visual Studio Dark"). Atuam sobre escopos TextMate, então valem
+  // para qualquer \comando / ambiente / comentário, mas NÃO conseguem
+  // distinguir um macro específico como \aiflag — escopos TextMate não
+  // diferenciam pelo nome literal do comando, só pelo papel sintático
+  // (ver highlight.regexes abaixo para isso).
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment.line.percentage.tex",
+        "settings": { "foreground": "#6A9955", "fontStyle": "italic" }
+      },
+      {
+        "scope": ["support.function.general.tex", "support.function.section.latex"],
+        "settings": { "foreground": "#4EC9B0", "fontStyle": "bold" }
+      },
+      {
+        "scope": "keyword.control.tex",
+        "settings": { "foreground": "#C586C0", "fontStyle": "bold" }
+      },
+      {
+        "scope": "constant.character.escape.tex",
+        "settings": { "foreground": "#D7BA7D" }
+      },
+      {
+        "scope": ["punctuation.definition.arguments.begin.latex", "punctuation.definition.arguments.end.latex"],
+        "settings": { "foreground": "#D4D4D4" }
+      }
+    ]
+  },
+
+  // Requer a extensão "Highlight" (fabiospampinato.vscode-highlight) —
+  // instalar manualmente via Ctrl+Shift+X, buscar "Highlight". Destaca
+  // \aiflag{...} (sugestão da IA, ver specs/constitution.md) e blocos
+  // \begin{esboco}...\end{esboco} (rascunho do autor) com fundo chamativo
+  // para não passarem despercebidos durante a leitura/edição.
+  "highlight.regexes": {
+    "(\\\\aiflag\\{)": {
+      "filterFileRegex": ".*\\.tex$",
+      "decorations": [
+        { "backgroundColor": "#ff000055", "color": "#ffffff", "fontWeight": "bold" }
+      ]
+    },
+    "(\\\\begin\\{esboco\\}[\\s\\S]*?\\\\end\\{esboco\\})": {
+      "filterFileRegex": ".*\\.tex$",
+      "decorations": [
+        { "backgroundColor": "#88888833" }
+      ]
+    }
+  }
+}
+```
+
+- **Extensões necessárias**: `james-yu.latex-workshop` (já instalada) e, para o destaque de `\aiflag`/`esboco`, `fabiospampinato.vscode-highlight` (instalação manual — o CLI `code --install-extension` está quebrado nesta máquina por um conflito de `PATH` com o Anaconda, não relacionado ao projeto).
+- Após criar/editar `.vscode/settings.json`, recarregar a janela do VS Code (`Ctrl+Shift+P` → "Reload Window") para aplicar.
+- `latex-workshop.latex.outDir` mantém o build automático do LaTeX Workshop (que roda a cada save) escrevendo em `outputs/`, em vez de poluir a raiz do projeto — ver a seção de compilação manual acima para o motivo.
