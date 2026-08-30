@@ -53,6 +53,23 @@
 }{%
   \end{quotation}
 }
+% Flag for User tasks: \userflag{current text}{description}
+\newcommand{\todouser}[2]{%
+  \textcolor{purple}{#1}%
+  \textcolor{purple}{\textbf{ [USER TODO: #2]}}%
+}
+
+% Flag for AI tasks: \aiflag{current text}{description}
+\newcommand{\todoaiflag}[2]{%
+  \textcolor{red}{#1}%
+  \textcolor{red}{\textbf{ [AI TODO: #2]}}%
+}
+
+% Flag for User tasks: \userflag{current text}{description}
+\newcommand{\todoreviewer}[2]{%
+  \textcolor{orange}{#1}%
+  \textcolor{orange}{\textbf{ [USER TODO: #2]}}%
+}
 
 % --- Dados para capa e folha de rosto (ABNT NBR 14724) ---
 % TODO: preencher instituição/programa/orientador reais quando definidos.
