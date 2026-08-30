@@ -8,7 +8,7 @@ Apoiar a revisão e finalização da tese, automatizando tarefas manuais repetit
 
 ## Princípios
 
-1. **Formatos**: o corpo da tese é escrito em LaTeX. `main.tex` importa cada capítulo de `chapters/*.tex` via `\input`. Figuras ficam em `figures/` (PNG); tabelas ficam em `tables/` (CSV), referenciadas a partir do LaTeX — nunca com dados hardcoded no texto.
+1. **Formatos**: o corpo da tese é escrito em LaTeX. `main.tex` importa cada capítulo de `chapters/*.tex` via `\input`. Figuras ficam em `figures/` (PNG); tabelas ficam em `tables/` (CSV), referenciadas a partir do LaTeX — nunca com dados hardcoded no texto. Ambas organizadas em subpastas por capítulo — `figures/capNN/` e `tables/capNN/` (ex.: `tables/cap03/indicadores-desindustrializacao-literatura.csv`) — em vez de soltas na raiz ou agrupadas por tema; capítulos com muitos arquivos podem usar subpastas temáticas dentro da própria `capNN/` (ex.: `tables/cap04/estatisticas_secxix/`).
 2. **Exportação**: deve sempre ser possível gerar uma versão em DOCX da tese (ou de capítulos individuais) para envio ao orientador.
 3. **Fluxo de revisão do orientador**: cada rodada de revisão gera uma pasta `advisor_reviews/YYYY-MM-DD_descrição/`, contendo o `.docx` recebido de volta e um `review_task_lists.md` com as alterações/comentários extraídos.
 4. **Branches**: cada rodada de revisão roda em uma branch própria, nomeada `YYYY-MM-DD-descrição`. Não revisar diretamente na `main`.
