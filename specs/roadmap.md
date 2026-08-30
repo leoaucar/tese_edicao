@@ -5,7 +5,7 @@ Alinhado ao workflow de capítulos definido em `specs/constitution.md` e ao stat
 ## Hoje (29/08/2026)
 
 - [x] **Preparar projeto** — importado o docx do Capítulo empírico 1 (ver `specs/2026-08-29_capitulo_historico_1_review/`); bibliografia populada como stubs em `references.bib` (autor/ano; falta exportação real do Zotero).
-- [ ] **Exportar copião** — ainda não feito; `main.tex` compila (ver `specs/2026-08-29_capitulo_historico_1_review/plan.md`), mas a exportação para DOCX unificado segue pendente.
+- [~] **Exportar para DOCX** — tooling criado em `scripts/export_docx/` (ver `specs/environment.md`) e testado exportando o Capítulo 4 completo (tabelas + marcação `\aiflag` em vermelho preservadas). Falta apenas a exportação do "copião" unificado (`main.tex` inteiro) — não bloqueante, já que o fluxo de revisão é por capítulo.
 - [ ] **Configurar skills** — não iniciado; ver `specs/proposed_skills.md` (lista revisada após esta rodada).
 
 ## Semana 1 (01–07/09/2026) — Finalizar Capítulo Empírico 1
@@ -15,7 +15,7 @@ Alinhado ao workflow de capítulos definido em `specs/constitution.md` e ao stat
 - [~] Produção de imagens e tabelas -- 2 tabelas + 4 figuras incorporadas; vários `[FIGURA A INSERIR]` pendentes no texto.
 - [~] Escrita do texto -- ~metade do capítulo é esboço/nota, não prosa (ver blocos `esboco` no `.tex`).
 - [ ] Revisão de texto e citações -- primeira passada de IA aplicada; ciclo iterativo com o usuário ainda não começou.
-- [ ] Exportação
+- [~] Exportação -- tooling pronto (`scripts/export_docx/`) e já usado para gerar um DOCX do capítulo; repetir a exportação a cada rodada de revisão antes de enviar para `advisor_reviews/`.
 
 ## Restante do roadmap (estruturado para viabilizar `specs/cronograma.md`)
 

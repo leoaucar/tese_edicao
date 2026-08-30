@@ -8,7 +8,8 @@ Ferramentas necessárias para rodar este projeto em qualquer máquina. Não há 
 |---|---|---|
 | Git | controle de versão | - |
 | Uma distribuição LaTeX (MiKTeX ou TeX Live) — fornece `pdflatex` | compilar `main.tex` | MiKTeX 25.12 |
-| Pandoc | conversão inicial docx → LaTeX | - |
+| Pandoc | conversão docx → LaTeX (importação) e LaTeX → docx (exportação, ver `scripts/export_docx/`) | 3.8 |
+| Node.js | roda `scripts/export_docx/export.js` | - |
 
 ### Pacotes LaTeX usados por `main.tex`
 
@@ -17,6 +18,18 @@ Desde a formatação ABNT (rodada atual), `main.tex` usa a classe `abntex2` (bas
 - **`natbib` foi removido** em favor de `abntex2cite`. `abntex2cite` não define `\citep`/`\citet`/`\citeyearpar` nativamente (usa `\cite`/`\citeonline`/`\citeyear`) — `main.tex` define wrappers de compatibilidade no preâmbulo para que as citações já escritas nos capítulos continuem funcionando sem editá-las.
 - **`microtype` com `expansion=false`**: a expansão de fonte do `microtype` não funciona com o Times (`mathptmx`) nesta instalação MiKTeX (`pdfTeX error (font expansion): auto expansion is only possible with scalable fonts`). Mantido só o protrusion (`expansion=false`).
 - **`\hypersetup{unicode=false}`**: a classe `abntex2` carrega `hyperref`+`bookmark`, que por padrão gravam os bookmarks de PDF (títulos de capítulo) em UTF-16 dentro de `main.aux` — isso inclui bytes NUL para caracteres ASCII, e o `bibtex` (parser não é 8-bit-clean) trava com `! Text line contains an invalid character.` ao ler esse `main.aux`. Como os acentos do português cabem em PDFDocEncoding (1 byte), forçar `unicode=false` evita os bytes NUL sem perder a acentuação nos bookmarks.
+
+### Exportação LaTeX → DOCX (`scripts/export_docx/`)
+
+`main.tex` não converte bem para DOCX diretamente via `pandoc main.tex -o saida.docx` — testado e descartado: o leitor LaTeX do pandoc não entende a classe `abntex2` nem `csvsimple` (capa/folha de rosto/resumo e todas as tabelas vindas de CSV somem silenciosamente), e o escritor docx do pandoc descarta `\textcolor{...}` (a convenção `\aiflag` de "sugestão em vermelho" da IA, exigida em `specs/constitution.md`, viraria texto preto comum).
+
+`scripts/export_docx/export.js <capítulo.tex> [saída.docx]` resolve isso: envolve o capítulo num preâmbulo mínimo que o pandoc entende de verdade (sem `abntex2`, com `natbib` real para que `\citep`/`\citet`/`\citeyearpar` resolvam via `--citeproc`), converte cada `\csvautotabular{...}` numa tabela LaTeX de verdade antes de passar pelo pandoc, e roda o pandoc com um filtro Lua (`aiflag_style.lua`) + um `reference.docx` customizado (`reference.docx`, com estilos de caractere `AIFlagRed`/`EsbocoGray`) para que `\textcolor{red}{...}`/`\textcolor{gray}{...}` virem estilo de caractere do Word em vez de serem descartados. Exemplo:
+
+```powershell
+node scripts/export_docx/export.js "chapters/04-Processo de industrialização (1808-1973).tex"
+```
+
+Gera em `outputs/` (gitignored). Ainda não cobre a exportação do `main.tex` inteiro ("copião" unificado, item pendente em `specs/roadmap.md`) — só capítulos individuais, o que já atende ao fluxo de revisão por capítulo de `specs/constitution.md`.
 
 ### Notas de importação docx → LaTeX (aprendido na rodada `2026-08-29_capitulo_historico_1_review`)
 
