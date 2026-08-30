@@ -1,0 +1,1004 @@
+**Indústria e crescimento econômico do Rio de Janeiro (2002-2021):
+características setoriais e intensidade da desindustrialização
+fluminense**
+
+Resumo: O trabalho analisa o processo de desindustrialização do estado
+do Rio de Janeiro no período de 2002 até 2021. Se configura como um
+trabalho de análise histórico comparativa baseado nas taxas de
+crescimento real dos setores industriais e do PIB do Rio de Janeiro e
+Brasil. Testa a hipótese de que o estado do Rio de Janeiro passou por um
+processo de desindustrialização mais acelerado que outros estados
+brasileiros. Como fonte de dados utiliza os dados das Contas Regionais
+dos estados brasileiros, disponibilizadas pelo IBGE em parceria com as
+secretarias estaduais. As taxas de crescimento real do valor adicionado
+da atividade econômica são tratadas como *proxies* de processos de
+industrialização e desindustrialização. Como conclusão, o trabalho
+apresenta uma proposta de periodização para o processo de
+desindustrialização do Rio de Janeiro e corrobora a hipótese de que este
+está ocorrendo em ritmo acelerado em relação ao resto do Brasil.
+
+Palavras-chave: indústria, rio de janeiro, desindustrialização, método
+comparativo, sociologia histórica
+
+Abstract: The article looks into the deindustrialization process of the
+Rio de Janeiro (RJ) state, in Brazil, between 2002 and 2021. It's a
+historical-comparative sociology based on the real growth rates of RJ's
+and Brazil's industry segments. It tests the hypothesis that RJ is
+undergoing a faster deindustrialization process than the other Brazilian
+states. The main source of data are the regional accounts, made
+available by Brazilian Institute of Geography and Statistics (IBGE) and
+local government agencies. Real growth rates of the added value to GDP
+are used as proxies of industrialization and deindustrialization. The
+author's conclusion corroborates the hypothesis. It also proposes a
+periodization of RJ's deindustrialization.
+
+Keywords: industry, rio de janeiro, deindustrialization, comparative
+method, historical sociology
+
+**Introdução**
+
+O trabalho aqui apresentado é uma sociologia histórico-comparativa do
+processo de desindustrialização recente (2002-2021) do estado do Rio de
+Janeiro. É baseado na análise das séries temporais das taxas de
+crescimento real dos setores industriais. As séries são comparadas entre
+si e com os dados gerais do Brasil. O objetivo é oferecer uma descrição
+mais acurada do ritmo e periodização do processo de desindustrialização
+recente do estado, oferecendo insumos tanto para análises causais, como
+para análises sócio-históricas do processo de reestruturação econômica
+em andamento. A hipótese é de que o estado do Rio de Janeiro passou por
+um processo de desindustrialização recente mais intenso do que o Brasil
+e outros estados.
+
+O debate sobre a desindustrialização brasileira tem ganhado proeminência
+nos últimos anos. Evidência disso é a formulação de políticas públicas
+específicas para lidar com a questão [(CNDI e MDIC,
+2024)](https://www.zotero.org/google-docs/?wo4Op5). Isso pois, para além
+de um fenômeno a ser compreendido, o processo de desindustrialização tem
+sido problematizado enquanto prejudicial ao potencial de crescimento
+econômico [(Oreiro e Feijó,
+2010)](https://www.zotero.org/google-docs/?jIz1rX). Esse cenário é
+distinto da avaliação de parte da teoria econômica que em grande maneira
+considerava esse processo como esperado ou mesmo positivo [(Oreiro e
+Marconi, 2012)](https://www.zotero.org/google-docs/?z9I4ma). Essa
+preocupação com a atualidade do processo coloca o debate brasileiro
+sobre desindustrialização em trajetória distinta de boa parte da
+literatura internacional, que enfatiza um processo que considera em
+larga medida encerrado [(High, 2013; Lawson, 2020; Strangleman, Rhodes e
+Linkon, 2013)](https://www.zotero.org/google-docs/?ta9ftR), mesmo que
+com consequências perenes [(Linkon, 2018; Mah,
+2012)](https://www.zotero.org/google-docs/?MUfXCU).
+
+Dentro dos campos das ciências sociais há, entretanto, uma problemática
+adicional. Se a desindustrialização tem sido concebida como um processo
+histórico de impacto social significativo, que encerra uma era
+industrial [(Strangleman,
+2017)](https://www.zotero.org/google-docs/?ky4Ed4), é preciso entender
+quais as características desse processo transformam seus possíveis
+resultados. Nesse ponto, uma das características mais importantes dos
+processos de mudança social é seu ritmo e duração [(Abbott, 1984;
+Pierson, 2004)](https://www.zotero.org/google-docs/?G2kQTr). Mudanças
+sociais bruscas ou cumulativas, em longa duração, têm chamado a atenção
+de cientistas sociais e historiadores que buscam dar a devida atenção à
+dimensão temporal dos processos históricos.
+
+**História, ritmo e mudança social**
+
+Skocpol [(1984)](https://www.zotero.org/google-docs/?N5g7Uw) identifica
+que a sociologia histórica tinha predileção por pensar "grandes
+questões" e em lógica comparativa. Da mesma maneira, Tilly
+[(1984)](https://www.zotero.org/google-docs/?H0ADAb) enfatiza as grandes
+comparações como particularidade de certa sociologia preocupada com
+processos de transformação em escala macro. Fortemente influenciada pelo
+campo da história, essa sociologia discutirá a importância de processos
+de mudança em longa duração e perspectivas sistêmicas globais[(Smith,
+1991)](https://www.zotero.org/google-docs/?4OGNLt).
+
+Adicionalmente, como Kreuzer
+[(2023)](https://www.zotero.org/google-docs/?Ic6cdI)argumenta, processos
+históricos precisam ser pensados para além da dimensão do tempo
+histórico -- o ordenamento e periodização de eventos e datas --
+abarcando também concepções de tempo físico. Isso significa inserir uma
+dimensão de ritmo onde, além da sequencialidade e ordem, a velocidade e
+duração dos processos é relevante para compreensão de seus resultados. O
+uso de séries temporais é particularmente útil para esses fins, não
+sendo aqui visto como um substituto, mas sim um complemento a análise de
+narrativa densa típica dos estudos historiográficos. Em específico, o
+uso de variáveis que capturem uma dimensão de ritmo dos processos
+históricos é útil para identificação de dois padrões: primeiramente,
+ajuda a identificar processos de mudança lenta e gradual,
+particularmente aquelas que envolvem algum quesito de dependência de
+trajetória; em segundo lugar, permite a identificação de inflexões nas
+tendências, ajudando a percepção do que a literatura passou a denominar
+"conjunturas críticas" [(Mahoney, 2000, 2004; Pierson, 2015; Thelen,
+2010)](https://www.zotero.org/google-docs/?YTbI1n).
+
+Dentre essas "grandes" questões que mais movimentaram historiadores e
+cientistas sociais está a emblemática discussão sobre "desenvolvimento".
+Desenvolvimento é uma metáfora historiográfica, mas que carrega
+significativo impacto político e cognitivo [(Fernández Sebastián,
+2024)](https://www.zotero.org/google-docs/?4FCLf9). Como Santos
+argumenta, para além de categoria nativa, é também "capaz de conferir
+legitimidade e justificação a agentes políticos e econômicos" [(Santos,
+2016, p. 295)](https://www.zotero.org/google-docs/?tkmOPq).
+
+No caso brasileiro ela foi de particular importância nas discussões
+sobre a natureza "dependente" [(Evans,
+2018)](https://www.zotero.org/google-docs/?GvmQDz) desse possível
+desenvolvimento nacional, discussão que em grande parte se debruçava
+sobre o papel da industrialização. Mas a participação da indústria na
+economia brasileira foi elemento central não apenas para historiadores e
+cientistas sociais brasileiros, mas para a classe política e setores das
+elites [(Barbosa, 2020)](https://www.zotero.org/google-docs/?JiVg8Y).
+Dado esse papel, a desindustrialização acaba por ser mais do que uma
+mudança econômica, é uma transformação simultânea dos arranjos
+institucionais e políticos nacionais e do que se concebe como visão de
+país. Não à toa, surgimento de projetos de *neoindustrialização,* como o
+Nova Indústria Brasil [(CNDI e MDIC,
+2024)](https://www.zotero.org/google-docs/?ZxpRYL), ou de "reconversão
+industrial", como no caso do projeto de produção dos caças Gripen no ABC
+paulista [(Ramalho e Conceição,
+2024)](https://www.zotero.org/google-docs/?t3Oo3o), acabam condicionados
+a transformações nas conjunturas políticas nacionais e locais.
+
+**Desindustrialização do Brasil e do estado do Rio de Janeiro**
+
+A categoria indústria é por vezes mobilizada de forma distinta na
+literatura sobre processos de desindustrialização, com ênfase desigual
+sobre seus setores. Enquanto o processo histórico de desindustrialização
+é associado em grande parte a atividades extrativas -- como nos casos
+inglês [(Tomlinson, 2016)](https://www.zotero.org/google-docs/?dvLJw6) e
+alemão [(Berger, Wicke e Golombek,
+2017)](https://www.zotero.org/google-docs/?TzOvAP) --, seus estudos mais
+recentes enfatizam a indústria de transformação, em grande parte
+ancorada na perspectiva de uma posição privilegiada desta no processo de
+crescimento econômico. Aqui propõe-se uma análise dos quatro setores
+nativamente considerados como parte da indústria [(CNI,
+\[s.d.\])](https://www.zotero.org/google-docs/?iSA9Xh): 1-indústria de
+transformação, 2-extrativa, 3-construção e 4-serviços de água, esgoto,
+gás e energia (doravante AEGE) -- com significativa ênfase nos três
+primeiros.
+
+Já a desindustrialização é tipicamente lida como uma redução relativa do
+valor adicionado da indústria no PIB e uma redução de sua participação
+no estoque de empregos [(Tregenna,
+2009)](https://www.zotero.org/google-docs/?k039Yz). Suas causas estão
+relacionadas a processos de mudança tecnológica, possibilitando o
+crescimento da produtividade industrial acima do crescimento da demanda
+[(Rowthorn e Ramaswamy,
+1999)](https://www.zotero.org/google-docs/?niRiWF) e a realocação
+produtiva de unidades fabris para territórios de custo mais baixo
+[(Alderson, 1999)](https://www.zotero.org/google-docs/?Qt10Wg). Nesse
+sentido, a desindustrialização é um fenômeno cuja identificação exige um
+recorte territorial para sua identificação ou não, podendo ocorrer
+simultaneamente a processos de industrialização em outros territórios
+[(Bluestone e Harrison,
+1982)](https://www.zotero.org/google-docs/?dQKhXi). Entre seus impactos,
+além dos custos mais imediatos das perdas de empregos para comunidades e
+famílias afetadas, está um contínuo processo de declínio dos territórios
+afetados, que [(Mah, 2012)](https://www.zotero.org/google-docs/?tIvUMy)
+denomina "ruinação". Linkon
+[(2018)](https://www.zotero.org/google-docs/?MfNH7j) vai observar também
+como os processos de desindustrialização tem impacto nas populações
+trabalhadoras mesmo após o período mais intenso de fechamentos
+industriais..
+
+Um conjunto de autores pontua uma relação entre PIB per capita e
+desindustrialização. Nessa tese, a partir de certo ponto o crescimento
+do PIB per capita a demanda por serviços cresceria em ritmo mais
+acelerado que a demanda por bens industriais [(Rodrik,
+2016)](https://www.zotero.org/google-docs/?uvhkcx). Em contraste, Rodrik
+[(2016)](https://www.zotero.org/google-docs/?KF8pD8) observa como
+processos de desindustrialização passaram a ocorrer em países com renda
+per capita abaixo do antigo patamar estimado como causador do fenômeno.
+A esse fenômeno ele denominou "desindustrialização prematura",
+tipicamente ocorrendo em países com processos de industrialização
+tardia[^1].
+
+É esse processo "prematuro" que Oreiro e Feijó
+[(2010)](https://www.zotero.org/google-docs/?hrJ4AN) identificam ocorrer
+no Brasil, em contraponto ao processo de desindustrialização
+naturalizado como decorrência esperada do processo de desenvolvimento,
+que muitas vezes a teoria econômica apresenta. Em que pese a
+sobrestimação da participação da indústria de transformação no PIB
+brasileiro antes dos anos 2000 em função de mudanças metodológicas do
+sistema de contas nacionais, como mostra Morceiro
+[(2021)](https://www.zotero.org/google-docs/?yaPvp0), há forte evidência
+da ocorrência de um processo de desindustrialização no Brasil entre
+meados dos anos 1980 e fins dos ano 1990 [(Oreiro e Marconi,
+2012)](https://www.zotero.org/google-docs/?EpdASN). Dúvidas surgiram em
+princípios dos anos 2000 se esse fenômeno seria continuado, uma mudança
+estrutural da economia brasileira, ou apenas um fenômeno pontual dos
+anos 80, como defendeu Nassif [(2008;
+2015)](https://www.zotero.org/google-docs/?Lcq024). Entretanto,
+evidências mais recentes apontam solidez do processo de
+desindustrialização ao longo das duas primeiras décadas do século XXI,
+como pode ser visto em Morceiro e Guilhoto
+[(2020)](https://www.zotero.org/google-docs/?GHtpZP), Maia
+[(2020)](https://www.zotero.org/google-docs/?aTAxBm) e Feijó, Lamônica e
+Lima [(2019)](https://www.zotero.org/google-docs/?1SorMi).
+
+No caso do Rio de Janeiro o processo de desindustrialização está também
+ligado a características próprias do estado. Sobral
+[(2016)](https://www.zotero.org/google-docs/?zV6TKb) aponta relações de
+um "vazio" produtivo na região metropolitana com uma concentração da
+atividade econômica em torno da metrópole. Em outro artigo, o mesmo
+autor aponta as consequências econômicas negativas desse processo de
+reestruturação econômica do estado, já perceptíveis no início dos anos
+2000 [(Sobral, 2017)](https://www.zotero.org/google-docs/?cnRPuc).
+Compartilhando a preocupação com a concentração e desigualdade econômica
+vista da perspectiva espacial, Vianna da Cruz
+[(2013)](https://www.zotero.org/google-docs/?gibX7I) discute os impactos
+da problemática industrial para o desenvolvimento do estado e da
+excessiva dependência deste no setor petrolífero. No quesito emprego,
+Souza e Veríssimo [(2019)](https://www.zotero.org/google-docs/?oj5qly)
+apontam que, ao menos até meados dos anos de 2010, se melhor que o
+cenário nacional, o Rio de Janeiro já enfrentava decréscimo de cerca de
+3,23% do emprego industrial na participação do emprego total -- saindo
+de 13,2% em 1996 para 10,22% em 2014, portanto, quase ¼ da participação
+no estoque de emprego.
+
+Entre as causas do caso nacional, há particular ênfase na literatura
+sobre o papel das taxas de câmbio, particularmente a ideia de que esta
+teria estado sobrevalorizada no período [(Marconi e Rocha, 2012; Oreiro
+e Feijó, 2010)](https://www.zotero.org/google-docs/?SmfxoM). Diretamente
+ligada à questão cambial há também frequente identificação de uma
+"doença holandesa" [(Cunha, Lelis e Fligenspan,
+2013)](https://www.zotero.org/google-docs/?3ti55W)ou "a
+desindustrialização causada pela apreciação da taxa real de câmbio
+resultante da descoberta de recursos naturais escassos" [(Oreiro e
+Feijó, 2010, p. 222)](https://www.zotero.org/google-docs/?rWMrUB). Isso
+implica numa relação direta entre a desindustrialização do setor de
+transformação e a performance do setor extrativo.
+
+Referente aos indicadores utilizados, a maioria dos estudos enfatiza a
+participação do valor adicionado da indústria -- na maioria dos casos de
+transformação -- no PIB. Porém, para além dos já citados problemas
+metodológicos referentes a como o dado é contabilizado, também há
+questionamentos sobre a adequação deste indicador devido ao excessivo
+impacto que a inflação setorial tem na participação de cada setor
+[(Torres e Cavalieri,
+2015)](https://www.zotero.org/google-docs/?NYfMT1). Em outras palavras,
+um dado setor industrial pode aumentar significativamente sua
+participação no PIB sem nenhum aumento produtivo, basta a inflação
+setorial ser superior a do PIB. Como resposta a essas questões,
+propõe-se na próxima seção do artigo o uso de taxas de crescimento dos
+setores econômicos em lugar de sua participação no PIB.
+
+**Métodos**
+
+O recorte temporal aqui analisado vai de 2002 até 2021. Dado que o
+cálculo da taxa de crescimento exige a comparação entre dois anos têm-se
+dados do crescimento real de 2003 até 2021. O recorte foi escolhido em
+função da limitação dos dados das contas regionais, sendo assim restrito
+a série mais atual. Utilizar dados anteriores foi descartado por
+questões de tempo e espaço, já que os dados exigiram tratamento
+particular em função de mudanças metodológicas pontuadas acima e um
+espaço de discussão adicional não comportado no limite deste artigo.
+
+São utilizados os dados provenientes das contas regionais,
+disponibilizados pelo IBGE e elaborados em parceria com as secretarias
+estaduais [(IBGE,
+\[s.d.\])](https://www.zotero.org/google-docs/?uwDtJh). Foi utilizado o
+dado setorial de cada estado para o cálculo da taxa de crescimento anual
+dos setores da indústria e do PIB de 2003 até 2021, utilizando-se sempre
+o Valor Adicionado (VA) do ano corrente aos preços do ano anterior e o
+VA do ano anterior a preços correntes.
+
+$\frac{VALOR\ ADICIONADO\ do\ ANO\ CORRENTE\ em\ PREÇOS\ DO\ ANO\ ANTERIOR}{VALOR\ ANO\ ANTERIOR\ em\ PREÇOS\ CORRENTES}\  = \ Taxa\ de\ Crescimento\ (1)\ $
+
+Adicionalmente, apenas para o caso do Rio de Janeiro foi calculada a
+participação dos setores industriais no PIB para o período de 2002 até
+2021 de forma a demonstrar o peso dos setores industriais na economia
+fluminense e assim contextualizar o impacto distinto das taxas de
+crescimento destes na economia. Os cálculos utilizaram o VA de cada
+setor da indústria dividido pelo VA do total das atividades (i.e. PIB).
+O cálculo da categoria Indústria foi feito somando o VA dos quatro
+setores industriais e dividindo-se pelo VA total das atividades.
+
+$\frac{VALOR\ ADICIONADO\ do\ SETOR\ no\ ANO\ CORRENTE}{VALOR\ ADICIONADO\ das\ ATIVIDADES\ \ TOTAIS\ no\ ANO\ CORRENTE}\  = \ Participação\ do\ setor\ no\ PIB\ do\ RJ\ (2)$
+
+$Transformação\  + Extrativa\  + \ Construção\  + AEGE\  = \ Indústria\ Geral\ (3)$
+
+O uso das taxas de crescimento como *proxy* da desindustrialização
+captura melhor o sua aceleração e desaceleração, além de permitir uma
+comparação entre setores industriais que podem ter participação distinta
+na atividade econômica entre Rio, Brasil e outros estados. Taxas de
+crescimento mais baixas dos setores industriais em relação ao PIB
+estadual indicariam um processo de desindustrialização e a diferença,
+sua intensidade.
+
+Por fim, os dados foram analisados a partir de técnicas de análise de
+séries temporais, com ênfase nas ciências sociais [(Shin,
+2017)](https://www.zotero.org/google-docs/?fQMQx8). Na prática,
+realizou-se a análise gráfica das séries, a comparação de similaridade
+entre ela e a comparação das médias de crescimento para recortes do
+período. No primeiro caso, suavizou-se a série temporal via média móvel
+de três anos como forma de facilitar a visualização da tendência da
+série[^2]. Foi estabelecido um número mínimo de dois anos para cálculo
+de cada média, o que na prática eliminou os dados de 2003, assim, os
+gráficos apresentados têm seu eixo X de 2004 até 2021. No segundo caso
+utilizou-se a correlação de Pearson para mensurar a similaridade entre
+séries temporais distintas, cujo resultado que equivale a uma correlação
+cruzada com *lag=0* [(Shin,
+2017)](https://www.zotero.org/google-docs/?au1UC7). Entende-se que uma
+correlação alta implica que ambas as séries temporais possam
+compartilhar fatores causais, ao passo que baixas correlações aumentam a
+probabilidade de fatores causais distintos terem prioridade em cada uma
+das séries. Os recortes do período foram analisados a partir da
+identificação de suas similaridades e diferenças com objetivo de
+estabelecer ou eliminar possíveis causas suficientes e necessárias, em
+linha com abordagens histórico-comparativas [(Mahoney,
+2004)](https://www.zotero.org/google-docs/?9E83JL).
+
+**Resultados**
+
+Primeiramente contextualiza-se o peso relativo dos setores industriais
+no PIB fluminense. O gráfico 1 (abaixo) demonstra como a indústria
+extrativa tem grande participação neste, com fortes flutuações. Assim,
+ao considerar-se as taxas de crescimento é importante ter em mente o
+peso deste setor. Em contrapartida, o setor de transformação parece ter
+um declínio mais constante. Já o setor de construção parecia ter
+assumido papel mais significativo a partir de meados da primeira década
+dos anos 2000, apenas para retroceder em meados da seguinte. O setor
+relativo à AEGE representa parte bem menor do PIB. Em função disso e
+também dos limites de espaço e tempo, ele não será enfocado no restante
+da análise.
+
+Gráfico 1 - Participação dos setores industriais no PIB do estado do RJ
+
+![](media_check/media/image2.png){width="5.166666666666667in"
+height="3.74580927384077in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Já um olhar sobre as taxas de crescimento real para o período (gráfico
+2, p.9) esclarece em parte as razões das flutuações. No caso da
+indústria extrativa existe uma gradual redução das taxas de crescimento,
+inclusive com resultados abaixo do PIB na primeira década do século, com
+recuperação na segunda, o que a priori não coincide com seu crescimento
+(e queda) de participação no PIB (gráfico 1, abaixo). O período de
+performance mais fraco coincide entretanto com um período de forte
+valorização do preço das *commodities,* associado a boa performance da
+economia durante a primeira década do século [(Fonseca, Arend e
+Guerrero, 2020)](https://www.zotero.org/google-docs/?KSrQl7), e
+consequente crescimento de sua participação no PIB estadual. Assim, o
+crescimento da participação do setor extrativo no PIB parece dever-se
+não a boa performance e investimentos, mas a mudanças nos preços.
+Coincide, entretanto, com um período relativamente longo de valorização
+cambial, no qual o dólar passou de 3,0783 reais em 2003, para 1,6750
+reais em 2011 [(IPEA,
+2024)](https://www.zotero.org/google-docs/?76BKq1).
+
+Gráfico 2 - Média Móvel de 3 anos das Taxas de crescimento real do
+estado do RJ
+
+![](media_check/media/image8.png){width="5.265625546806649in"
+height="3.703876859142607in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Já o setor de transformação exibe constante fragilidade, com taxas de
+crescimento real abaixo do PIB fluminense em quase todo o período
+(gráfico 2, acima). Isso não implica necessariamente decrescimento,
+apesar desse ter sido frequente, mas sim uma desindustrialização
+relativa à economia estadual. É importante notar também que a
+fragilidade da indústria de transformação frente ao PIB fluminense é
+mais significativa quando considerado que o PIB do estado como um todo
+cresceu abaixo do nacional e estava entre os piores resultados dos
+estados (gráfico 3, p.10).
+
+Gráfico 3 - Média Móvel de 3 anos das taxas de crescimento dos PIB
+estaduais e nacional
+
+![](media_check/media/image6.png){width="5.864583333333333in"
+height="4.241496062992126in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Considerando-se as taxas de crescimento do PIB carioca e também os
+movimentos dos setores industriais ao nível nacional, propõe-se a
+periodização desse processo de desindustrialização em três etapas. De
+2002 até 2008 houve um período de "desindustrialização relativa", ou
+seja, taxas de crescimento dos setores industriais foram positivas,
+porém no geral inferiores ao PIB estadual. Um segundo período de 2009
+até 2014 é marcado por piora das taxas industriais (com parcial exceção
+do setor de construção) e sua entrada em territórios negativos. Já de
+2015 até 2021 tem-se primeiro a agudização da crise, especialmente entre
+2015 e 2016, com gradual recuperação das taxas de crescimento até o fim
+do período. As tabelas 1 e 2 abaixo sintetizam os resultados dos setores
+industriais para os três períodos.
+
+Tabela 1 - Média de crescimento real do PIB e setores industriais do RJ
+nos períodos
+
+  --------------------------------------------------------------------------------------------
+  **Setor/Período**            **2003-2008**   **2009-2014**   **2015-2021**   **2003-2021**
+  ---------------------------- --------------- --------------- --------------- ---------------
+  PIB RJ                       2.48%           2.13%           -0.44%          1.19%
+
+  Transformaçao Rio            0.73%           -0.39%          -1.32%          -0.82%
+
+  Extrativa Rio                2.43%           -0.72%          6.08%           2.71%
+
+  Construção RIO               1.35%           5.39%           -5.81%          -0.12%
+  --------------------------------------------------------------------------------------------
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Tabela 2 - Diferença de crescimento dos setores industriais (RJ) para o
+nível nacional e PIB (RJ)
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Cada um dos períodos propostos acima, entretanto, para além das taxas de
+crescimento, está imerso em variáveis importantes do ponto de vista
+histórico, especialmente mudanças políticas e econômicas na escala
+nacional e internacional. Assim, o período de 2002 até 2008 é marcado
+pela primeira eleição de Luiz Inácio Lula da Silva (2003-2010) à
+presidência, que, a despeito de continuidades na política
+macroeconômica, marca também mudanças do ponto de vista da política de
+valorização do salário mínimo [(Cosenza,
+2022)](https://www.zotero.org/google-docs/?mo5q5w). O período se encerra
+em 2008, com estabelecimento de forte crise econômica internacional.
+
+O novo período, de 2009 até 2014 se inicia com duas inflexões:
+primeiramente o ano de 2009 será marcado por significativa desaceleração
+econômica no Brasil (gráfico 3 acima). Em grande parte em função desta
+haverá uma mudança significativa da política econômica. De particular
+importância é o lançamento do primeiro Programa de Aceleração do
+Crescimento (PAC) em 2007 [(Rousseff,
+2007)](https://www.zotero.org/google-docs/?2jrHE4) e subsequentemente o
+lançamento do Minha Casa Minha Vida, em 2009, este em larga medida um
+programa de oferta de crédito subsidiado para aquisição de moradias de
+baixa renda [(BRASIL,
+2009)](https://www.zotero.org/google-docs/?lpgneb). Essas mudanças
+atravessaram o final do segundo governo Lula e a presidência de Dilma
+Rousseff (2011-2016).
+
+O final do período é marcado por significativas transformações
+econômicas e políticas. Particularmente, o ano de 2013 vê emergência de
+manifestações sociais de rua, conjugado com o início das atividades da
+Operação Lava Jato. Já em 2014, e parcialmente relacionado a esses
+fatores [(DIEESE, 2021)](https://www.zotero.org/google-docs/?baledF),
+tem se o início de uma desaceleração econômica significativa, em grande
+parte vinculada a uma forte queda no preço das *commodities*. Esta foi
+iniciado em meados de 2011 e intensificada entre 2014 e 2015 [(Fonseca,
+Arend e Guerrero, 2020)](https://www.zotero.org/google-docs/?sPw1rR).
+
+Por fim, o período de 2015 até 2021 é marcado pela intensificação da
+crise econômica -- em parte já em curso em 2014. Cobre tanto o período
+de impeachment da ex-presidente Dilma Rousseff, como os governos Michel
+Temer (2016-2018), Jair Bolsonaro (2019-2022) e a primeira parte da
+crise do coronavírus (2020-2022 aprox.). Também em 2015 têm-se
+significativas mudanças na política econômica a nível federal, com
+adoção de uma política fiscal de redução de gastos [(Fonseca, Arend e
+Guerrero, 2020)](https://www.zotero.org/google-docs/?uUV1Vw).
+
+Já quanto aos recortes setoriais para cada um dos períodos e começando
+pelo setor de transformação, é notável que este tem piores taxas de
+crescimento em relação ao dado nacional (tabela 2, p.11). Olhando
+especificamente para os períodos de 2002 até 2008 e 2015 até 2021 o Rio
+de Janeiro registrou algumas das piores taxas para o setor entre todos
+os estados. Ao mesmo tempo, se de 2009 até 2014 a taxa de crescimento
+foi inferior ao dos outros dois períodos, importante notar que foi esse
+o momento onde a performance da indústria de transformação do Rio de
+Janeiro mais se aproximou do dado nacional (tabela 2, p.10). Isso parece
+indicar que, para além do cenário macroeconômico, existem outros
+limitantes estruturais ao crescimento da indústria de transformação
+fluminense, que mesmo em momentos de "recuperação" exibe baixo
+crescimento.
+
+Considerando a variável câmbio, é relevante como, após contínua
+valorização, o real passa a se desvalorizar de 1,765 em 2011 até 5,395
+em 2021 [(IPEA, 2024)](https://www.zotero.org/google-docs/?PaAtIJ). Essa
+mudança não parece, entretanto, sustentar efeitos longos para a
+indústria de transformação, a qual, após breve aceleração até 2012,
+perde força e passa a ter taxas de crescimento inferiores ao período
+anterior (gráfico 4 acima).
+
+Analisando a correlação (tabela 3, p.13) do setor de transformação do
+Rio de Janeiro com o do Brasil e o PIB fluminense, os resultados indicam
+maior correlação com o primeiro. Isso sugere que o setor de
+transformação da indústria fluminense foi mais afetado por dinâmicas do
+setor de transformação ao nível nacional do que com a performance
+econômica do estado. Dito isso, ainda há correlação razoável (0.64, com
+R2 de 0.41) entre a taxa de crescimento real da indústria de
+transformação do Rio de Janeiro e o PIB do estado.
+
+Gráfico 4 - Média Móvel de 3 anos da taxa de crescimento real da
+indústria de transformação
+
+![](media_check/media/image5.png){width="6.354166666666667in"
+height="4.258137576552931in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Tabela 3 - Correlação de PEARSON entre as séries temporais de taxas de
+crescimento real
+
++---------------------+-----------------------------+-------------------------------+
+| Correlação\*        | **R**                       | **R2**                        |
++---------------------+--------------+--------------+---------------+---------------+
+| RIO (set\\or)       | Brasil       | PIB (RJ)     | Brasil        | PIB (RJ)      |
+|                     | (setor)      |              | (setor)       |               |
++---------------------+--------------+--------------+---------------+---------------+
+| **Transformação**   | 0.7812       | 0.6409       | 0.6102        | 0.4107        |
++---------------------+--------------+--------------+---------------+---------------+
+| **Extrativo**       | -0.1025      | -0.1960      | 0.0105        | 0.0384        |
++---------------------+--------------+--------------+---------------+---------------+
+| **Construção**      | 0.9313       | 0.7974       | 0.8673        | 0.6358        |
++---------------------+--------------+--------------+---------------+---------------+
+| *P-Values*          | 7.87E-05     | 3.11E-03     |                               |
+|                     |              |              |                               |
+| *(respectivamente)* |              |              |                               |
+|                     +--------------+--------------+                               |
+|                     | 6.76E-01     | 4.21E-01     |                               |
+|                     +--------------+--------------+                               |
+|                     | 7.14E-09     | 4.34E-05     |                               |
++=====================+==============+==============+===============+===============+
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+A indústria extrativa do Rio de Janeiro também exibiu performance
+inferior à média nacional em quase todo o período (gráfico 5 abaixo).
+Essa tendência só se modifica no período de 2015 a 2021, sendo capaz de
+reverter a tendência de desindustrialização setorial e estabelecer um
+crescimento médio 1,52 ponto percentual absoluto acima do PIB do estado
+para todo o período (tabela 2, p.11). No mesmo gráfico 5, vê-se como a
+taxa de crescimento da indústria extrativa inicia próxima da taxa do PIB
+fluminense, mas vai gradualmente perdendo força, em parte em
+concomitância com a queda cambial.
+
+A participação desta no PIB (gráfico 1, p.8) continua alta em virtude
+dos preços elevados das commodities, mas a taxa real de crescimento
+mostra outro cenário. É justamente durante o período de inversão da
+tendência de valorização do câmbio no qual a indústria extrativa voltará
+a ver suas taxas de crescimento acelerarem (gráfico 6, abaixo). Isso é
+em especial curioso quando se observa que essa aceleração se deu
+justamente no período da chamada crise da *commodities* (entre 2014 e
+2015). Esses dados parecem contrastar, ao menos para o caso do Rio de
+Janeiro, com a hipótese de que o investimento na indústria extrativa,
+motivado por um câmbio valorizado e altos preços de *commodities*, seria
+responsável pela desindustrialização do setor de transformação. Isso não
+implica que o câmbio não exerça influência, entretanto, o período
+aproximadamente de 2011 até 2015, de forte valorização cambial, foi onde
+a indústria de transformação fluminense teve desempenho mais próximo ao
+pib estadual (gráfico 4, p.13), em contraposição ao período de 2003 até
+2010, de câmbio em forte valorização. Dito isso, não é causa suficiente
+-- e nem mesmo necessária -- para uma performance negativa do setor em
+relação ao PIB do estado, como o período de 2015 até 2020 mostra.
+
+Na análise da correlação da série temporal com o mesmo setor ao nível
+nacional e com o PIB do estado (tabela 3, p.13), em ambos os casos houve
+correlação negativa. Tal resultado pode indicar uma dinâmica bastante
+independente da indústria extrativa do estado do Rio de Janeiro.
+Entretanto, é importante frisar que foram os únicos casos onde P \> 0.05
+(0.68 e 0.42 respectivamente), o que reduz a confiança no dado. Com fins
+de verificar se poderia, para a indústria extrativa, existir um *lag*
+entre as séries, foi feita a correlação cruzada, mas como pode ser visto
+no correlograma (gráfico 7 abaixo), não parece haver qualquer lag onde a
+correlação seja significativamente maior.
+
+Gráfico 5 - Média Móvel de 3 anos da taxa de crescimento real da
+indústria extrativa
+
+![](media_check/media/image7.png){width="5.093176946631671in"
+height="3.655232939632546in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Gráfico 6 - Média móvel (3 anos) da Ind. extrativa e de transformação
+versus câmbio
+
+![](media_check/media/image3.png){width="5.338542213473316in"
+height="3.8543350831146106in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE) e Ipea
+
+Grafico 7 - Correlograma da indústria extrativa com PIB e setor nacional
+
+![](media_check/media/image1.png){width="4.796875546806649in"
+height="3.5116360454943134in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Por fim, o setor de construção (gráfico 8 abaixo) mostra o mais
+acentuado ciclo de aceleração e desaceleração das taxas de crescimento
+(como fica nítido no gráfico 2, p.9). De particular importância parece
+ser a implementação do primeiro PAC, com particular peso para o programa
+Minha Casa Minha Vida, a partir de 2009. Esse também é o período onde o
+setor de construção teve crescimento acima do PIB, revertendo em parte a
+desindustrialização setorial.
+
+Gráfico 8 - Média Móvel de 3 anos da taxa de crescimento real da
+indústria de construção
+
+![](media_check/media/image4.png){width="6.010416666666667in"
+height="4.264363517060367in"}
+
+Fonte: autoria própria a partir das Contas Regionais (IBGE)
+
+Em contraposição, o setor experimenta forte contração desde 2013. Uma
+hipótese explicativa é o impacto da Operação Lava Jato nas atividades
+das principais construtoras e obras públicas. Esse cenário parece se
+intensificar após a contração econômica de 2015, exibindo gradual
+recuperação a partir de 2017. O período a partir de 2017 também mostra a
+aceleração da taxa de crescimento do setor de construção fluminense para
+acima do nível nacional, em contraposição com a maior parte da série
+temporal. De todo modo, a indústria de construção ainda continuou tendo
+taxas de crescimento muito inferiores ao PIB estadual, mantendo o
+processo de desindustrialização (tabela 2, p.11).
+
+Analisando a correlação percebe-se que o desempenho do setor de
+construção é o mais fortemente correlacionado tanto ao PIB fluminense
+como ao setor no nível nacional (tabela 3, p.13). Particularmente, a
+correlação de 0.93 com o PIB ao nível nacional pode indicar uma
+prevalência de fatores nacionais na performance do setor de construção
+fluminense. Essa hipótese dialoga com a relação proposta acima entre o
+setor de construção e a intensificação --ou retração -- de políticas
+públicas voltadas à realização de obras ou subsídios para o setor
+habitacional.
+
+**Discussão e conclusões**
+
+O artigo corroborou a hipótese de que o Rio de Janeiro tem passado por
+um processo de desindustrialização mais acelerado que os demais estados
+brasileiros. Essa desindustrialização, pode ser vista de duas
+perspectivas. Pode ser considerada como uma desindustrialização em
+relação à atividade econômica do estado. Nesse caso, tanto indústria de
+transformação como a de construção viram média de crescimento inferior
+ao PIB estadual no período (perda de 2.01 e 1.32 ponto percentual
+absoluto, respectivamente; tabela 2, p.11), significando uma
+desindustrialização "clássica". A indústria extrativa cresceu em relação
+ao PIB (1.52 ponto percentual absoluto), mas esse crescimento esteve
+quase todo concentrado no período mais recente (2015-2021). Já em
+relação ao Brasil podemos falar de uma segunda forma
+"desindustrialização", representada pela perda de importância do Rio de
+Janeiro para a atividade industrial nacional. Sinal disso, indústrias de
+transformação e construção tiveram taxas de crescimento real inferiores
+à taxa em nível nacional (-1.49 e 1.66 ponto percentual absoluto,
+respectivamente; tabela 2, p.11). Já nesse recorte a indústria extrativa
+teve estabilidade (ganho de 0.09 ponto percentual absoluto; tabela 2,
+p.11).
+
+Há, portanto, claras distinções setoriais. Os testes de correlação entre
+as séries temporais parecem indicar que os setores extrativo, de
+transformação e construção estão vinculados em grau distinto a
+condicionantes no nível nacional (câmbio, crescimento do PIB, políticas
+públicas federais, conjuntura política, etc). A performance do setor
+extrativo, particularmente, parece muito mais independente da
+performance do mesmo setor em nível nacional do que o setor de
+construção, estando a indústria de transformação numa posição
+intermediária. Isso indica um maior peso de fatores regionais ou
+especificamente setoriais em determinadas indústrias do que em outras.
+De toda maneira, fica claro que existem elementos no caso do Rio de
+Janeiro que contribuem para uma performance abaixo de outros estados
+brasileiros na maioria dos casos e períodos.
+
+Do ponto de vista das causas explicativas, é necessário complexificar,
+ao menos para o caso fluminense, a hipótese de reprimarização
+relacionada à sobrevalorização cambial como explicação central para o
+fenômeno da desindustrialização. Isso pois não parece haver
+concomitância da desvalorização cambial com uma melhora contínua na
+indústria de transformação (gráfico 6, p.16). Da mesma forma, a
+indústria extrativa não performou de forma inferior durante o choque de
+preços das *commoditie*s, ao contrário, viu suas taxas de crescimento
+acelerarem (gráfico 5, p.14). Evidentemente não se descarta o impacto do
+câmbio no processo de desindustrialização -- ou a possibilidade de
+reprimarização --, mas esta não parece ser causa suficiente e nem
+necessária para a desindustrialização do Rio de Janeiro.
+
+Do ponto de vista do impacto das políticas públicas -- e da retirada
+destas -- a indústria de construção parece o mais claro exemplo deste.
+Os dados indicam grande efeito do primeiro PAC e do Minha Casa Minha
+Vida sobre as taxas de crescimento do setor. Ao mesmo tempo, a
+paralisação de grande parte das atividades em correlação com a Operação
+Lava Jato mostra o forte peso do fato político nos ciclos de aceleração
+e desaceleração da desindustrialização fluminense. Vale citar que,
+apesar da Operação Lava Jato também ter enfocado empresas do setor
+extrativo, em particular a Petrobrás, com fortes efeitos nas estratégias
+de investimento desta [(DIEESE,
+2021)](https://www.zotero.org/google-docs/?X39guU), a mesma
+desaceleração do crescimento real não se refletiu na indústria
+extrativa. Isso não elimina a possibilidade de impacto desta no setor
+extrativo, mas indica que esse impacto não foi o mais determinante para
+as taxas de crescimento do setor nesse período. Do ponto de vista
+teórico, a implicação parece ser de que o efeito da conjuntura política
+pode afetar em diferentes graus setores industriais distintos.
+
+Por fim, vale pontuar limitações deste estudo e direções para sua
+continuidade. Primeiramente, o recorte temporal pode ser estendido, ao
+menos até o início dos anos 1980. Além disso, não foram feitas
+regressões multivariadas, o que não permite modelar ou detectar o
+impacto de diversas variáveis nas taxas de crescimento, tais como
+inflação e investimento. Em terceiro lugar, não foram utilizados dados
+de produção física e emprego, que certamente auxiliarão a ter um retrato
+mais completo do fenômeno e suas particularidades setoriais.
+
+Quanto à análise histórica dos períodos -- e a periodização proposta --,
+esta é claramente preliminar e enfoca a escala nacional. Analisar com
+mais profundidade como as sequências de eventos políticos e econômicos
+influenciaram os setores industriais e mapear o conjunto de políticas
+públicas estaduais mais relevantes é importante continuidade dessa
+pesquisa. Ainda importante é considerar que a escolha dos casos
+comparativos pode ser sofisticada, realizando comparação com dados de
+estados específicos, considerados casos mais próximos ou mais distantes
+ao do Rio de Janeiro (demograficamente, em sua composição setorial,
+processo histórico, etc). Dito isso, se o retrato aqui apresentado do
+processo de desindustrialização fluminense auxiliar continuidades dessa
+investigação, indicando períodos relevantes para observação aprofundada
+e a importância de levar em conta as diferenças setoriais, o objetivo
+terá sido atingido.
+
+Anexo 1 - erros da média móvel
+
+  ------------------------------------------------------------------------
+  **Série/Erro da MM**     **mae**          **mape**         **rmse**
+  ------------------------ ---------------- ---------------- -------------
+  PIB Rio de Janeiro       0,01252          0,62024          0,00025
+
+  PIB Brasil               0,01738          2,72567          0,00047
+
+  Transf. Rio de Janeiro   0,03878          8,41341          0,00249
+
+  Transf. Brasil           0,03598          1,15073          0,00184
+
+  Extrat. Rio de Janeiro   0,03982          1,15272          0,00247
+
+  Extrat. Brasil           0,03914          1,65896          0,00219
+
+  Const. Rio de Janeiro    0,04848          1,29798          0,00311
+
+  Const. Brasil            0,03687          1,30759          0,00219
+  ------------------------------------------------------------------------
+
+Fonte: autoria própria a partir de IPEA
+
+Bibliografía
+
+[ABBOTT, A. Event Sequence and Event Duration: Colligation and
+Measurement. **Historical Methods: A Journal of Quantitative and
+Interdisciplinary History**, v. 17, n. 4, p. 192--204, out.
+1984.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[ALDERSON, A. S. Explaining Deindustrialization: Globalization, Failure,
+or Success? **American Sociological Review**, v. 64, n. 5, p. 701--721,
+out. 1999.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[BARBOSA, A. D. F. "Developmentalist Brazil" (1945-1964) as a concept:
+historicizing and (re)periodizing development in Brazil. **Brazilian
+Journal of Political Economy**, v. 40, n. 2, p. 332--354, jun.
+2020.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[BERGER, S.; WICKE, C.; GOLOMBEK, J. Burdens of Eternity? **The Public
+Historian**, v. 39, n. 4, p. 21--43, 1 nov.
+2017.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[BLUESTONE, B.; HARRISON, B. **The deindustrialization of America: plant
+closings, community abandonment, and the dismantling of basic
+industry**. New York: Basic Books,
+1982.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[BRASIL. **LEI N^o^** **11.977, DE 7 DE JULHO DE 2009**, 2009.
+Disponível em:
+\<https://www.planalto.gov.br/ccivil_03/\_ato2007-2010/2009/lei/l11977.htm\>.
+Acesso em: 10 set. 2024](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[CNDI, C. N. DE D. I.; MDIC, M. DO D., Indústria, Comércio e Serviços.
+**Nova indústria Brasil -- Nova indústria Brasil -- forte,
+transformadora e sustentável : Plano de Ação para a neoindustrialização
+2024-2026**. Brasília: CNDI, MDIC, 2024. Disponível em:
+\<https://www.gov.br/mdic/pt-br/composicao/se/cndi/plano-de-acao/nova-industria-brasil-plano-de-acao.pdf\>.
+Acesso em: 29 mar. 2024.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[CNI. **CNI -- Perfil da Indústria Brasileira**. Disponível em:
+\<https://industriabrasileira.portaldaindustria.com.br/\>. Acesso em: 2
+maio. 2024.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[COSENZA, A. C. Um brasil dos trabalhadores? Aspectos do desempenho
+econômico brasileiro entre 2003 e 2016. *Em*: SOUZA, L. E. S. DE;
+PREVIDELLI, M. DE F. S. DO C. (Eds.). . **História econômica do Brasil
+contemporâneo**. Coleção Novos estudos de história econômica do Brasil.
+Niterói, RJ : São Paulo, SP: Eduff ; HUCITEC Editora, 2022.
+.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[CUNHA, A. M.; LELIS, M. T. C.; FLIGENSPAN, F. B. Desindustrialização e
+comércio exterior: evidências recentes para o Brasil. **Brazilian
+Journal of Political Economy**, v. 33, n. 3, p. 463--485, set.
+2013.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[DIEESE. **IMPLICAÇÕES ECONÔMICAS INTERSETORIAIS DA OPERAÇÃO LAVA
+JATO**, 2021.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[EVANS, P. B. **Dependent Development: the Alliance of Multinational,
+State, and Local Capital in Brazil**. Princeton, NJ: Princeton
+University Press, 2018.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[FEIJÓ, C.; LAMÔNICA, M. T.; LIMA, S. S. Financial liberalization and
+structural change: the Brazilian case in the 2000s. **Economia e
+Sociedade**, v. 28, n. 1, p. 177--200,
+2019.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[FERNÁNDEZ SEBASTIÁN, J. **Key metaphors for history**. London ; New
+York, NY: Routledge, Taylor & Francis Group,
+2024.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[FONSECA, P. C. D.; AREND, M.; GUERRERO, G. A. Política econômica,
+instituições e classes sociais: os governos do Partido dos Trabalhadores
+no Brasil. **Economia e sociedade (São Paulo, Brazil)**, v. 29, n. 3, p.
+779--809, 2020.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[HIGH, S. "The Wounds of Class": A Historiographical Reflection on the
+Study of Deindustrialization, 1973--2013. **History Compass**, v. 11, n.
+11, p. 994--1007, nov.
+2013.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[IBGE. **Contas Regionais do Brasil \| IBGE**. Disponível em:
+\<https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9054-contas-regionais-do-brasil.html\>.
+Acesso em: 2 maio. 2024.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[IPEA. **Taxa de câmbio**. Disponível em:
+\<http://www.ipeadata.gov.br/ExibeSerie.aspx?serid=31924\>. Acesso em: 6
+set. 2024.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[KREUZER, M. **The Grammar of Time: A Toolbox for Comparative Historical
+Analysis**. 1. ed. \[s.l.\] Cambridge University Press,
+2023.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[LAWSON, C. Making sense of the ruins: The historiography of
+deindustrialisation and its continued relevance in neoliberal times.
+**History Compass**, v. 18, n. 8, p. e12619, ago.
+2020.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[LINKON, S. L. **The half-life of deindustrialization: working-class
+writing about economic restructuring**. Ann Arbor: University of
+Michigan Press, 2018.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[MAH, A. **Industrial ruination, community, and place: landscapes and
+legacies of urban decline**. Toronto: University of Toronto Press,
+2012.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[MAHONEY, J. Path Dependence in Historical Sociology. **Theory and
+Society**, v. 29, n. 4, p. 507--548,
+2000.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[\_\_\_. Comparative-Historical Methodology. **Annual Review of
+Sociology**, v. 3, p. 81--101,
+2004.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[MAIA, B. A. DE A. Há desindustrialização no Brasil? Um estudo da
+abordagem clássica e de análises alternativas entre 1998 e 2014.
+**Economia e sociedade (São Paulo, Brazil)**, v. 29, n. 2, p. 549--579,
+2020.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[MARCONI, N.; ROCHA, M. Taxa de câmbio, comércio exterior e
+desindustrialização precoce: o caso brasileiro. **Economia e
+Sociedade**, v. 21, n. spe, p. 853--888, dez.
+2012.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[MORCEIRO, P. C. Influência metodológica na desindustrialização
+brasileira. **Brazilian Journal of Political Economy**, v. 41, n. 4, p.
+700--722, 2021.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[MORCEIRO, P. C.; GUILHOTO, J. J. M. Adensamento produtivo e
+esgarçamento do tecido industrial brasileiro. **Economia e Sociedade**,
+v. 29, n. 3, p. 835--860,
+2020.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[NASSIF, A. Há evidências de desindustrialização no Brasil? **Brazilian
+Journal of Political Economy**, v. 28, n. 1, p. 72--96, mar.
+2008.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[NASSIF, L.; TEIXEIRA, L.; ROCHA, F. Houve redução do impacto da
+indústria na economia brasileira no período 1996-2009? Uma análise das
+matrizes insumo-produto. **Economia e Sociedade**, v. 24, n. 2, p.
+355--378, 2015.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[OREIRO, J. L.; FEIJÓ, C. A. Desindustrialização: conceituação, causas,
+efeitos e o caso brasileiro. **Revista de Economia Política**, v. 30, n.
+2, p. 219--232, jun. 2010.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[OREIRO, J. L.; MARCONI, N. Teses Equivocadas no Debate sobre
+Desindustrialização e Perda de Competitividade da Indústria Brasileira.
+2012.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[PIERSON, P. **Politics in time: history, institutions, and social
+analysis**. Princeton: Princeton University Press,
+2004.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[\_\_\_. Power and Path Dependence. *Em*: MAHONEY, J.; THELEN, K.
+(Eds.). . **Advances in Comparative-Historical Analysis**. Cambridge:
+Cambridge Univ. Press, 2015.
+.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[RAMALHO, J. R.; CONCEIÇÃO, J. J. DA. **Caças supersônicos e o ABC
+Paulista: Tecnologia e reconversão industrial**. São Paulo, SP: Editora
+Papagaio, 2024.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[RODRIK, D. Premature deindustrialization. **Journal of Economic
+Growth**, v. 21, n. 1, p. 1--33, mar.
+2016.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[ROUSSEFF, D. PROGRAMA DE ACELERAÇÃO DO CRESCIMENTO.
+2007.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[ROWTHORN, R.; RAMASWAMY, R. Growth, Trade, and Deindustrialization.
+**IMF Staff Papers**, v. 46, n. 1, p. 18--41,
+1999.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[SANTOS, R. S. P. DOS. Desenvolvimento econômico e mudança social: a
+Vale e a mineração na Amazônia Oriental. **Caderno CRH**, v. 29, n. 77,
+p. 295--312, ago. 2016.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[SHIN, Y. **Time series analysis in the social sciences: the
+fundamentals**. Oakland, California: University of California Press,
+2017.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[SKOCPOL, T. (ED.). **Vision and method in historical sociology**.
+Cambridge \[Cambridgeshire\] ; New York: Cambridge University Press,
+1984.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[SMITH, D. **The rise of historical sociology**. Philadelphia: Temple
+University Press, 1991.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[SOBRAL, B. L. B. Desindustrialização e questão metropolitana: o caso da
+"arrebentação urbana" na periferia da região metropolitana do Rio de
+Janeiro. **Geosul**, v. 31, n. 62, p. 193--220,
+2016.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[\_\_\_. A falácia da "inflexão econômica positiva": algumas
+características da desindustrialização fluminense e do "vazio produtivo"
+em sua periferia metropolitana. **Cadernos do Desenvolvimento
+Fluminense**, n. 10, 2017.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[SOUZA, I. E. L. DE; VERÍSSIMO, M. P. Produção e emprego industrial nos
+estados brasileiros: evidências de desindustrialização. **Nova economia
+(Belo Horizonte, Brazil)**, v. 29, n. 1, p. 75,
+2019.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[STRANGLEMAN, T. Deindustrialisation and the Historical Sociological
+Imagination: Making Sense of Work and Industrial Change. **Sociology**,
+v. 51, n. 2, p. 466--482, abr.
+2017.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[STRANGLEMAN, T.; RHODES, J.; LINKON, S. Introduction to Crumbling
+Cultures: Deindustrialization, Class, and Memory. **International Labor
+and Working-Class History**, v. 84, p. 7--22,
+2013.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[THELEN, K. Beyond Comparative Statics: Historical Institutional
+Approaches to Stability and Change In the Political Economy of Labor.
+*Em*: MORGAN, G. *et al.* (Eds.). . **The Oxford Handbook of Comparative
+Institutional Analysis**. 1. ed. \[s.l.\] Oxford University Press, 2010.
+p. 41--62.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[TILLY, C. **Big structures, large processes, huge comparisons**. New
+York: Russell Sage Foundation,
+1984.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[TOMLINSON, J. De-industrialization Not Decline: A New Meta-narrative
+for Post-war British History. **Twentieth Century British History**, v.
+27, n. 1, p. 76--99, mar.
+2016.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[TORRES, R. L.; CAVALIERI, H. Uma crítica aos indicadores usuais de
+desindustrialização no Brasil. **Revista de economia política**, v. 35,
+n. 4, p. 859--877, 2015.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[TREGENNA, F. Characterising deindustrialisation: An analysis of changes
+in manufacturing employment and output internationally. **Cambridge
+Journal of Economics**, v. 33, n. 3, p. 433--466, 1 maio
+2009.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[VIANNA DA CRUZ, J. L. Os desafios da construção do desenvolvimento no
+Estado do Rio de Janeiro. **Cadernos do Desenvolvimento Fluminense**, v.
+0, n. 2, p. 47--80, 10 jul.
+2013.](https://www.zotero.org/google-docs/?p3HTgZ)
+
+[^1]: Para discussão sobre industrialização e industrialização tardia,
+    ver Mello (1982)
+
+[^2]: A média móvel foi utilizada **apenas para fins de visualização**,
+    não para cálculo das médias de crescimento do período ou correlação
+    entre as séries temporais. Os erros relativos à média móvel para
+    cada série encontram-se no anexo I ao fim do artigo.

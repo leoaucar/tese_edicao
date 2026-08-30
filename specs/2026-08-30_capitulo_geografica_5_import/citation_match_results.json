@@ -1,0 +1,660 @@
+[
+ {
+  "authors": [
+   "CNDI",
+   "MDIC"
+  ],
+  "year": "2024",
+  "page": null,
+  "raw": "CNDI e MDIC, 2024",
+  "status": "matched",
+  "key": "cndi_nova_2024"
+ },
+ {
+  "authors": [
+   "Oreiro",
+   "Feijó"
+  ],
+  "year": "2010",
+  "page": null,
+  "raw": "Oreiro e Feijó, 2010",
+  "status": "matched",
+  "key": "oreiro_desindustrializacao_2010"
+ },
+ {
+  "authors": [
+   "Oreiro",
+   "Marconi"
+  ],
+  "year": "2012",
+  "page": null,
+  "raw": "Oreiro e Marconi, 2012",
+  "status": "matched",
+  "key": "oreiromarconi2012"
+ },
+ {
+  "authors": [
+   "High"
+  ],
+  "year": "2013",
+  "page": null,
+  "raw": "High, 2013",
+  "status": "ambiguous:['high_wounds_2013', 'high_beyond_2013']",
+  "key": null
+ },
+ {
+  "authors": [
+   "Lawson"
+  ],
+  "year": "2020",
+  "page": null,
+  "raw": "Lawson, 2020",
+  "status": "matched",
+  "key": "lawson_making_2020"
+ },
+ {
+  "authors": [
+   "Strangleman",
+   "Rhodes",
+   "Linkon"
+  ],
+  "year": "2013",
+  "page": null,
+  "raw": "Strangleman, Rhodes e Linkon, 2013",
+  "status": "matched",
+  "key": "strangleman_introduction_2013"
+ },
+ {
+  "authors": [
+   "Linkon"
+  ],
+  "year": "2018",
+  "page": null,
+  "raw": "Linkon, 2018",
+  "status": "matched",
+  "key": "linkon_half-life_2018"
+ },
+ {
+  "authors": [
+   "Mah"
+  ],
+  "year": "2012",
+  "page": null,
+  "raw": "Mah, 2012",
+  "status": "matched",
+  "key": "mah_industrial_2012"
+ },
+ {
+  "authors": [
+   "Strangleman"
+  ],
+  "year": "2017",
+  "page": null,
+  "raw": "Strangleman, 2017",
+  "status": "matched",
+  "key": "strangleman_deindustrialisation_2017"
+ },
+ {
+  "authors": [
+   "Abbott"
+  ],
+  "year": "1984",
+  "page": null,
+  "raw": "Abbott, 1984",
+  "status": "matched",
+  "key": "abbott_event_1984"
+ },
+ {
+  "authors": [
+   "Pierson"
+  ],
+  "year": "2004",
+  "page": null,
+  "raw": "Pierson, 2004",
+  "status": "matched",
+  "key": "pierson_politics_2004"
+ },
+ {
+  "authors": null,
+  "year": "1984",
+  "page": null,
+  "raw": "1984",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "1984",
+  "page": null,
+  "raw": "1984",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": [
+   "Smith"
+  ],
+  "year": "1991",
+  "page": null,
+  "raw": "Smith, 1991",
+  "status": "matched",
+  "key": "smith_rise_1991"
+ },
+ {
+  "authors": null,
+  "year": "2023",
+  "page": null,
+  "raw": "2023",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": [
+   "Mahoney"
+  ],
+  "year": "2000",
+  "page": null,
+  "raw": "Mahoney, 2000, 2004",
+  "status": "ambiguous:['mahoney2000', 'mahoney_path_2000']",
+  "key": null
+ },
+ {
+  "authors": [
+   "Mahoney"
+  ],
+  "year": "2004",
+  "page": null,
+  "raw": "Mahoney, 2000, 2004",
+  "status": "matched",
+  "key": "mahoney_comparative-historical_2004"
+ },
+ {
+  "authors": [
+   "Pierson"
+  ],
+  "year": "2015",
+  "page": null,
+  "raw": "Pierson, 2015",
+  "status": "ambiguous:['pierson2015', 'mahoney_power_2015']",
+  "key": null
+ },
+ {
+  "authors": [
+   "Thelen"
+  ],
+  "year": "2010",
+  "page": null,
+  "raw": "Thelen, 2010",
+  "status": "matched",
+  "key": "thelen2010"
+ },
+ {
+  "authors": [
+   "Fernández Sebastián"
+  ],
+  "year": "2024",
+  "page": null,
+  "raw": "Fernández Sebastián, 2024",
+  "status": "matched",
+  "key": "fernandez_sebastian_key_2024"
+ },
+ {
+  "authors": [
+   "Santos"
+  ],
+  "year": "2016",
+  "page": "295",
+  "raw": "Santos, 2016",
+  "status": "matched",
+  "key": "santos_desenvolvimento_2016"
+ },
+ {
+  "authors": [
+   "Evans"
+  ],
+  "year": "2018",
+  "page": null,
+  "raw": "Evans, 2018",
+  "status": "matched",
+  "key": "evans_dependent_2018"
+ },
+ {
+  "authors": [
+   "Barbosa"
+  ],
+  "year": "2020",
+  "page": null,
+  "raw": "Barbosa, 2020",
+  "status": "matched",
+  "key": "barbosa_developmentalist_2020"
+ },
+ {
+  "authors": [
+   "CNDI",
+   "MDIC"
+  ],
+  "year": "2024",
+  "page": null,
+  "raw": "CNDI e MDIC, 2024",
+  "status": "matched",
+  "key": "cndi_nova_2024"
+ },
+ {
+  "authors": [
+   "Ramalho",
+   "Conceição"
+  ],
+  "year": "2024",
+  "page": null,
+  "raw": "Ramalho e Conceição, 2024",
+  "status": "matched",
+  "key": "ramalhoconceicao2024"
+ },
+ {
+  "authors": [
+   "Tomlinson"
+  ],
+  "year": "2016",
+  "page": null,
+  "raw": "Tomlinson, 2016",
+  "status": "matched",
+  "key": "tomlinson_-industrialization_2016"
+ },
+ {
+  "authors": [
+   "Berger",
+   "Wicke",
+   "Golombek"
+  ],
+  "year": "2017",
+  "page": null,
+  "raw": "Berger, Wicke e Golombek, 2017",
+  "status": "matched",
+  "key": "berger_burdens_2017"
+ },
+ {
+  "raw": "CNI, [s.d.]",
+  "status": "unparsed",
+  "key": null,
+  "authors": null,
+  "page": null
+ },
+ {
+  "authors": [
+   "Tregenna"
+  ],
+  "year": "2009",
+  "page": null,
+  "raw": "Tregenna, 2009",
+  "status": "matched",
+  "key": "tregenna_characterising_2009"
+ },
+ {
+  "authors": [
+   "Rowthorn",
+   "Ramaswamy"
+  ],
+  "year": "1999",
+  "page": null,
+  "raw": "Rowthorn e Ramaswamy, 1999",
+  "status": "matched",
+  "key": "rowthorn_growth_1999"
+ },
+ {
+  "authors": [
+   "Alderson"
+  ],
+  "year": "1999",
+  "page": null,
+  "raw": "Alderson, 1999",
+  "status": "matched",
+  "key": "alderson_explaining_1999"
+ },
+ {
+  "authors": [
+   "Bluestone",
+   "Harrison"
+  ],
+  "year": "1982",
+  "page": null,
+  "raw": "Bluestone e Harrison, 1982",
+  "status": "matched",
+  "key": "bluestone_deindustrialization_1982"
+ },
+ {
+  "authors": [
+   "Mah"
+  ],
+  "year": "2012",
+  "page": null,
+  "raw": "Mah, 2012",
+  "status": "matched",
+  "key": "mah_industrial_2012"
+ },
+ {
+  "authors": null,
+  "year": "2018",
+  "page": null,
+  "raw": "2018",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": [
+   "Rodrik"
+  ],
+  "year": "2016",
+  "page": null,
+  "raw": "Rodrik, 2016",
+  "status": "matched",
+  "key": "rodrik_premature_2016"
+ },
+ {
+  "authors": null,
+  "year": "2016",
+  "page": null,
+  "raw": "2016",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2010",
+  "page": null,
+  "raw": "2010",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2021",
+  "page": null,
+  "raw": "2021",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": [
+   "Oreiro",
+   "Marconi"
+  ],
+  "year": "2012",
+  "page": null,
+  "raw": "Oreiro e Marconi, 2012",
+  "status": "matched",
+  "key": "oreiromarconi2012"
+ },
+ {
+  "authors": null,
+  "year": "2008",
+  "page": null,
+  "raw": "2008",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2015",
+  "page": null,
+  "raw": "2015",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2020",
+  "page": null,
+  "raw": "2020",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2020",
+  "page": null,
+  "raw": "2020",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2019",
+  "page": null,
+  "raw": "2019",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2016",
+  "page": null,
+  "raw": "2016",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": [
+   "Sobral"
+  ],
+  "year": "2017",
+  "page": null,
+  "raw": "Sobral, 2017",
+  "status": "matched",
+  "key": "sobral2017"
+ },
+ {
+  "authors": null,
+  "year": "2013",
+  "page": null,
+  "raw": "2013",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": null,
+  "year": "2019",
+  "page": null,
+  "raw": "2019",
+  "status": "narrative_needs_context",
+  "key": null
+ },
+ {
+  "authors": [
+   "Marconi",
+   "Rocha"
+  ],
+  "year": "2012",
+  "page": null,
+  "raw": "Marconi e Rocha, 2012",
+  "status": "matched",
+  "key": "marconi_taxa_2012"
+ },
+ {
+  "authors": [
+   "Oreiro",
+   "Feijó"
+  ],
+  "year": "2010",
+  "page": null,
+  "raw": "Oreiro e Feijó, 2010",
+  "status": "matched",
+  "key": "oreiro_desindustrializacao_2010"
+ },
+ {
+  "authors": [
+   "Cunha",
+   "Lelis",
+   "Fligenspan"
+  ],
+  "year": "2013",
+  "page": null,
+  "raw": "Cunha, Lelis e Fligenspan, 2013",
+  "status": "matched",
+  "key": "cunha_desindustrializacao_2013"
+ },
+ {
+  "authors": [
+   "Oreiro",
+   "Feijó"
+  ],
+  "year": "2010",
+  "page": "222",
+  "raw": "Oreiro e Feijó, 2010",
+  "status": "matched",
+  "key": "oreiro_desindustrializacao_2010"
+ },
+ {
+  "authors": [
+   "Torres",
+   "Cavalieri"
+  ],
+  "year": "2015",
+  "page": null,
+  "raw": "Torres e Cavalieri, 2015",
+  "status": "matched",
+  "key": "torres_uma_2015"
+ },
+ {
+  "raw": "IBGE, [s.d.]",
+  "status": "unparsed",
+  "key": null,
+  "authors": null,
+  "page": null
+ },
+ {
+  "authors": [
+   "Shin"
+  ],
+  "year": "2017",
+  "page": null,
+  "raw": "Shin, 2017",
+  "status": "matched",
+  "key": "shin_time_2017"
+ },
+ {
+  "authors": [
+   "Shin"
+  ],
+  "year": "2017",
+  "page": null,
+  "raw": "Shin, 2017",
+  "status": "matched",
+  "key": "shin_time_2017"
+ },
+ {
+  "authors": [
+   "Mahoney"
+  ],
+  "year": "2004",
+  "page": null,
+  "raw": "Mahoney, 2004",
+  "status": "matched",
+  "key": "mahoney_comparative-historical_2004"
+ },
+ {
+  "authors": [
+   "Fonseca",
+   "Arend",
+   "Guerrero"
+  ],
+  "year": "2020",
+  "page": null,
+  "raw": "Fonseca, Arend e Guerrero, 2020",
+  "status": "matched",
+  "key": "fonseca_politica_2020"
+ },
+ {
+  "authors": [
+   "IPEA"
+  ],
+  "year": "2024",
+  "page": null,
+  "raw": "IPEA, 2024",
+  "status": "matched",
+  "key": "ipea_taxa_2024"
+ },
+ {
+  "authors": [
+   "Cosenza"
+  ],
+  "year": "2022",
+  "page": null,
+  "raw": "Cosenza, 2022",
+  "status": "matched",
+  "key": "cosenza_brasil_2022"
+ },
+ {
+  "authors": [
+   "Rousseff"
+  ],
+  "year": "2007",
+  "page": null,
+  "raw": "Rousseff, 2007",
+  "status": "matched",
+  "key": "rousseff_programa_2007"
+ },
+ {
+  "authors": [
+   "BRASIL"
+  ],
+  "year": "2009",
+  "page": null,
+  "raw": "BRASIL, 2009",
+  "status": "matched",
+  "key": "brasil_lei_2009"
+ },
+ {
+  "authors": [
+   "DIEESE"
+  ],
+  "year": "2021",
+  "page": null,
+  "raw": "DIEESE, 2021",
+  "status": "matched",
+  "key": "dieese_implicacoes_2021"
+ },
+ {
+  "authors": [
+   "Fonseca",
+   "Arend",
+   "Guerrero"
+  ],
+  "year": "2020",
+  "page": null,
+  "raw": "Fonseca, Arend e Guerrero, 2020",
+  "status": "matched",
+  "key": "fonseca_politica_2020"
+ },
+ {
+  "authors": [
+   "Fonseca",
+   "Arend",
+   "Guerrero"
+  ],
+  "year": "2020",
+  "page": null,
+  "raw": "Fonseca, Arend e Guerrero, 2020",
+  "status": "matched",
+  "key": "fonseca_politica_2020"
+ },
+ {
+  "authors": [
+   "IPEA"
+  ],
+  "year": "2024",
+  "page": null,
+  "raw": "IPEA, 2024",
+  "status": "matched",
+  "key": "ipea_taxa_2024"
+ },
+ {
+  "authors": [
+   "DIEESE"
+  ],
+  "year": "2021",
+  "page": null,
+  "raw": "DIEESE, 2021",
+  "status": "matched",
+  "key": "dieese_implicacoes_2021"
+ }
+]

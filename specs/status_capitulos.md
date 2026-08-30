@@ -34,11 +34,13 @@ Prazo final: 30/09/2026
 
 ### Capítulo empírico 3 — `chapters/06-A desindustrialização em perspectiva geográfica.tex`
 
-- [ ] Revisão de literatura
-- [ ] Coleta de dados secundários
-- [ ] Produção de imagens e tabelas
-- [ ] Escrita do texto
-- [ ] Revisão de texto e citações
+> Atualizado em 30/08/2026 após a rodada `specs/2026-08-30_capitulo_geografica_5_import/`: diferente das rodadas anteriores, o docx fornecido não era prosa de tese a ser adaptada, mas um artigo acadêmico do próprio usuário já concluído — "Indústria e crescimento econômico do Rio de Janeiro (2002-2021)" (nota de rodapé adicionada pelo próprio usuário no `.tex` confirma a publicação original em Cadernos do Desenvolvimento Fluminense), reaproveitado como este capítulo. Por chegar como um trabalho já finalizado (dados, 8 figuras, 4 tabelas e a maioria das citações já resolvidas), o capítulo está muito mais avançado que os capítulos empíricos 1 e 2 nesta mesma etapa do processo. Ver `specs/2026-08-30_capitulo_geografica_5_import/plan.md` para o relato completo.
+
+- [~] Revisão de literatura -- 58 citações no texto, 56 resolvidas contra `references.bib`; 2 marcadas `\aiflag{}` (`Skocpol, 1984`, ambíguo entre 3 obras já catalogadas; `Nassif, 2015`, sem entrada correspondente a um autor isolado nesse ano).
+- [x] Coleta de dados secundários -- dados das Contas Regionais (IBGE), 2003-2021, já coletados e tratados pelo artigo original; nenhum placeholder ou dado pendente.
+- [x] Produção de imagens e tabelas -- 8 figuras (`figures/cap06/`) e 4 tabelas (`tables/cap06/`) extraídas do docx e formatadas conforme convenção do projeto (uma delas, a Tabela 2, precisou ser recuperada diretamente do XML do `.docx` porque o `pandoc` descartou seus dados silenciosamente).
+- [~] Escrita do texto -- prosa completa (artigo já publicado), mas ainda depende da resolução das 2 lacunas de citação acima antes de ser considerada pronta.
+- [ ] Revisão de texto e citações -- rodada de importação apenas; ciclo iterativo de revisão (`specs/constitution.md`, "Ciclo de Revisão Iterativo") ainda não começou.
 
 Prazo final: 30/10/2026
 

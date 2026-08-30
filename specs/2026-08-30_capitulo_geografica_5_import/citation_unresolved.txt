@@ -1,0 +1,5 @@
+{"authors": ["High"], "year": "2013", "page": null, "raw": "High, 2013", "status": "ambiguous:['high_wounds_2013', 'high_beyond_2013']", "key": null}
+{"authors": ["Mahoney"], "year": "2000", "page": null, "raw": "Mahoney, 2000, 2004", "status": "ambiguous:['mahoney2000', 'mahoney_path_2000']", "key": null}
+{"authors": ["Pierson"], "year": "2015", "page": null, "raw": "Pierson, 2015", "status": "ambiguous:['pierson2015', 'mahoney_power_2015']", "key": null}
+{"raw": "CNI, [s.d.]", "status": "unparsed", "key": null, "authors": null, "page": null}
+{"raw": "IBGE, [s.d.]", "status": "unparsed", "key": null, "authors": null, "page": null}

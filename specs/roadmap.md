@@ -28,10 +28,16 @@ Alinhado ao workflow de capítulos definido em `specs/constitution.md` e ao stat
 
 ### Capítulo empírico 3 (entrega 30/10/2026)
 
-- [ ] **Semana 5 (29/09–05/10/2026)** — Revisão de literatura; coleta de dados secundários.
-- [ ] **Semana 6 (06–12/10/2026)** — Produção de imagens e tabelas.
-- [ ] **Semana 7 (13–19/10/2026)** — Escrita do texto.
-- [ ] **Semana 8 (20–26/10/2026)** — Revisão de texto e citações (entrega 30/10).
+Adiantado em relação ao cronograma original: o docx fornecido em 30/08/2026
+já era um artigo do usuário finalizado (dados, figuras, tabelas e citações
+praticamente completos), então as etapas abaixo já avançaram muito antes da
+Semana 5 — ver `specs/2026-08-30_capitulo_geografica_5_import/plan.md` e
+`specs/status_capitulos.md`.
+
+- [~] **Semana 5 (29/09–05/10/2026)** — Revisão de literatura (concluída em 30/08, restam 2 `\aiflag{}`); coleta de dados secundários (concluída em 30/08).
+- [x] **Semana 6 (06–12/10/2026)** — Produção de imagens e tabelas (concluída em 30/08).
+- [~] **Semana 7 (13–19/10/2026)** — Escrita do texto (concluída em 30/08, pendente resolver as 2 lacunas de citação).
+- [ ] **Semana 8 (20–26/10/2026)** — Revisão de texto e citações (entrega 30/10) — ciclo iterativo ainda não começou.
 
 ### Revisão de texto e citações — Introdução → Teoria → Metodologia → Conclusão
 

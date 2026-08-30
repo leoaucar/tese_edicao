@@ -1,0 +1,9 @@
+Série,mae,mape,rmse
+PIB Rio de Janeiro,0.01252,0.62024,0.00025
+PIB Brasil,0.01738,2.72567,0.00047
+Transf. Rio de Janeiro,0.03878,8.41341,0.00249
+Transf. Brasil,0.03598,1.15073,0.00184
+Extrat. Rio de Janeiro,0.03982,1.15272,0.00247
+Extrat. Brasil,0.03914,1.65896,0.00219
+Const. Rio de Janeiro,0.04848,1.29798,0.00311
+Const. Brasil,0.03687,1.30759,0.00219

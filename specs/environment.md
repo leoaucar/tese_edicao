@@ -277,3 +277,52 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
 - `ltex-plus.vscode-ltex-plus` baixa seu próprio runtime + modelos de idioma na primeira ativação (download maior, ocorre uma vez; depois funciona offline). Falsos positivos recorrentes (nomes próprios, siglas) devem ser adicionados a `ltex.dictionary.pt-BR` em vez de ignorados manualmente a cada vez.
 - Após criar/editar `.vscode/settings.json`, recarregar a janela do VS Code (`Ctrl+Shift+P` → "Reload Window") para aplicar.
 - `latex-workshop.latex.outDir` mantém o build automático do LaTeX Workshop (que roda a cada save) escrevendo em `outputs/`, em vez de poluir a raiz do projeto — ver a seção de compilação manual acima para o motivo.
+
+### Salvando um Profile do VS Code para edição de LaTeX
+
+Como `code --install-extension` está quebrado nesta máquina (achado acima) e
+`.vscode/settings.json` é pessoal (fora do git), a forma mais rápida de
+reaplicar toda a configuração acima — extensões e settings juntos — em
+qualquer instalação do VS Code é exportar um **Profile** nativo, em vez de
+reinstalar cada extensão manualmente e recolar o JSON deste documento.
+
+**Exportar o profile atual** (depois de já ter as 3 extensões instaladas e o
+`.vscode/settings.json` configurado conforme acima):
+
+1. `Ctrl+Shift+P` → "**Profiles: Export Profile...**".
+2. Marcar pelo menos "Settings" e "Extensions" (Keybindings/Snippets/UI
+   State são opcionais). Isso inclui `.vscode/settings.json` do jeito que
+   estiver na hora do export, não só o que está documentado aqui — mantenha
+   os dois sincronizados manualmente se editar um dos dois depois.
+3. Duas opções de destino:
+   - **"Export Profile (in File)..."** — salva um arquivo
+     `.code-profile` local. Guardar fora deste repositório (ex.:
+     `C:\Users\leoau\Documents\vscode-profiles\latex-tese.code-profile`) —
+     é configuração pessoal de máquina, não conteúdo da tese.
+   - **"Export Profile (in GitHub)..."** — salva como Gist na conta
+     GitHub do usuário; mais durável entre máquinas/reinstalações
+     (recomendado se o objetivo é "sempre poder recuperar", já que não
+     depende de copiar um arquivo local).
+
+**Reimportar** (nesta máquina após reinstalar o VS Code, ou em outra
+máquina): `Ctrl+Shift+P` → "**Profiles: Import Profile...**" → apontar para
+o arquivo `.code-profile` ou colar a URL do Gist → nomear o profile (ex.:
+"LaTeX - Tese") → ativar via ícone de Profile no canto inferior esquerdo
+(ou `code --profile "LaTeX - Tese"`, quando o CLI `code` não estiver
+quebrado).
+
+Alternativa para sincronização contínua (em vez de um snapshot pontual):
+**Settings Sync** (`Ctrl+Shift+P` → "Settings Sync: Turn On...") mantém
+profiles, extensões e settings sincronizados automaticamente entre todas as
+instalações logadas na mesma conta — mais indicado se o usuário troca de
+máquina com frequência, em vez de fazer um export manual só quando lembra.
+
+- **Ativar**: ícone de conta (canto inferior esquerdo) → "Backup and Sync
+  Settings..." — ou `Ctrl+Shift+P` → "Settings Sync: Turn On" — logar com
+  GitHub ou Microsoft, marcar pelo menos Settings, Extensions, Keybindings e
+  Profiles. Depois disso sincroniza sozinho em background a cada mudança.
+- **Conferir o que está sincronizado**: `Ctrl+Shift+P` → "Settings Sync:
+  Show Synced Data".
+- **Forçar sincronização manual** (normalmente desnecessário, já é
+  automático): `Ctrl+Shift+P` → "Settings Sync: Sync Now".
+- **Desativar**: `Ctrl+Shift+P` → "Settings Sync: Turn Off".
