@@ -57,8 +57,10 @@ Prazo final: 15/11/2026
 
 ### Teoria — `chapters/02-Desindustrialização (Teoria).tex`
 
-- [~] Escrita
-- [ ] Revisão de texto e citações
+> Atualizado em 30/08/2026 após a rodada `specs/2026-08-30_capitulo_teoria_2_import/`: assim como no capítulo empírico 1, o status "Escrita `[~]`" já registrado antes da importação era desatualizado — o arquivo tinha apenas `\chapter{}` e um comentário `TODO`, nenhum texto real. O docx fornecido trouxe duas partes de completude bem diferente: a revisão de literatura internacional ("Desindustrialização no Mundo") está com prosa finalizada e citações completas; já a parte brasileira era, na verdade, um artigo separado ("Desafios da reindustrialização brasileira") colado por inteiro, cujas ~38 citações (de 66) não têm entrada em `references.bib` — provavelmente porque cobrem um universo bibliográfico diferente do `1 - Teoria.bib` fornecido (fontes de economia política brasileira: Ramalho, Bresser-Pereira, Arbix, CNI, Amsden, Gerschenkron, Thelen, Giambiagi, entre outras). Todas foram marcadas com `\aiflag{}` em vez de resolvidas. Ver `specs/2026-08-30_capitulo_teoria_2_import/plan.md` para o relato completo.
+
+- [~] Escrita -- seção "Desindustrialização no Mundo" completa; seção "Desindustrialização no Brasil" precisa da bibliografia faltante (ver nota acima) antes de poder ser considerada pronta.
+- [ ] Revisão de texto e citações -- primeira passada de IA aplicada (marcações em vermelho no `.tex`); aguardando o ciclo iterativo com o usuário.
 
 Prazo final: 30/11/2026
 
