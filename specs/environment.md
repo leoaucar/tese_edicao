@@ -102,6 +102,57 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
 
 ```json
 {
+  // Light theme for the whole window (VS Code themes are global, not
+  // per-language) — chosen for readability while writing prose-heavy .tex.
+  // "Light+" is this VS Code install's actual stored id for the built-in
+  // light theme (NOT "Default Light+", which looked right but silently
+  // matched nothing in the scoped customizations below).
+  "workbench.colorTheme": "Light+",
+
+  // O sidebar (explorer/busca/etc.) do tema claro é muito lavado — fundo
+  // cinza-claro e texto cinza de baixo contraste. Escurece o fundo e leva o
+  // texto para preto, para legibilidade. Deixado sem escopo de tema (fora de
+  // uma chave "[Nome do Tema]") para funcionar não importa qual tema claro
+  // esteja ativo.
+  //
+  // O terminal é mantido deliberadamente numa paleta escura fixa (cores
+  // clássicas do Dark+) independente do tema do editor/sidebar — pedido
+  // explícito do usuário, já que o tema claro é para legibilidade de prosa
+  // nos .tex, não para o terminal.
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#DCDCDC",
+    "sideBar.foreground": "#000000",
+    "sideBarTitle.foreground": "#000000",
+    "sideBarSectionHeader.background": "#CCCCCC",
+    "sideBarSectionHeader.foreground": "#000000",
+    "list.inactiveSelectionBackground": "#C4C4C4",
+    "list.hoverBackground": "#CACACA",
+    "list.activeSelectionBackground": "#B8B8B8",
+    "list.activeSelectionForeground": "#000000",
+    "list.focusForeground": "#000000",
+    "list.inactiveSelectionForeground": "#000000",
+
+    "terminal.background": "#1E1E1E",
+    "terminal.foreground": "#CCCCCC",
+    "terminalCursor.foreground": "#FFFFFF",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#CD3131",
+    "terminal.ansiGreen": "#0DBC79",
+    "terminal.ansiYellow": "#E5E510",
+    "terminal.ansiBlue": "#2472C8",
+    "terminal.ansiMagenta": "#BC3FBC",
+    "terminal.ansiCyan": "#11A8CD",
+    "terminal.ansiWhite": "#E5E5E5",
+    "terminal.ansiBrightBlack": "#666666",
+    "terminal.ansiBrightRed": "#F14C4C",
+    "terminal.ansiBrightGreen": "#23D18B",
+    "terminal.ansiBrightYellow": "#F5F543",
+    "terminal.ansiBrightBlue": "#3B8EEA",
+    "terminal.ansiBrightMagenta": "#D670D6",
+    "terminal.ansiBrightCyan": "#29B8DB",
+    "terminal.ansiBrightWhite": "#E5E5E5"
+  },
+
   "latex-workshop.latex.outDir": "%DIR%/outputs",
 
   // Fonte um pouco maior e mais legível para edição de prosa em .tex.
@@ -119,35 +170,66 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
 
-  // Cores mais contrastantes/diferenciadas para tokens LaTeX (ajustado para
-  // o tema "Visual Studio Dark"). Atuam sobre escopos TextMate, então valem
-  // para qualquer \comando / ambiente / comentário, mas NÃO conseguem
-  // distinguir um macro específico como \aiflag — escopos TextMate não
-  // diferenciam pelo nome literal do comando, só pelo papel sintático
-  // (ver highlight.regexes abaixo para isso).
+  // Cores mais contrastantes/diferenciadas para tokens LaTeX. Escopadas por
+  // nome de tema (o VS Code só aplica o bloco correspondente quando aquele
+  // tema está ativo) — as regras originais, ajustadas para fundo escuro,
+  // continuam funcionando se você voltar para "Visual Studio Dark"; um
+  // segundo conjunto, com cores mais escuras/legíveis em fundo claro, vale
+  // para "Light+" (id real do tema claro embutido — não "Default Light+",
+  // que parecia certo mas não casava com nada). Atuam sobre escopos
+  // TextMate, então valem para qualquer \comando / ambiente / comentário,
+  // mas NÃO conseguem distinguir um macro específico como \aiflag — escopos
+  // TextMate não diferenciam pelo nome literal do comando, só pelo papel
+  // sintático (ver highlight.regexes abaixo para isso).
   "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment.line.percentage.tex",
-        "settings": { "foreground": "#6A9955", "fontStyle": "italic" }
-      },
-      {
-        "scope": ["support.function.general.tex", "support.function.section.latex"],
-        "settings": { "foreground": "#4EC9B0", "fontStyle": "bold" }
-      },
-      {
-        "scope": "keyword.control.tex",
-        "settings": { "foreground": "#C586C0", "fontStyle": "bold" }
-      },
-      {
-        "scope": "constant.character.escape.tex",
-        "settings": { "foreground": "#D7BA7D" }
-      },
-      {
-        "scope": ["punctuation.definition.arguments.begin.latex", "punctuation.definition.arguments.end.latex"],
-        "settings": { "foreground": "#D4D4D4" }
-      }
-    ]
+    "[Visual Studio Dark]": {
+      "textMateRules": [
+        {
+          "scope": "comment.line.percentage.tex",
+          "settings": { "foreground": "#6A9955", "fontStyle": "italic" }
+        },
+        {
+          "scope": ["support.function.general.tex", "support.function.section.latex"],
+          "settings": { "foreground": "#4EC9B0", "fontStyle": "bold" }
+        },
+        {
+          "scope": "keyword.control.tex",
+          "settings": { "foreground": "#C586C0", "fontStyle": "bold" }
+        },
+        {
+          "scope": "constant.character.escape.tex",
+          "settings": { "foreground": "#D7BA7D" }
+        },
+        {
+          "scope": ["punctuation.definition.arguments.begin.latex", "punctuation.definition.arguments.end.latex"],
+          "settings": { "foreground": "#D4D4D4" }
+        }
+      ]
+    },
+    "[Light+]": {
+      "textMateRules": [
+        {
+          "scope": "comment.line.percentage.tex",
+          "settings": { "foreground": "#4B8B3B", "fontStyle": "italic" }
+        },
+        {
+          "scope": ["support.function.general.tex", "support.function.section.latex"],
+          "settings": { "foreground": "#0E7490", "fontStyle": "bold" }
+        },
+        {
+          "scope": "keyword.control.tex",
+          "settings": { "foreground": "#A626A4", "fontStyle": "bold" }
+        },
+        {
+          "scope": "constant.character.escape.tex",
+          "settings": { "foreground": "#986801" }
+        },
+        {
+          "scope": ["punctuation.definition.arguments.begin.latex", "punctuation.definition.arguments.end.latex"],
+          "settings": { "foreground": "#444444" }
+        }
+      ]
+    }
   },
 
   // Requer a extensão "Highlight" (fabiospampinato.vscode-highlight) —

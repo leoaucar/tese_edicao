@@ -1,0 +1,2805 @@
+[
+ {
+  "key": "abreu2014",
+  "type": "misc",
+  "authors_raw": [
+   "Abreu, Marcelo de Paiva"
+  ],
+  "authors_norm": [
+   "abreu"
+  ],
+  "year": "2014",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "braudel1990",
+  "type": "misc",
+  "authors_raw": [
+   "Braudel, Fernand"
+  ],
+  "authors_norm": [
+   "braudel"
+  ],
+  "year": "1990",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "buescu1984",
+  "type": "misc",
+  "authors_raw": [
+   "Buescu, Mircea"
+  ],
+  "authors_norm": [
+   "buescu"
+  ],
+  "year": "1984",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "canocintra1974",
+  "type": "misc",
+  "authors_raw": [
+   "Cano, Wilson",
+   "Cintra, ..."
+  ],
+  "authors_norm": [
+   "cano",
+   "cintra"
+  ],
+  "year": "1974",
+  "title": "TODO -- confirmar título e segundo autor via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "caputomello2009",
+  "type": "misc",
+  "authors_raw": [
+   "Caputo, ...",
+   "Mello, ..."
+  ],
+  "authors_norm": [
+   "caputo",
+   "mello"
+  ],
+  "year": "2009",
+  "title": "TODO -- confirmar autores/título via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "estatisticasseculoxx_sd",
+  "type": "misc",
+  "authors_raw": [
+   "{IBGE}"
+  ],
+  "authors_norm": [
+   "ibge"
+  ],
+  "year": "{s.d.",
+  "title": "Estatísticas do Século XX",
+  "is_editor_only": false
+ },
+ {
+  "key": "fernandes2020",
+  "type": "misc",
+  "authors_raw": [
+   "Fernandes, Florestan"
+  ],
+  "authors_norm": [
+   "fernandes"
+  ],
+  "year": "2020",
+  "title": "TODO -- confirmar título exato/edição via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "furtado2005",
+  "type": "misc",
+  "authors_raw": [
+   "Furtado, Celso"
+  ],
+  "authors_norm": [
+   "furtado"
+  ],
+  "year": "2005",
+  "title": "TODO -- confirmar título exato/edição via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "hermannetal2015",
+  "type": "misc",
+  "authors_raw": [
+   "Hermann, Jennifer",
+   "others"
+  ],
+  "authors_norm": [
+   "hermann",
+   "others"
+  ],
+  "year": "2015",
+  "title": "TODO -- confirmar título e coautores via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney2000",
+  "type": "misc",
+  "authors_raw": [
+   "Mahoney, James"
+  ],
+  "authors_norm": [
+   "mahoney"
+  ],
+  "year": "2000",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoneyfalleti2015",
+  "type": "misc",
+  "authors_raw": [
+   "Mahoney, James",
+   "Falleti, Tulia"
+  ],
+  "authors_norm": [
+   "mahoney",
+   "falleti"
+  ],
+  "year": "2015",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "marx2013",
+  "type": "misc",
+  "authors_raw": [
+   "Marx, Karl"
+  ],
+  "authors_norm": [
+   "marx"
+  ],
+  "year": "2013",
+  "title": "TODO -- confirmar título/edição exata via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "mello1982",
+  "type": "misc",
+  "authors_raw": [
+   "Mello, João Manuel Cardoso de"
+  ],
+  "authors_norm": [
+   "mello"
+  ],
+  "year": "1982",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "mello2008",
+  "type": "misc",
+  "authors_raw": [
+   "Mello, João Manuel Cardoso de"
+  ],
+  "authors_norm": [
+   "mello"
+  ],
+  "year": "2008",
+  "title": "TODO -- confirmar título exato via Zotero (fonte de figura)",
+  "is_editor_only": false
+ },
+ {
+  "key": "nogueira1988",
+  "type": "misc",
+  "authors_raw": [
+   "Nogueira, ..."
+  ],
+  "authors_norm": [
+   "nogueira"
+  ],
+  "year": "1988",
+  "title": "TODO -- confirmar autor/título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "pierson2015",
+  "type": "misc",
+  "authors_raw": [
+   "Pierson, Paul"
+  ],
+  "authors_norm": [
+   "pierson"
+  ],
+  "year": "2015",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "pradojunior2012",
+  "type": "misc",
+  "authors_raw": [
+   "Prado Júnior, Caio"
+  ],
+  "authors_norm": [
+   "pradojunior"
+  ],
+  "year": "2012",
+  "title": "TODO -- confirmar título/edição exata via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "pradojunior_sd",
+  "type": "misc",
+  "authors_raw": [
+   "Prado Júnior, Caio"
+  ],
+  "authors_norm": [
+   "pradojunior"
+  ],
+  "year": "{s.d.",
+  "title": "TODO -- obra sem data identificada no texto, confirmar via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "saraivanabarrogoldfeder_sd",
+  "type": "misc",
+  "authors_raw": [
+   "Saraiva, ...",
+   "Nabarro, ...",
+   "Goldfeder, ..."
+  ],
+  "authors_norm": [
+   "saraiva",
+   "nabarro",
+   "goldfeder"
+  ],
+  "year": "{s.d.",
+  "title": "Atlas Histórico Econômico do Brasil no Século XIX",
+  "is_editor_only": false
+ },
+ {
+  "key": "souzaprevidelli2022",
+  "type": "misc",
+  "authors_raw": [
+   "Souza, ...",
+   "Previdelli, ..."
+  ],
+  "authors_norm": [
+   "souza",
+   "previdelli"
+  ],
+  "year": "2022",
+  "title": "TODO -- confirmar autores/título via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "suzigan2000",
+  "type": "misc",
+  "authors_raw": [
+   "Suzigan, Wilson"
+  ],
+  "authors_norm": [
+   "suzigan"
+  ],
+  "year": "2000",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "tavares1973",
+  "type": "misc",
+  "authors_raw": [
+   "Tavares, Maria da Conceição"
+  ],
+  "authors_norm": [
+   "tavares"
+  ],
+  "year": "1973",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "wallerstein2001",
+  "type": "misc",
+  "authors_raw": [
+   "Wallerstein, Immanuel"
+  ],
+  "authors_norm": [
+   "wallerstein"
+  ],
+  "year": "2001",
+  "title": "TODO -- confirmar título exato via Zotero",
+  "is_editor_only": false
+ },
+ {
+  "key": "silva_formacao_2024",
+  "type": "article",
+  "authors_raw": [
+   "Silva, Luciano Edison da",
+   "Deitos, Roberto Antonio"
+  ],
+  "authors_norm": [
+   "silva",
+   "deitos"
+  ],
+  "year": "2024",
+  "title": "Formação da força de trabalho na economia primário-exportadora brasileira primár",
+  "is_editor_only": false
+ },
+ {
+  "key": "pereira_da_silva_as_2024",
+  "type": "article",
+  "authors_raw": [
+   "Pereira Da Silva, Gustavo",
+   "Barrotti, Nicoly"
+  ],
+  "authors_norm": [
+   "pereiradasilva",
+   "barrotti"
+  ],
+  "year": "2024",
+  "title": "As maiores firmas industriais de {Rio} {Claro}-{SP} na primeira metade do século",
+  "is_editor_only": false
+ },
+ {
+  "key": "da_silva_ferreira_modernizacao_2024",
+  "type": "article",
+  "authors_raw": [
+   "Da Silva Ferreira, Aldenor",
+   "Roberto Ferraro, Mário",
+   "Raffi Menegaldo Ferreira, Luciana"
+  ],
+  "authors_norm": [
+   "dasilvaferreira",
+   "robertoferraro",
+   "raffimenegaldoferreira"
+  ],
+  "year": "2024",
+  "title": "A modernização da agricultura em {São} {Paulo} no início do século {XX}: ciência",
+  "is_editor_only": false
+ },
+ {
+  "key": "furtado_formacao_2005",
+  "type": "book",
+  "authors_raw": [
+   "Furtado, Celso"
+  ],
+  "authors_norm": [
+   "furtado"
+  ],
+  "year": "2005",
+  "title": "Formação {Econômica} {Do} {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "prado_junior_historia_2012",
+  "type": "book",
+  "authors_raw": [
+   "Prado Júnior, Caio"
+  ],
+  "authors_norm": [
+   "pradojunior"
+  ],
+  "year": "2012",
+  "title": "História econômica do {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "fonseca_industrializacao_2017",
+  "type": "article",
+  "authors_raw": [
+   "Fonseca, Pedro Cezar Dutra",
+   "Salomão, Ivan Colangelo"
+  ],
+  "authors_norm": [
+   "fonseca",
+   "salomao"
+  ],
+  "year": "2017",
+  "title": "Industrialização brasileira: notas sobre o debate historiográfico",
+  "is_editor_only": false
+ },
+ {
+  "key": "viceconti_o_1977",
+  "type": "article",
+  "authors_raw": [
+   "Viceconti, Paulo Eduardo V."
+  ],
+  "authors_norm": [
+   "viceconti"
+  ],
+  "year": "1977",
+  "title": "O processo de industrialização brasileira",
+  "is_editor_only": false
+ },
+ {
+  "key": "marson_industrializacao_2015",
+  "type": "article",
+  "authors_raw": [
+   "Marson, Michel Deliberali"
+  ],
+  "authors_norm": [
+   "marson"
+  ],
+  "year": "2015",
+  "title": "A industrialização brasileira antes de 1930: uma contribuição sobre a evolução d",
+  "is_editor_only": false
+ },
+ {
+  "key": "loureiro_industrializacao_2006",
+  "type": "article",
+  "authors_raw": [
+   "Loureiro, Felipe Pereira"
+  ],
+  "authors_norm": [
+   "loureiro"
+  ],
+  "year": "2006",
+  "title": "A {Industrialização} de {São} {Paulo}: problemas e perspectivas",
+  "is_editor_only": false
+ },
+ {
+  "key": "cardoso_dependencia_1970",
+  "type": "book",
+  "authors_raw": [
+   "Cardoso, Fernando Henrique",
+   "Faletto, Enzo"
+  ],
+  "authors_norm": [
+   "cardoso",
+   "faletto"
+  ],
+  "year": "1970",
+  "title": "Dependência e {Desenvolvimento} na {América} {Latina}: {Ensaio} de {Interpretaçã",
+  "is_editor_only": false
+ },
+ {
+  "key": "perissinotto_ideias_2023",
+  "type": "book",
+  "authors_raw": [
+   "Perissinotto, Renato"
+  ],
+  "authors_norm": [
+   "perissinotto"
+  ],
+  "year": "2023",
+  "title": "Ideias, burocracia e industrialização no {Brasil} e na {Argentina}",
+  "is_editor_only": false
+ },
+ {
+  "key": "mello_o_1982",
+  "type": "book",
+  "authors_raw": [
+   "Mello, João Manuel Cardoso De"
+  ],
+  "authors_norm": [
+   "mello"
+  ],
+  "year": "1982",
+  "title": "O capitalismo tardio: contribuição à revisão crítica da formação e do desenvolvi",
+  "is_editor_only": false
+ },
+ {
+  "key": "suzigan_industrializacao_2000",
+  "type": "article",
+  "authors_raw": [
+   "Suzigan, Wilson"
+  ],
+  "authors_norm": [
+   "suzigan"
+  ],
+  "year": "2000",
+  "title": "industrialização brasileira em perspectiva histórica",
+  "is_editor_only": false
+ },
+ {
+  "key": "suzigan_origens_1986",
+  "type": "incollection",
+  "authors_raw": [
+   "Suzigan, Wilson"
+  ],
+  "authors_norm": [
+   "suzigan"
+  ],
+  "year": "1986",
+  "title": "Origens do desenvolvimento industrial brasileiro: principais interpretações e qu",
+  "is_editor_only": false
+ },
+ {
+  "key": "pedreira_historiografia_2024",
+  "type": "article",
+  "authors_raw": [
+   "Pedreira, Pedro Henrique Campos",
+   "Brandão, Rafael Vaz da Motta",
+   "Filho, Almir Pita Freitas"
+  ],
+  "authors_norm": [
+   "pedreira",
+   "brandao",
+   "filho"
+  ],
+  "year": "2024",
+  "title": "A historiografia da industrialização fluminense: {A} renovação recente dos estud",
+  "is_editor_only": false
+ },
+ {
+  "key": "saes_industria_2014",
+  "type": "article",
+  "authors_raw": [
+   "Saes, Flávio",
+   "Nozoe, Nelson"
+  ],
+  "authors_norm": [
+   "saes",
+   "nozoe"
+  ],
+  "year": "2014",
+  "title": "A indústria paulista da crise de 1929",
+  "is_editor_only": false
+ },
+ {
+  "key": "de_moraes_formacao_2024",
+  "type": "article",
+  "authors_raw": [
+   "de Moraes, Taís Dias"
+  ],
+  "authors_norm": [
+   "demoraes"
+  ],
+  "year": "2024",
+  "title": "A {FORMAÇÃO} {DO} {MERCADO} {DE} {TRABALHO} {ASSALARIADO} {EM} {SÃO} {PAULO}: {O",
+  "is_editor_only": false
+ },
+ {
+  "key": "lanna_casas_2019",
+  "type": "article",
+  "authors_raw": [
+   "Lanna, Beatriz Duarte"
+  ],
+  "authors_norm": [
+   "lanna"
+  ],
+  "year": "2019",
+  "title": "casas exportadoras e importadoras no porto de santos e a cadeia global do café (",
+  "is_editor_only": false
+ },
+ {
+  "key": "lanza_cafe_2014",
+  "type": "article",
+  "authors_raw": [
+   "Lanza, André Luiz",
+   "Lamounier, Maria Lúcia"
+  ],
+  "authors_norm": [
+   "lanza",
+   "lamounier"
+  ],
+  "year": "2014",
+  "title": "Café, imigrantes e empresas no nordeste de {São} {Paulo} ({Ribeirão} {Preto}, 18",
+  "is_editor_only": false
+ },
+ {
+  "key": "fernandes_revolucao_2020",
+  "type": "book",
+  "authors_raw": [
+   "Fernandes, Florestan"
+  ],
+  "authors_norm": [
+   "fernandes"
+  ],
+  "year": "2020",
+  "title": "A revolução burguesa no {Brasil}: ensaio de interpretação sociológica",
+  "is_editor_only": false
+ },
+ {
+  "key": "prado_jr_formacao_nodate",
+  "type": "book",
+  "authors_raw": [
+   "Prado Jr, Caio"
+  ],
+  "authors_norm": [
+   "pradojr"
+  ],
+  "year": "",
+  "title": "Formação do {Brasil} {Contemporâneo}",
+  "is_editor_only": false
+ },
+ {
+  "key": "de_holanda_raizes_nodate",
+  "type": "book",
+  "authors_raw": [
+   "de Holanda, Sérgio Buarque"
+  ],
+  "authors_norm": [
+   "deholanda"
+  ],
+  "year": "",
+  "title": "Raízes do {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "bethell_cambridge_2009",
+  "type": "incollection",
+  "authors_raw": [
+   "Bethell, Leslie"
+  ],
+  "authors_norm": [
+   "bethell"
+  ],
+  "year": "2009",
+  "title": "The {Cambridge} history of {Latin} {America}: economy, society and politics. {Vo",
+  "is_editor_only": true
+ },
+ {
+  "key": "bethell_cambridge_2009-1",
+  "type": "incollection",
+  "authors_raw": [
+   "Bethell, Leslie"
+  ],
+  "authors_norm": [
+   "bethell"
+  ],
+  "year": "2009",
+  "title": "The {Cambridge} history of {Latin} {America}: economy, society and politics. {Vo",
+  "is_editor_only": true
+ },
+ {
+  "key": "salomao_os_2021",
+  "type": "book",
+  "authors_raw": [
+   "Salomão, Ivan Colangelo"
+  ],
+  "authors_norm": [
+   "salomao"
+  ],
+  "year": "2021",
+  "title": "Os homens do cofre: {O} que pensavam os ministros da {Fazenda} do {Brasil} {Repu",
+  "is_editor_only": true
+ },
+ {
+  "key": "barreto_o_2018",
+  "type": "article",
+  "authors_raw": [
+   "Barreto, Guilherme"
+  ],
+  "authors_norm": [
+   "barreto"
+  ],
+  "year": "2018",
+  "title": "O {PROCESSO} {DE} {INDUSTRIALIZAÇÃO} {DO} {RIO} {DE} {JANEIRO} {NO} {OITOCENTOS}",
+  "is_editor_only": false
+ },
+ {
+  "key": "curado_industrializacao_2013",
+  "type": "article",
+  "authors_raw": [
+   "Curado, Marcelo"
+  ],
+  "authors_norm": [
+   "curado"
+  ],
+  "year": "2013",
+  "title": "Industrialização e desenvolvimento: uma análise do pensamento econômico brasilei",
+  "is_editor_only": false
+ },
+ {
+  "key": "feijo_industrializacao_2023",
+  "type": "book",
+  "authors_raw": [
+   "Feijó, Carmem",
+   "Araujo, Eliane"
+  ],
+  "authors_norm": [
+   "feijo",
+   "araujo"
+  ],
+  "year": "2023",
+  "title": "Industrialização e desindustrialização no {Brasil}: {Teorias}, evidências e impl",
+  "is_editor_only": true
+ },
+ {
+  "key": "gontijo_revolucao_1988",
+  "type": "article",
+  "authors_raw": [
+   "Gontijo, Cláudio"
+  ],
+  "authors_norm": [
+   "gontijo"
+  ],
+  "year": "1988",
+  "title": "A revolução agrícola no {Brasil}: singularidade do desenvolvimento do capitalism",
+  "is_editor_only": false
+ },
+ {
+  "key": "saraiva_atlas_nodate",
+  "type": "article",
+  "authors_raw": [
+   "Saraiva, Luiz Fernando",
+   "Nabarro, Wagner",
+   "Goldfeder, Pérola"
+  ],
+  "authors_norm": [
+   "saraiva",
+   "nabarro",
+   "goldfeder"
+  ],
+  "year": "",
+  "title": "{ATLAS} {HISTÓRICO}- {ECONÔMICO} {DO} {BRASIL} {NO} {SÉCULO} {XIX}",
+  "is_editor_only": false
+ },
+ {
+  "key": "pereira_dos_santos_formation_2024",
+  "type": "article",
+  "authors_raw": [
+   "Pereira Dos Santos, Rodrigo Salles"
+  ],
+  "authors_norm": [
+   "pereiradossantos"
+  ],
+  "year": "2024",
+  "title": "formation of the financial market in {Uruguay} (1851-1900): currency, credit and",
+  "is_editor_only": false
+ },
+ {
+  "key": "cano_brasil_2017",
+  "type": "article",
+  "authors_raw": [
+   "Cano, Wilson"
+  ],
+  "authors_norm": [
+   "cano"
+  ],
+  "year": "2017",
+  "title": "Brasil - construção e desconstrução do desenvolvimento",
+  "is_editor_only": false
+ },
+ {
+  "key": "leite_dos_santos_breves_2022",
+  "type": "article",
+  "authors_raw": [
+   "Leite dos Santos, Anderson Felipe"
+  ],
+  "authors_norm": [
+   "leitedossantos"
+  ],
+  "year": "2022",
+  "title": "{BREVES} {APONTAMENTOS} {ACERCA} {DA} {EVOLUÇÃO} {HISTÓRICA} {DA} {INDÚSTRIA}: {",
+  "is_editor_only": false
+ },
+ {
+  "key": "cano_desindustrializacao_2012",
+  "type": "article",
+  "authors_raw": [
+   "Cano, Wilson"
+  ],
+  "authors_norm": [
+   "cano"
+  ],
+  "year": "2012",
+  "title": "A desindustrialização no {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "paiva_burocracia_2009",
+  "type": "article",
+  "authors_raw": [
+   "Paiva, Carlos Henrique Assunção"
+  ],
+  "authors_norm": [
+   "paiva"
+  ],
+  "year": "2009",
+  "title": "A burocracia no {Brasil}: as bases da administração pública nacional em perspect",
+  "is_editor_only": false
+ },
+ {
+  "key": "bresser-pereira_burocracia_2007",
+  "type": "article",
+  "authors_raw": [
+   "Bresser-Pereira, Luiz Carlos"
+  ],
+  "authors_norm": [
+   "bresserpereira"
+  ],
+  "year": "2007",
+  "title": "Burocracia pública e classes dirigentes no {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "jr_historia_2021",
+  "type": "book",
+  "authors_raw": [
+   "Jr, Caio Prado"
+  ],
+  "authors_norm": [
+   "jr"
+  ],
+  "year": "2021",
+  "title": "História e desenvolvimento",
+  "is_editor_only": false
+ },
+ {
+  "key": "schwarcz_brasil_2015",
+  "type": "book",
+  "authors_raw": [
+   "Schwarcz, Lilia Moritz",
+   "Starling, Heloisa Maria Murgel"
+  ],
+  "authors_norm": [
+   "schwarcz",
+   "starling"
+  ],
+  "year": "2015",
+  "title": "Brasil: uma biografia",
+  "is_editor_only": false
+ },
+ {
+  "key": "tavares_acumulacao_1998",
+  "type": "book",
+  "authors_raw": [
+   "Tavares, Maria da Conceição."
+  ],
+  "authors_norm": [
+   "tavares"
+  ],
+  "year": "1998",
+  "title": "Acumulação de capital e industrialização no {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "tavares_da_1973",
+  "type": "book",
+  "authors_raw": [
+   "Tavares, Maria da Conceição."
+  ],
+  "authors_norm": [
+   "tavares"
+  ],
+  "year": "1973",
+  "title": "Da substituição de importações ao capitalismo financeiro: ensaios sobre economia",
+  "is_editor_only": false
+ },
+ {
+  "key": "abreu_ordem_2014",
+  "type": "book",
+  "authors_raw": [
+   "Abreu, Marcelo de Paiva"
+  ],
+  "authors_norm": [
+   "abreu"
+  ],
+  "year": "2014",
+  "title": "A ordem do progresso: dois séculos de política econômica no {Brasil}",
+  "is_editor_only": true
+ },
+ {
+  "key": "hermann_economia_2025",
+  "type": "book",
+  "authors_raw": [
+   "Hermann, Jennifer",
+   "Barros, Lavínia",
+   "Giambiagi, Fábio",
+   "Villela, André"
+  ],
+  "authors_norm": [
+   "hermann",
+   "barros",
+   "giambiagi",
+   "villela"
+  ],
+  "year": "2025",
+  "title": "Economia brasileira contemporânea",
+  "is_editor_only": true
+ },
+ {
+  "key": "souza_historia_2022",
+  "type": "book",
+  "authors_raw": [
+   "Souza, Luiz Eduardo Simões de",
+   "Previdelli, Maria de Fátima Silva do Carmo"
+  ],
+  "authors_norm": [
+   "souza",
+   "previdelli"
+  ],
+  "year": "2022",
+  "title": "História econômica do {Brasil} contemporâneo",
+  "is_editor_only": true
+ },
+ {
+  "key": "suzigan_experiencia_1996",
+  "type": "article",
+  "authors_raw": [
+   "Suzigan, Wilson"
+  ],
+  "authors_norm": [
+   "suzigan"
+  ],
+  "year": "1996",
+  "title": "Experiência histórica de política industrial no {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "evans_dependent_1979",
+  "type": "book",
+  "authors_raw": [
+   "Evans, Peter B."
+  ],
+  "authors_norm": [
+   "evans"
+  ],
+  "year": "1979",
+  "title": "Dependent {Development}: the {Alliance} of {Multinational}, {State}, and {Local}",
+  "is_editor_only": false
+ },
+ {
+  "key": "barbosa_developmentalist_2020",
+  "type": "article",
+  "authors_raw": [
+   "Barbosa, Alexandre De Freitas"
+  ],
+  "authors_norm": [
+   "barbosa"
+  ],
+  "year": "2020",
+  "title": "\"{Developmentalist} {Brazil}\" (1945-1964) as a concept: historicizing and (re)pe",
+  "is_editor_only": false
+ },
+ {
+  "key": "huertas_empreiteiras_2022",
+  "type": "article",
+  "authors_raw": [
+   "Huertas, Daniel Monteiro"
+  ],
+  "authors_norm": [
+   "huertas"
+  ],
+  "year": "2022",
+  "title": "Empreiteiras, concorrências públicas e mudança da capital federal: o ápice do ro",
+  "is_editor_only": false
+ },
+ {
+  "key": "kon_quatro_1994",
+  "type": "article",
+  "authors_raw": [
+   "Kon, Anita"
+  ],
+  "authors_norm": [
+   "kon"
+  ],
+  "year": "1994",
+  "title": "Quatro décadas de planejamento econômico no {Brasil}",
+  "is_editor_only": false
+ },
+ {
+  "key": "fontes_um_2008",
+  "type": "book",
+  "authors_raw": [
+   "Fontes, Paulo"
+  ],
+  "authors_norm": [
+   "fontes"
+  ],
+  "year": "2008",
+  "title": "Um {Nordeste} {Em} são {Paulo}: {Trabalhadores} {Migrantes} {Em} são {Miguel} {P",
+  "is_editor_only": false
+ },
+ {
+  "key": "amaral_barreto_2022",
+  "type": "article",
+  "authors_raw": [
+   "Amaral, Luciana Pucu Wollmann Do"
+  ],
+  "authors_norm": [
+   "amaral"
+  ],
+  "year": "2022",
+  "title": "Barreto, \"bairro operário\": trabalhadores, política e associativismo em uma comu",
+  "is_editor_only": false
+ },
+ {
+  "key": "fontes_migration_2016",
+  "type": "book",
+  "authors_raw": [
+   "Fontes, Paulo"
+  ],
+  "authors_norm": [
+   "fontes"
+  ],
+  "year": "2016",
+  "title": "Migration and the {Making} of {Industrial} {São} {Paulo}",
+  "is_editor_only": false
+ },
+ {
+  "key": "fico_historia_2022",
+  "type": "book",
+  "authors_raw": [
+   "Fico, Carlos"
+  ],
+  "authors_norm": [
+   "fico"
+  ],
+  "year": "2022",
+  "title": "História do {Brasil} contemporâneo",
+  "is_editor_only": false
+ },
+ {
+  "key": "bueno_economia_2004",
+  "type": "article",
+  "authors_raw": [
+   "Bueno, Newton Paulo",
+   "Faro, José Heleno"
+  ],
+  "authors_norm": [
+   "bueno",
+   "faro"
+  ],
+  "year": "2004",
+  "title": "Economia e instituições no governo {Kubitschek}",
+  "is_editor_only": false
+ },
+ {
+  "key": "souza_desenvolvimentismo_2022",
+  "type": "incollection",
+  "authors_raw": [
+   "Almeida, Fernando Roberto de Freitas"
+  ],
+  "authors_norm": [
+   "almeida"
+  ],
+  "year": "2022",
+  "title": "Desenvolvimentismo, um projeto moderno contra o conservadorismo estrutural",
+  "is_editor_only": false
+ },
+ {
+  "key": "hermann_dos_2025",
+  "type": "incollection",
+  "authors_raw": [
+   "Villela, André"
+  ],
+  "authors_norm": [
+   "villela"
+  ],
+  "year": "2025",
+  "title": "Dos \"{Anos} {Dourados}\" de {JK} à {Crise} {Não} {Resolvida} (1956-1963)",
+  "is_editor_only": false
+ },
+ {
+  "key": "hermann_o_2025",
+  "type": "incollection",
+  "authors_raw": [
+   "Vianna, Sérgio Besserman",
+   "Villela, André"
+  ],
+  "authors_norm": [
+   "vianna",
+   "villela"
+  ],
+  "year": "2025",
+  "title": "O pós-{Guerra} (1945-1955)",
+  "is_editor_only": false
+ },
+ {
+  "key": "abreu_inflacao_2014",
+  "type": "incollection",
+  "authors_raw": [
+   "Mesquita, Mario M.C."
+  ],
+  "authors_norm": [
+   "mesquita"
+  ],
+  "year": "2014",
+  "title": "Inflação, ruptura e estagnação, 1961-1964",
+  "is_editor_only": false
+ },
+ {
+  "key": "silva_geopolitica_2024",
+  "type": "article",
+  "authors_raw": [
+   "Silva, Osmar Fernando Alves Da",
+   "Assis, Raimundo Jucier Sousa De",
+   "Madureira, Carolina Pereira",
+   "Junior, Jandir Oliveira Alves"
+  ],
+  "authors_norm": [
+   "silva",
+   "assis",
+   "madureira",
+   "junior"
+  ],
+  "year": "2024",
+  "title": "{GEOPOLÍTICA} {SINO}-{BRASILEIRA}: {ACORDOS} {BILATERAIS}, {TROCAS} {COMERCIAIS}",
+  "is_editor_only": false
+ },
+ {
+  "key": "vergnhanini_desindustrializacao_2024",
+  "type": "article",
+  "authors_raw": [
+   "Vergnhanini, Rodrigo",
+   "Onoda, Suzana"
+  ],
+  "authors_norm": [
+   "vergnhanini",
+   "onoda"
+  ],
+  "year": "2024",
+  "title": "Desindustrialização brasileira no século {XXI}: introduzindo o papel da demanda ",
+  "is_editor_only": false
+ },
+ {
+  "key": "rodrigues_o_2007",
+  "type": "incollection",
+  "authors_raw": [
+   "Santos, Rodrigo Salles Pereira dos"
+  ],
+  "authors_norm": [
+   "santos"
+  ],
+  "year": "2007",
+  "title": "O {Sul} fluminense em questão: o papel das redes sóciopolíticas na promoção do d",
+  "is_editor_only": false
+ },
+ {
+  "key": "cndi_nova_2024",
+  "type": "techreport",
+  "authors_raw": [
+   "{CNDI, Conselho Nacional de Desenvolvimento Industrial}",
+   "{MDIC, Indústria, Comércio e Serviços, Ministério do Desenvolvimento}"
+  ],
+  "authors_norm": [
+   "cndi",
+   "mdic"
+  ],
+  "year": "2024",
+  "title": "Nova indústria {Brasil} – {Nova} indústria {Brasil} – forte, transformadora e su",
+  "is_editor_only": false
+ },
+ {
+  "key": "oreiro_desindustrializacao_2010",
+  "type": "article",
+  "authors_raw": [
+   "Oreiro, José Luis",
+   "Feijó, Carmem A."
+  ],
+  "authors_norm": [
+   "oreiro",
+   "feijo"
+  ],
+  "year": "2010",
+  "title": "Desindustrialização: conceituação, causas, efeitos e o caso brasileiro",
+  "is_editor_only": false
+ },
+ {
+  "key": "high_industrial_2003",
+  "type": "book",
+  "authors_raw": [
+   "High, Steven"
+  ],
+  "authors_norm": [
+   "high"
+  ],
+  "year": "2003",
+  "title": "Industrial {Sunset}: {The} {Making} of {North} {America}'s {Rust} {Belt}, 1969-1",
+  "is_editor_only": false
+ },
+ {
+  "key": "cowie_beyond_2003",
+  "type": "book",
+  "authors_raw": [
+   "Cowie, Jefferson",
+   "Heathcott, Joseph"
+  ],
+  "authors_norm": [
+   "cowie",
+   "heathcott"
+  ],
+  "year": "2003",
+  "title": "Beyond the ruins: the meanings of deindustrialization",
+  "is_editor_only": true
+ },
+ {
+  "key": "bluestone_deindustrialization_1982",
+  "type": "book",
+  "authors_raw": [
+   "Bluestone, Barry",
+   "Harrison, Bennet"
+  ],
+  "authors_norm": [
+   "bluestone",
+   "harrison"
+  ],
+  "year": "1982",
+  "title": "The deindustrialization of {America}: plant closings, community abandonment, and",
+  "is_editor_only": false
+ },
+ {
+  "key": "alderson_explaining_1999",
+  "type": "article",
+  "authors_raw": [
+   "Alderson, Arthur S."
+  ],
+  "authors_norm": [
+   "alderson"
+  ],
+  "year": "1999",
+  "title": "Explaining {Deindustrialization}: {Globalization}, {Failure}, or {Success}?",
+  "is_editor_only": false
+ },
+ {
+  "key": "high_wounds_2013",
+  "type": "article",
+  "authors_raw": [
+   "High, Steven"
+  ],
+  "authors_norm": [
+   "high"
+  ],
+  "year": "2013",
+  "title": "“{The} {Wounds} of {Class}”: {A} {Historiographical} {Reflection} on the {Study}",
+  "is_editor_only": false
+ },
+ {
+  "key": "thompson_working_2010",
+  "type": "book",
+  "authors_raw": [
+   "Thompson, Paul",
+   "Smith, Chris"
+  ],
+  "authors_norm": [
+   "thompson",
+   "smith"
+  ],
+  "year": "2010",
+  "title": "Working {Life}",
+  "is_editor_only": true
+ },
+ {
+  "key": "hoekstra_iconic_2020",
+  "type": "article",
+  "authors_raw": [
+   "Hoekstra, Myrte Sophie"
+  ],
+  "authors_norm": [
+   "hoekstra"
+  ],
+  "year": "2020",
+  "title": "Iconic {Architecture} and {Middle}-{Class} {Politics} of {Memory} in a {Deindust",
+  "is_editor_only": false
+ },
+ {
+  "key": "hodson_titanic_2019",
+  "type": "article",
+  "authors_raw": [
+   "Hodson, Pete"
+  ],
+  "authors_norm": [
+   "hodson"
+  ],
+  "year": "2019",
+  "title": "Titanic {Struggle}: {Memory}, {Heritage} and {Shipyard} {Deindustrialization} in",
+  "is_editor_only": false
+ },
+ {
+  "key": "durazzi_social_2020",
+  "type": "article",
+  "authors_raw": [
+   "Durazzi, Niccolo",
+   "Geyer, Leonard"
+  ],
+  "authors_norm": [
+   "durazzi",
+   "geyer"
+  ],
+  "year": "2020",
+  "title": "Social inclusion in the knowledge economy: unions’ strategies and institutional ",
+  "is_editor_only": false
+ },
+ {
+  "key": "highsmith_beyond_2014",
+  "type": "article",
+  "authors_raw": [
+   "Highsmith, Andrew R."
+  ],
+  "authors_norm": [
+   "highsmith"
+  ],
+  "year": "2014",
+  "title": "Beyond {Corporate} {Abandonment}: {General} {Motors} and the {Politics} of {Metr",
+  "is_editor_only": false
+ },
+ {
+  "key": "clarke_closing_2015",
+  "type": "article",
+  "authors_raw": [
+   "Clarke, J."
+  ],
+  "authors_norm": [
+   "clarke"
+  ],
+  "year": "2015",
+  "title": "Closing {Time}: {Deindustrialization} and {Nostalgia} in {Contemporary} {France}",
+  "is_editor_only": false
+ },
+ {
+  "key": "clark_voices_2020",
+  "type": "article",
+  "authors_raw": [
+   "Clark, Andy",
+   "Gibbs, Ewan"
+  ],
+  "authors_norm": [
+   "clark",
+   "gibbs"
+  ],
+  "year": "2020",
+  "title": "Voices of social dislocation, lost work and economic restructuring: {Narratives}",
+  "is_editor_only": false
+ },
+ {
+  "key": "berger_burdens_2017",
+  "type": "article",
+  "authors_raw": [
+   "Berger, Stefan",
+   "Wicke, Christian",
+   "Golombek, Jana"
+  ],
+  "authors_norm": [
+   "berger",
+   "wicke",
+   "golombek"
+  ],
+  "year": "2017",
+  "title": "Burdens of {Eternity}?",
+  "is_editor_only": false
+ },
+ {
+  "key": "lawson_making_2020",
+  "type": "article",
+  "authors_raw": [
+   "Lawson, Christopher"
+  ],
+  "authors_norm": [
+   "lawson"
+  ],
+  "year": "2020",
+  "title": "Making sense of the ruins: {The} historiography of deindustrialisation and its c",
+  "is_editor_only": false
+ },
+ {
+  "key": "iversen_causes_2000",
+  "type": "article",
+  "authors_raw": [
+   "Iversen, Torben",
+   "Cusack, Thomas R."
+  ],
+  "authors_norm": [
+   "iversen",
+   "cusack"
+  ],
+  "year": "2000",
+  "title": "The {Causes} of {Welfare} {State} {Expansion}: {Deindustrialization} or {Globali",
+  "is_editor_only": false
+ },
+ {
+  "key": "clarke_closing_2011",
+  "type": "article",
+  "authors_raw": [
+   "Clarke, Jackie"
+  ],
+  "authors_norm": [
+   "clarke"
+  ],
+  "year": "2011",
+  "title": "Closing {Moulinex}: {Thoughts} on the {Visibility} and {Invisibility} of {Indust",
+  "is_editor_only": false
+ },
+ {
+  "key": "pamuk_ottoman_2011",
+  "type": "article",
+  "authors_raw": [
+   "Pamuk, {\\c S}evket",
+   "Williamson, Jeffrey G."
+  ],
+  "authors_norm": [
+   "pamuk",
+   "williamson"
+  ],
+  "year": "2011",
+  "title": "Ottoman de‐industrialization, 1800–1913: assessing the magnitude, impact, and re",
+  "is_editor_only": false
+ },
+ {
+  "key": "rhodes_youngstowns_2013",
+  "type": "article",
+  "authors_raw": [
+   "Rhodes, James"
+  ],
+  "authors_norm": [
+   "rhodes"
+  ],
+  "year": "2013",
+  "title": "Youngstown's ‘{Ghost}’? {Memory}, {Identity}, and {Deindustrialization}",
+  "is_editor_only": false
+ },
+ {
+  "key": "nayak_displaced_2006",
+  "type": "article",
+  "authors_raw": [
+   "Nayak, Anoop"
+  ],
+  "authors_norm": [
+   "nayak"
+  ],
+  "year": "2006",
+  "title": "Displaced {Masculinities}: {Chavs}, {Youth} and {Class} in the {Post}-industrial",
+  "is_editor_only": false
+ },
+ {
+  "key": "gibbs_moral_2018",
+  "type": "article",
+  "authors_raw": [
+   "Gibbs, Ewan"
+  ],
+  "authors_norm": [
+   "gibbs"
+  ],
+  "year": "2018",
+  "title": "The {Moral} {Economy} of the {Scottish} {Coalfields}: {Managing} {Deindustrializ",
+  "is_editor_only": false
+ },
+ {
+  "key": "clingingsmith_deindustrialization_2008",
+  "type": "article",
+  "authors_raw": [
+   "Clingingsmith, David",
+   "Williamson, Jeffrey G."
+  ],
+  "authors_norm": [
+   "clingingsmith",
+   "williamson"
+  ],
+  "year": "2008",
+  "title": "Deindustrialization in 18th and 19th century {India}: {Mughal} decline, climate ",
+  "is_editor_only": false
+ },
+ {
+  "key": "byrne_industrial_2002",
+  "type": "article",
+  "authors_raw": [
+   "Byrne, David"
+  ],
+  "authors_norm": [
+   "byrne"
+  ],
+  "year": "2002",
+  "title": "Industrial culture in a post-industrial world: {The} case of the {North} {East} ",
+  "is_editor_only": false
+ },
+ {
+  "key": "alderson_globalization_2002",
+  "type": "article",
+  "authors_raw": [
+   "Alderson, Arthur S.",
+   "Nielsen, François"
+  ],
+  "authors_norm": [
+   "alderson",
+   "nielsen"
+  ],
+  "year": "2002",
+  "title": "Globalization and the {Great} {U}-{Turn}: {Income} {Inequality} {Trends} in 16 {",
+  "is_editor_only": false
+ },
+ {
+  "key": "rodrik_premature_2016",
+  "type": "article",
+  "authors_raw": [
+   "Rodrik, Dani"
+  ],
+  "authors_norm": [
+   "rodrik"
+  ],
+  "year": "2016",
+  "title": "Premature deindustrialization",
+  "is_editor_only": false
+ },
+ {
+  "key": "kollmeyer_explaining_2009",
+  "type": "article",
+  "authors_raw": [
+   "Kollmeyer, Christopher"
+  ],
+  "authors_norm": [
+   "kollmeyer"
+  ],
+  "year": "2009",
+  "title": "Explaining {Deindustrialization}: {How} {Affluence}, {Productivity} {Growth}, an",
+  "is_editor_only": false
+ },
+ {
+  "key": "strangleman_new_2014",
+  "type": "article",
+  "authors_raw": [
+   "Strangleman, Tim",
+   "Rhodes, James"
+  ],
+  "authors_norm": [
+   "strangleman",
+   "rhodes"
+  ],
+  "year": "2014",
+  "title": "The ‘{New}’ {Sociology} of {Deindustrialisation}? {Understanding} {Industrial} {",
+  "is_editor_only": false
+ },
+ {
+  "key": "strangleman_introduction_2013",
+  "type": "article",
+  "authors_raw": [
+   "Strangleman, Tim",
+   "Rhodes, James",
+   "Linkon, Sherry"
+  ],
+  "authors_norm": [
+   "strangleman",
+   "rhodes",
+   "linkon"
+  ],
+  "year": "2013",
+  "title": "Introduction to {Crumbling} {Cultures}: {Deindustrialization}, {Class}, and {Mem",
+  "is_editor_only": false
+ },
+ {
+  "key": "tomlinson_re-inventing_2011",
+  "type": "article",
+  "authors_raw": [
+   "Tomlinson, Jim"
+  ],
+  "authors_norm": [
+   "tomlinson"
+  ],
+  "year": "2011",
+  "title": "Re-inventing the ‘moral economy’ in post-war {Britain}",
+  "is_editor_only": false
+ },
+ {
+  "key": "emery_geographies_2019",
+  "type": "article",
+  "authors_raw": [
+   "Emery, Jay"
+  ],
+  "authors_norm": [
+   "emery"
+  ],
+  "year": "2019",
+  "title": "Geographies of deindustrialization and the working‐class: {Industrial} ruination",
+  "is_editor_only": false
+ },
+ {
+  "key": "linkon_half-life_2018",
+  "type": "book",
+  "authors_raw": [
+   "Linkon, Sherry Lee"
+  ],
+  "authors_norm": [
+   "linkon"
+  ],
+  "year": "2018",
+  "title": "The half-life of deindustrialization: working-class writing about economic restr",
+  "is_editor_only": false
+ },
+ {
+  "key": "phillips_deindustrialization_2013",
+  "type": "article",
+  "authors_raw": [
+   "Phillips, Jim"
+  ],
+  "authors_norm": [
+   "phillips"
+  ],
+  "year": "2013",
+  "title": "Deindustrialization and the {Moral} {Economy} of the {Scottish} {Coalfields}, 19",
+  "is_editor_only": false
+ },
+ {
+  "key": "mah_industrial_2012",
+  "type": "book",
+  "authors_raw": [
+   "Mah, Alice"
+  ],
+  "authors_norm": [
+   "mah"
+  ],
+  "year": "2012",
+  "title": "Industrial ruination, community, and place: landscapes and legacies of urban dec",
+  "is_editor_only": false
+ },
+ {
+  "key": "high_beyond_2013",
+  "type": "article",
+  "authors_raw": [
+   "High, Steven"
+  ],
+  "authors_norm": [
+   "high"
+  ],
+  "year": "2013",
+  "title": "Beyond {Aesthetics}: {Visibility} and {Invisibility} in the {Aftermath} of {Dein",
+  "is_editor_only": false
+ },
+ {
+  "key": "perchard_broken_2013",
+  "type": "article",
+  "authors_raw": [
+   "Perchard, Andrew"
+  ],
+  "authors_norm": [
+   "perchard"
+  ],
+  "year": "2013",
+  "title": "“{Broken} {Men}” and “{Thatcher}'s {Children}”: {Memory} and {Legacy} in {Scotla",
+  "is_editor_only": false
+ },
+ {
+  "key": "thompson_making_1966",
+  "type": "book",
+  "authors_raw": [
+   "Thompson, Edward P."
+  ],
+  "authors_norm": [
+   "thompson"
+  ],
+  "year": "1966",
+  "title": "The making of the {English} working class",
+  "is_editor_only": false
+ },
+ {
+  "key": "feltrin_noxious_2022",
+  "type": "article",
+  "authors_raw": [
+   "Feltrin, Lorenzo",
+   "Mah, Alice",
+   "Brown, David"
+  ],
+  "authors_norm": [
+   "feltrin",
+   "mah",
+   "brown"
+  ],
+  "year": "2022",
+  "title": "Noxious deindustrialization: {Experiences} of precarity and pollution in {Scotla",
+  "is_editor_only": false
+ },
+ {
+  "key": "high_fruitless_2022",
+  "type": "article",
+  "authors_raw": [
+   "High, Steven"
+  ],
+  "authors_norm": [
+   "high"
+  ],
+  "year": "2022",
+  "title": "A fruitless exercise? {The} political struggle to compel corporations to justify",
+  "is_editor_only": false
+ },
+ {
+  "key": "tregenna_characterising_2009",
+  "type": "article",
+  "authors_raw": [
+   "Tregenna, Fiona"
+  ],
+  "authors_norm": [
+   "tregenna"
+  ],
+  "year": "2009",
+  "title": "Characterising deindustrialisation: {An} analysis of changes in manufacturing em",
+  "is_editor_only": false
+ },
+ {
+  "key": "henderson_redes_2011",
+  "type": "article",
+  "authors_raw": [
+   "Henderson, Jeffrey",
+   "Dicken, Peter",
+   "Hess, Martin",
+   "Coe, Neil",
+   "Yeung, Henry Wai-Chung"
+  ],
+  "authors_norm": [
+   "henderson",
+   "dicken",
+   "hess",
+   "coe",
+   "yeung"
+  ],
+  "year": "2011",
+  "title": "Redes de produção globais e a análise do desenvolvimento econômico",
+  "is_editor_only": false
+ },
+ {
+  "key": "rowthorn_growth_1999",
+  "type": "article",
+  "authors_raw": [
+   "Rowthorn, Robert",
+   "Ramaswamy, Ramana"
+  ],
+  "authors_norm": [
+   "rowthorn",
+   "ramaswamy"
+  ],
+  "year": "1999",
+  "title": "Growth, {Trade}, and {Deindustrialization}",
+  "is_editor_only": false
+ },
+ {
+  "key": "lewis_regenerating_2016",
+  "type": "article",
+  "authors_raw": [
+   "Lewis, Camilla"
+  ],
+  "authors_norm": [
+   "lewis"
+  ],
+  "year": "2016",
+  "title": "‘{Regenerating} community’? {Urban} change and narratives of the past",
+  "is_editor_only": false
+ },
+ {
+  "key": "harvey_condition_1992",
+  "type": "book",
+  "authors_raw": [
+   "Harvey, David"
+  ],
+  "authors_norm": [
+   "harvey"
+  ],
+  "year": "1992",
+  "title": "The condition of postmodernity: an enquiry into the origins of cultural change",
+  "is_editor_only": false
+ },
+ {
+  "key": "ritzer_deindustrialization_2012",
+  "type": "incollection",
+  "authors_raw": [
+   "Dandaneau, Steven P."
+  ],
+  "authors_norm": [
+   "dandaneau"
+  ],
+  "year": "2012",
+  "title": "Deindustrialization",
+  "is_editor_only": false
+ },
+ {
+  "key": "berger_industrial_2022",
+  "type": "article",
+  "authors_raw": [
+   "Berger, Thor",
+   "Engzell, Per"
+  ],
+  "authors_norm": [
+   "berger",
+   "engzell"
+  ],
+  "year": "2022",
+  "title": "Industrial automation and intergenerational income mobility in the {United} {Sta",
+  "is_editor_only": false
+ },
+ {
+  "key": "beatty_long_2020",
+  "type": "article",
+  "authors_raw": [
+   "Beatty, Christina",
+   "Fothergill, Steve"
+  ],
+  "authors_norm": [
+   "beatty",
+   "fothergill"
+  ],
+  "year": "2020",
+  "title": "The {Long} {Shadow} of {Job} {Loss}: {Britain}'s {Older} {Industrial} {Towns} in",
+  "is_editor_only": false
+ },
+ {
+  "key": "valls_european_2016",
+  "type": "techreport",
+  "authors_raw": [
+   "Valls, Raquel"
+  ],
+  "authors_norm": [
+   "valls"
+  ],
+  "year": "2016",
+  "title": "The {European} {Communities}",
+  "is_editor_only": false
+ },
+ {
+  "key": "santos_desenvolvimento_2016",
+  "type": "article",
+  "authors_raw": [
+   "Santos, Rodrigo Salles Pereira dos"
+  ],
+  "authors_norm": [
+   "santos"
+  ],
+  "year": "2016",
+  "title": "Desenvolvimento econômico e mudança social: a {Vale} e a mineração na {Amazônia}",
+  "is_editor_only": false
+ },
+ {
+  "key": "turner_industrialization_2017",
+  "type": "incollection",
+  "authors_raw": [
+   "Pula, Besnik"
+  ],
+  "authors_norm": [
+   "pula"
+  ],
+  "year": "2017",
+  "title": "Industrialization and {Deindustrialization}",
+  "is_editor_only": false
+ },
+ {
+  "key": "orum_deindustrialization_2019",
+  "type": "incollection",
+  "authors_raw": [
+   "Lois González, Rubén C."
+  ],
+  "authors_norm": [
+   "loisgonzalez"
+  ],
+  "year": "2019",
+  "title": "Deindustrialization",
+  "is_editor_only": false
+ },
+ {
+  "key": "ritzer_deindustrialization_2020",
+  "type": "incollection",
+  "authors_raw": [
+   "Kollmeyer, Christopher"
+  ],
+  "authors_norm": [
+   "kollmeyer"
+  ],
+  "year": "2020",
+  "title": "Deindustrialization",
+  "is_editor_only": false
+ },
+ {
+  "key": "winant_hard_2019",
+  "type": "article",
+  "authors_raw": [
+   "Winant, Gabriel"
+  ],
+  "authors_norm": [
+   "winant"
+  ],
+  "year": "2019",
+  "title": "“{Hard} {Times} {Make} for {Hard} {Arteries} and {Hard} {Livers}”: {Deindustrial",
+  "is_editor_only": false
+ },
+ {
+  "key": "van_nederveen_meerkerk_challenging_2017",
+  "type": "article",
+  "authors_raw": [
+   "Van Nederveen Meerkerk, Elise"
+  ],
+  "authors_norm": [
+   "vannederveenmeerkerk"
+  ],
+  "year": "2017",
+  "title": "Challenging the de‐industrialization thesis: gender and indigenous textile produ",
+  "is_editor_only": false
+ },
+ {
+  "key": "tomlinson_-industrialization_2020",
+  "type": "article",
+  "authors_raw": [
+   "Tomlinson, Jim"
+  ],
+  "authors_norm": [
+   "tomlinson"
+  ],
+  "year": "2020",
+  "title": "De-industrialization: strengths and weaknesses as a key concept for understandin",
+  "is_editor_only": false
+ },
+ {
+  "key": "tomlinson_-industrialization_2016",
+  "type": "article",
+  "authors_raw": [
+   "Tomlinson, Jim"
+  ],
+  "authors_norm": [
+   "tomlinson"
+  ],
+  "year": "2016",
+  "title": "De-industrialization {Not} {Decline}: {A} {New} {Meta}-narrative for {Post}-war ",
+  "is_editor_only": false
+ },
+ {
+  "key": "strangleman_deindustrialisation_2017",
+  "type": "article",
+  "authors_raw": [
+   "Strangleman, Tim"
+  ],
+  "authors_norm": [
+   "strangleman"
+  ],
+  "year": "2017",
+  "title": "Deindustrialisation and the {Historical} {Sociological} {Imagination}: {Making} ",
+  "is_editor_only": false
+ },
+ {
+  "key": "scheiring_deindustrialization_2023",
+  "type": "article",
+  "authors_raw": [
+   "Scheiring, Gábor",
+   "King, Lawrence"
+  ],
+  "authors_norm": [
+   "scheiring",
+   "king"
+  ],
+  "year": "2023",
+  "title": "Deindustrialization, social disintegration, and health: a neoclassical sociologi",
+  "is_editor_only": false
+ },
+ {
+  "key": "scheiring_left_2020",
+  "type": "article",
+  "authors_raw": [
+   "Scheiring, Gábor"
+  ],
+  "authors_norm": [
+   "scheiring"
+  ],
+  "year": "2020",
+  "title": "Left {Behind} in the {Hungarian} {Rustbelt}: {The} {Cultural} {Political} {Econo",
+  "is_editor_only": false
+ },
+ {
+  "key": "phillips_deindustrialization_2019",
+  "type": "article",
+  "authors_raw": [
+   "Phillips, Jim",
+   "Wright, Valerie",
+   "Tomlinson, Jim"
+  ],
+  "authors_norm": [
+   "phillips",
+   "wright",
+   "tomlinson"
+  ],
+  "year": "2019",
+  "title": "Deindustrialization, the {Linwood} {Car} {Plant} and {Scotland}’s {Political} {D",
+  "is_editor_only": false
+ },
+ {
+  "key": "phillips_closure_2015",
+  "type": "article",
+  "authors_raw": [
+   "Phillips, J."
+  ],
+  "authors_norm": [
+   "phillips"
+  ],
+  "year": "2015",
+  "title": "The {Closure} of {Michael} {Colliery} in 1967 and the {Politics} of {Deindustria",
+  "is_editor_only": false
+ },
+ {
+  "key": "nettleingham_beyond_2019",
+  "type": "article",
+  "authors_raw": [
+   "Nettleingham, David"
+  ],
+  "authors_norm": [
+   "nettleingham"
+  ],
+  "year": "2019",
+  "title": "Beyond the heartlands: deindustrialization, naturalization and the meaning of an",
+  "is_editor_only": false
+ },
+ {
+  "key": "lee_institutional_2016",
+  "type": "article",
+  "authors_raw": [
+   "Lee, Sophia Seung-Yoon"
+  ],
+  "authors_norm": [
+   "lee"
+  ],
+  "year": "2016",
+  "title": "Institutional legacy of state corporatism in de-industrial labour markets: a com",
+  "is_editor_only": false
+ },
+ {
+  "key": "kollmeyer_trade_2018",
+  "type": "article",
+  "authors_raw": [
+   "Kollmeyer, Christopher"
+  ],
+  "authors_norm": [
+   "kollmeyer"
+  ],
+  "year": "2018",
+  "title": "Trade union decline, deindustrialization, and rising income inequality in the {U",
+  "is_editor_only": false
+ },
+ {
+  "key": "jesson_doing_2011",
+  "type": "book",
+  "authors_raw": [
+   "Jesson, Jill",
+   "Matheson, Lydia",
+   "Lacey, Fiona M."
+  ],
+  "authors_norm": [
+   "jesson",
+   "matheson",
+   "lacey"
+  ],
+  "year": "2011",
+  "title": "Doing your literature review: traditional and systematic techniques",
+  "is_editor_only": false
+ },
+ {
+  "key": "efron_writing_2019",
+  "type": "book",
+  "authors_raw": [
+   "Efron, Sara Efrat",
+   "Ravid, Ruth"
+  ],
+  "authors_norm": [
+   "efron",
+   "ravid"
+  ],
+  "year": "2019",
+  "title": "Writing the {Literature} {Review}",
+  "is_editor_only": false
+ },
+ {
+  "key": "evans_bringing_1985",
+  "type": "book",
+  "authors_raw": [
+   "Evans, Peter B.",
+   "Rueschemeyer, Dietrich",
+   "Skocpol, Theda"
+  ],
+  "authors_norm": [
+   "evans",
+   "rueschemeyer",
+   "skocpol"
+  ],
+  "year": "1985",
+  "title": "Bringing the state back in",
+  "is_editor_only": true
+ },
+ {
+  "key": "evans_embedded_1995",
+  "type": "book",
+  "authors_raw": [
+   "Evans, Peter B."
+  ],
+  "authors_norm": [
+   "evans"
+  ],
+  "year": "1995",
+  "title": "Embedded autonomy: states and industrial transformation",
+  "is_editor_only": false
+ },
+ {
+  "key": "maia_ha_2020",
+  "type": "article",
+  "authors_raw": [
+   "Maia, Bento Antunes de Andrade"
+  ],
+  "authors_norm": [
+   "maia"
+  ],
+  "year": "2020",
+  "title": "Há desindustrialização no {Brasil}? {Um} estudo da abordagem clássica e de análi",
+  "is_editor_only": false
+ },
+ {
+  "key": "morceiro_sectoral_2023",
+  "type": "article",
+  "authors_raw": [
+   "Morceiro, Paulo César",
+   "Guilhoto, Joaquim José Martins"
+  ],
+  "authors_norm": [
+   "morceiro",
+   "guilhoto"
+  ],
+  "year": "2023",
+  "title": "Sectoral deindustrialization and long-run stagnation of {Brazilian} manufacturin",
+  "is_editor_only": false
+ },
+ {
+  "key": "marconi_taxa_2012",
+  "type": "article",
+  "authors_raw": [
+   "Marconi, Nelson",
+   "Rocha, Marcos"
+  ],
+  "authors_norm": [
+   "marconi",
+   "rocha"
+  ],
+  "year": "2012",
+  "title": "Taxa de câmbio, comércio exterior e desindustrialização precoce: o caso brasilei",
+  "is_editor_only": false
+ },
+ {
+  "key": "nassif_ha_2008",
+  "type": "article",
+  "authors_raw": [
+   "Nassif, André"
+  ],
+  "authors_norm": [
+   "nassif"
+  ],
+  "year": "2008",
+  "title": "Há evidências de desindustrialização no {Brasil}?",
+  "is_editor_only": false
+ },
+ {
+  "key": "giorgini_independencia_2025",
+  "type": "article",
+  "authors_raw": [
+   "Giorgini, Flores",
+   "Iumatti, Paulo Teixeira"
+  ],
+  "authors_norm": [
+   "giorgini",
+   "iumatti"
+  ],
+  "year": "2025",
+  "title": "“{Independência} ou morte!”: a teoria da dependência em debate",
+  "is_editor_only": false
+ },
+ {
+  "key": "bastos_as_2025",
+  "type": "article",
+  "authors_raw": [
+   "Bastos, Pedro Paulo Zahluth"
+  ],
+  "authors_norm": [
+   "bastos"
+  ],
+  "year": "2025",
+  "title": "As duas vertentes marxistas da teoria da dependência e seus limites: para uma no",
+  "is_editor_only": false
+ },
+ {
+  "key": "leme_desenvolvimento_2015",
+  "type": "article",
+  "authors_raw": [
+   "Leme, Alessandro André"
+  ],
+  "authors_norm": [
+   "leme"
+  ],
+  "year": "2015",
+  "title": "Desenvolvimento e sociologia: uma aproximação necessária",
+  "is_editor_only": false
+ },
+ {
+  "key": "bielschowsky_estrategia_2012",
+  "type": "article",
+  "authors_raw": [
+   "Bielschowsky, Ricardo"
+  ],
+  "authors_norm": [
+   "bielschowsky"
+  ],
+  "year": "2012",
+  "title": "Estratégia de desenvolvimento e as três frentes de expansão no {Brasil}: um dese",
+  "is_editor_only": false
+ },
+ {
+  "key": "della_porta_case_2008",
+  "type": "incollection",
+  "authors_raw": [
+   "Vennesson, Pascal"
+  ],
+  "authors_norm": [
+   "vennesson"
+  ],
+  "year": "2008",
+  "title": "Case studies and process tracing: theories and practices",
+  "is_editor_only": false
+ },
+ {
+  "key": "della_porta_comparative_2008",
+  "type": "incollection",
+  "authors_raw": [
+   "Donatella, della Porta"
+  ],
+  "authors_norm": [
+   "donatella"
+  ],
+  "year": "2008",
+  "title": "Comparative analysis: case-oriented versus variable-oriented research",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_power_2015",
+  "type": "incollection",
+  "authors_raw": [
+   "Pierson, Paul"
+  ],
+  "authors_norm": [
+   "pierson"
+  ],
+  "year": "2015",
+  "title": "Power and {Path} {Dependence}",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_comparative-historical_2015",
+  "type": "incollection",
+  "authors_raw": [
+   "Thelen, Kathleen Ann",
+   "Mahoney, James"
+  ],
+  "authors_norm": [
+   "thelen",
+   "mahoney"
+  ],
+  "year": "2015",
+  "title": "Comparative-{Historical} {Analysis} in {Contemporary} {Political} {Science}",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_developmental_2015",
+  "type": "incollection",
+  "authors_raw": [
+   "Haggard, Stephan"
+  ],
+  "authors_norm": [
+   "haggard"
+  ],
+  "year": "2015",
+  "title": "The developmental state is dead: long live the developmental state!",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_epilogue_2015",
+  "type": "incollection",
+  "authors_raw": [
+   "Streeck, Wolfgang"
+  ],
+  "authors_norm": [
+   "streeck"
+  ],
+  "year": "2015",
+  "title": "Epilogue: {Comparative} {Historical} {Analysis}: past, present, future",
+  "is_editor_only": false
+ },
+ {
+  "key": "della_porta_historical_2008",
+  "type": "incollection",
+  "authors_raw": [
+   "Steinmo, Sven"
+  ],
+  "authors_norm": [
+   "steinmo"
+  ],
+  "year": "2008",
+  "title": "Historical institutionalism",
+  "is_editor_only": false
+ },
+ {
+  "key": "bennett_qualitative_2006",
+  "type": "article",
+  "authors_raw": [
+   "Bennett, Andrew",
+   "Elman, Colin"
+  ],
+  "authors_norm": [
+   "bennett",
+   "elman"
+  ],
+  "year": "2006",
+  "title": "{QUALITATIVE} {RESEARCH}: {Recent} {Developments} in {Case} {Study} {Methods}",
+  "is_editor_only": false
+ },
+ {
+  "key": "ragin_comparative_2014",
+  "type": "book",
+  "authors_raw": [
+   "Ragin, Charles C."
+  ],
+  "authors_norm": [
+   "ragin"
+  ],
+  "year": "2014",
+  "title": "The comparative method: moving beyond qualitative and quantitative strategies",
+  "is_editor_only": false
+ },
+ {
+  "key": "tilly_big_1984",
+  "type": "book",
+  "authors_raw": [
+   "Tilly, Charles"
+  ],
+  "authors_norm": [
+   "tilly"
+  ],
+  "year": "1984",
+  "title": "Big structures, large processes, huge comparisons",
+  "is_editor_only": false
+ },
+ {
+  "key": "skocpol_vision_1984",
+  "type": "book",
+  "authors_raw": [
+   "Skocpol, Theda"
+  ],
+  "authors_norm": [
+   "skocpol"
+  ],
+  "year": "1984",
+  "title": "Vision and method in historical sociology",
+  "is_editor_only": true
+ },
+ {
+  "key": "skocpol_uses_1980",
+  "type": "article",
+  "authors_raw": [
+   "Skocpol, Theda",
+   "Somers, Margaret"
+  ],
+  "authors_norm": [
+   "skocpol",
+   "somers"
+  ],
+  "year": "1980",
+  "title": "The {Uses} of {Comparative} {History} in {Macrosocial} {Inquiry}",
+  "is_editor_only": false
+ },
+ {
+  "key": "abbott_sequences_1983",
+  "type": "article",
+  "authors_raw": [
+   "Abbott, Andrew"
+  ],
+  "authors_norm": [
+   "abbott"
+  ],
+  "year": "1983",
+  "title": "Sequences of {Social} {Events}: {Concepts} and {Methods} for the {Analysis} of {",
+  "is_editor_only": false
+ },
+ {
+  "key": "abell_narrative_2004",
+  "type": "article",
+  "authors_raw": [
+   "Abell, Peter"
+  ],
+  "authors_norm": [
+   "abell"
+  ],
+  "year": "2004",
+  "title": "Narrative {Explanation}: {An} {Alternative} to {Variable}-{Centered} {Explanatio",
+  "is_editor_only": false
+ },
+ {
+  "key": "reis_sociologia_2015",
+  "type": "article",
+  "authors_raw": [
+   "Reis, Elisa P."
+  ],
+  "authors_norm": [
+   "reis"
+  ],
+  "year": "2015",
+  "title": "Sociologia política e processos macro-históricos",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_advances_2015",
+  "type": "book",
+  "authors_raw": [
+   "Mahoney, James",
+   "Thelen, Kathleen"
+  ],
+  "authors_norm": [
+   "mahoney",
+   "thelen"
+  ],
+  "year": "2015",
+  "title": "Advances in {Comparative}-{Historical} {Analysis}",
+  "is_editor_only": true
+ },
+ {
+  "key": "george_case_2005",
+  "type": "book",
+  "authors_raw": [
+   "George, Alexander L.",
+   "Bennett, Andrew"
+  ],
+  "authors_norm": [
+   "george",
+   "bennett"
+  ],
+  "year": "2005",
+  "title": "Case studies and theory development in the social sciences",
+  "is_editor_only": false
+ },
+ {
+  "key": "locke_apples_1995",
+  "type": "article",
+  "authors_raw": [
+   "Locke, Richard M.",
+   "Thelen, Kathleen"
+  ],
+  "authors_norm": [
+   "locke",
+   "thelen"
+  ],
+  "year": "1995",
+  "title": "Apples and {Oranges} {Revisited}: {Contextualized} {Comparisons} and the {Study}",
+  "is_editor_only": false
+ },
+ {
+  "key": "bennett_comparative_2019",
+  "type": "article",
+  "authors_raw": [
+   "Bennett, Andrew",
+   "Fairfield, Tasha",
+   "Soifer, Hillel David"
+  ],
+  "authors_norm": [
+   "bennett",
+   "fairfield",
+   "soifer"
+  ],
+  "year": "2019",
+  "title": "Comparative {Methods} and {Process} {Tracing}",
+  "is_editor_only": false
+ },
+ {
+  "key": "clemens_toward_2007",
+  "type": "article",
+  "authors_raw": [
+   "Clemens, Elisabeth S."
+  ],
+  "authors_norm": [
+   "clemens"
+  ],
+  "year": "2007",
+  "title": "Toward a {Historicized} {Sociology}: {Theorizing} {Events}, {Processes}, and {Em",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_strategies_2003",
+  "type": "incollection",
+  "authors_raw": [
+   "Mahoney, James"
+  ],
+  "authors_norm": [
+   "mahoney"
+  ],
+  "year": "2003",
+  "title": "Strategies of {Causal} {Assessment} in {Comparative} {Historical} {Analysis}",
+  "is_editor_only": false
+ },
+ {
+  "key": "delanty_handbook_2003",
+  "type": "book",
+  "authors_raw": [
+   "Delanty, Gerard",
+   "Isin, Engin F."
+  ],
+  "authors_norm": [
+   "delanty",
+   "isin"
+  ],
+  "year": "2003",
+  "title": "Handbook of historical sociology",
+  "is_editor_only": true
+ },
+ {
+  "key": "adams_remaking_2005",
+  "type": "book",
+  "authors_raw": [
+   "Adams, Julia",
+   "Clemens, Elisabeth Stephanie",
+   "Orloff, Ann Shola"
+  ],
+  "authors_norm": [
+   "adams",
+   "clemens",
+   "orloff"
+  ],
+  "year": "2005",
+  "title": "Remaking modernity: politics, history, and sociology",
+  "is_editor_only": true
+ },
+ {
+  "key": "mahoney_comparative_2003",
+  "type": "book",
+  "authors_raw": [
+   "Mahoney, James",
+   "Rueschemeyer, Dietrich"
+  ],
+  "authors_norm": [
+   "mahoney",
+   "rueschemeyer"
+  ],
+  "year": "2003",
+  "title": "Comparative historical analysis in the social sciences",
+  "is_editor_only": true
+ },
+ {
+  "key": "mahoney_can_2003",
+  "type": "incollection",
+  "authors_raw": [
+   "Rueschemeyer, Dietrich"
+  ],
+  "authors_norm": [
+   "rueschemeyer"
+  ],
+  "year": "2003",
+  "title": "Can {One} or {Few} {Cases} {Yield} {Theoretical} {Gains}?",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_double_2003",
+  "type": "incollection",
+  "authors_raw": [
+   "Skocpol, Theda"
+  ],
+  "authors_norm": [
+   "skocpol"
+  ],
+  "year": "2003",
+  "title": "Double {Engaged} {Social} {Science}: the {Promise} of {Comparative} {Historical}",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_comparative_2003-1",
+  "type": "incollection",
+  "authors_raw": [
+   "Mahoney, James",
+   "Rueschemeyer, Dietrich"
+  ],
+  "authors_norm": [
+   "mahoney",
+   "rueschemeyer"
+  ],
+  "year": "2003",
+  "title": "Comparative {Historical} {Analysis}: achievements and agendas",
+  "is_editor_only": false
+ },
+ {
+  "key": "lachmann_what_2013",
+  "type": "book",
+  "authors_raw": [
+   "Lachmann, Richard"
+  ],
+  "authors_norm": [
+   "lachmann"
+  ],
+  "year": "2013",
+  "title": "What is historical sociology?",
+  "is_editor_only": false
+ },
+ {
+  "key": "demetriou_history_2020",
+  "type": "incollection",
+  "authors_raw": [
+   "Demetriou, Chares",
+   "Roudometof, Victor"
+  ],
+  "authors_norm": [
+   "demetriou",
+   "roudometof"
+  ],
+  "year": "2020",
+  "title": "The {History} of {Historical}-{Comparative} {Methods} in {Sociology}",
+  "is_editor_only": false
+ },
+ {
+  "key": "lieberman_bridging_2010",
+  "type": "article",
+  "authors_raw": [
+   "Lieberman, Evan S."
+  ],
+  "authors_norm": [
+   "lieberman"
+  ],
+  "year": "2010",
+  "title": "Bridging the {Qualitative}-{Quantitative} {Divide}: {Best} {Practices} in the {D",
+  "is_editor_only": false
+ },
+ {
+  "key": "smith_rise_1991",
+  "type": "book",
+  "authors_raw": [
+   "Smith, Dennis"
+  ],
+  "authors_norm": [
+   "smith"
+  ],
+  "year": "1991",
+  "title": "The rise of historical sociology",
+  "is_editor_only": false
+ },
+ {
+  "key": "gerring_qualitative_2017",
+  "type": "article",
+  "authors_raw": [
+   "Gerring, John"
+  ],
+  "authors_norm": [
+   "gerring"
+  ],
+  "year": "2017",
+  "title": "Qualitative {Methods}",
+  "is_editor_only": false
+ },
+ {
+  "key": "pierson_historical_2002",
+  "type": "incollection",
+  "authors_raw": [
+   "Pierson, Paul",
+   "Skocpol, Theda"
+  ],
+  "authors_norm": [
+   "pierson",
+   "skocpol"
+  ],
+  "year": "2002",
+  "title": "historical institutionalism in {Contemporary} {Political} {Science}",
+  "is_editor_only": false
+ },
+ {
+  "key": "goldstone_how_1986",
+  "type": "article",
+  "authors_raw": [
+   "Goldstone, Jack A."
+  ],
+  "authors_norm": [
+   "goldstone"
+  ],
+  "year": "1986",
+  "title": "How to {Study} {History}: {The} {View} from {Sociology}",
+  "is_editor_only": false
+ },
+ {
+  "key": "morgan_actors_2010",
+  "type": "incollection",
+  "authors_raw": [
+   "Jackson, Gregory"
+  ],
+  "authors_norm": [
+   "jackson"
+  ],
+  "year": "2010",
+  "title": "Actors and {Institutions}",
+  "is_editor_only": false
+ },
+ {
+  "key": "nee_new_2005",
+  "type": "incollection",
+  "authors_raw": [
+   "Nee, Victor"
+  ],
+  "authors_norm": [
+   "nee"
+  ],
+  "year": "2005",
+  "title": "The {New} {Institutionalisms} in {Economics} and {Sociology}",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_process_2015",
+  "type": "article",
+  "authors_raw": [
+   "Mahoney, James"
+  ],
+  "authors_norm": [
+   "mahoney"
+  ],
+  "year": "2015",
+  "title": "Process {Tracing} and {Historical} {Explanation}",
+  "is_editor_only": false
+ },
+ {
+  "key": "dobbin_comparative_2005",
+  "type": "incollection",
+  "authors_raw": [
+   "Dobbin, Frank"
+  ],
+  "authors_norm": [
+   "dobbin"
+  ],
+  "year": "2005",
+  "title": "Comparative and {Historical} {Approaches} to {Economic} {Sociology}",
+  "is_editor_only": false
+ },
+ {
+  "key": "evans_embedded_2023",
+  "type": "article",
+  "authors_raw": [
+   "Evans, Peter B."
+  ],
+  "authors_norm": [
+   "evans"
+  ],
+  "year": "2023",
+  "title": "From {Embedded} {Autonomy} to {Counter}-{Hegemonic} {Globalization}: {A} 60-{Yea",
+  "is_editor_only": false
+ },
+ {
+  "key": "skocpol_emerging_1984",
+  "type": "incollection",
+  "authors_raw": [
+   "Skocpol, Theda"
+  ],
+  "authors_norm": [
+   "skocpol"
+  ],
+  "year": "1984",
+  "title": "Emerging agendas and recurrent strategies in {Historical} {Sociology}",
+  "is_editor_only": true
+ },
+ {
+  "key": "mahoney_path_2000",
+  "type": "article",
+  "authors_raw": [
+   "Mahoney, James"
+  ],
+  "authors_norm": [
+   "mahoney"
+  ],
+  "year": "2000",
+  "title": "Path {Dependence} in {Historical} {Sociology}",
+  "is_editor_only": false
+ },
+ {
+  "key": "skocpol_sociologys_1984",
+  "type": "incollection",
+  "authors_raw": [
+   "Skocpol, Theda"
+  ],
+  "authors_norm": [
+   "skocpol"
+  ],
+  "year": "1984",
+  "title": "Sociology's {Historical} {Imagination}",
+  "is_editor_only": false
+ },
+ {
+  "key": "kreuzer_grammar_2023",
+  "type": "book",
+  "authors_raw": [
+   "Kreuzer, Marcus"
+  ],
+  "authors_norm": [
+   "kreuzer"
+  ],
+  "year": "2023",
+  "title": "The {Grammar} of {Time}: {A} {Toolbox} for {Comparative} {Historical} {Analysis}",
+  "is_editor_only": false
+ },
+ {
+  "key": "mahoney_comparative-historical_2004",
+  "type": "article",
+  "authors_raw": [
+   "Mahoney, James"
+  ],
+  "authors_norm": [
+   "mahoney"
+  ],
+  "year": "2004",
+  "title": "Comparative-{Historical} {Methodology}",
+  "is_editor_only": false
+ }
+]
