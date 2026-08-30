@@ -1,19 +1,46 @@
-\documentclass[12pt]{report}
+\documentclass[
+  12pt,
+  oneside,
+  a4paper
+]{abntex2}
+% Margens (3cm/2cm/3cm/2cm), espaçamento 1,5 entre linhas e idioma (babel
+% "brazil") já vêm configurados por padrão pela classe abntex2, conforme
+% ABNT NBR 14724.
 
 \usepackage[utf8]{inputenc}
 \DeclareUnicodeCharacter{1EBD}{\~e}
 \usepackage[T1]{fontenc}
-\usepackage[brazil]{babel}
+\usepackage{mathptmx}          % Fonte Times New Roman (ABNT NBR 14724)
+\usepackage{indentfirst}       % Indenta também o primeiro parágrafo de cada seção
 \usepackage{graphicx}
 \usepackage{csvsimple}
 \usepackage{xcolor}
 \usepackage[normalem]{ulem}
-\usepackage{natbib}
 \usepackage{url}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc}
-\usepackage{setspace}
-\onehalfspacing
+\usepackage[expansion=false]{microtype} % expansão de fonte não funciona com o Times (mathptmx) nesta instalação
+
+% Desativa strings PDF em UTF-16 do hyperref: os acentos do português cabem
+% em PDFDocEncoding (1 byte), e o modo "unicode" (padrão) grava bytes NUL em
+% main.aux para os títulos de capítulo/bookmarks, o que quebra o bibtex
+% (parser não é 8-bit-clean).
+\hypersetup{unicode=false}
+
+% Citações e referências no padrão ABNT (NBR 10520/6023), estilo autor-data
+\usepackage[alf]{abntex2cite}
+
+% Compatibilidade com os comandos de citação estilo natbib (\citep/\citet/
+% \citeyearpar) já usados em todos os capítulos — abntex2cite não os define
+% nativamente (usa \cite/\citeonline/\citeyear em vez disso), então os
+% mapeamos abaixo para não ser necessário editar as centenas de citações já
+% escritas nos capítulos.
+\newcommand{\citep}[2][]{\cite[#1]{#2}}
+\newcommand{\citet}[2][]{\citeonline[#1]{#2}}
+\newcommand{\citeyearpar}[2][]{(\citeyear{#2}\ifthenelse{\equal{#1}{}}{}{, #1})}
+
+% Recuo de primeira linha de parágrafo (ABNT NBR 14724)
+\setlength{\parindent}{1.25cm}
 
 % --- Convenção de marcação da revisão de IA (specs/constitution.md) ---
 % Sugestão da IA: texto em vermelho.
@@ -27,14 +54,55 @@
   \end{quotation}
 }
 
-\title{Desindustrialização, TITULO}
-\author{Leonardo Nogueira Aucar}
-\date{\today}
+% --- Dados para capa e folha de rosto (ABNT NBR 14724) ---
+% TODO: preencher instituição/programa/orientador reais quando definidos.
+\titulo{Desindustrialização, TITULO}
+\autor{Leonardo Nogueira Aucar}
+\local{TODO -- cidade}
+\data{\today}
+\instituicao{%
+  TODO -- nome da instituição
+  \par
+  TODO -- programa de pós-graduação}
+\tipotrabalho{TODO -- Tese (Doutorado) ou Dissertação (Mestrado)}
+\orientador{TODO -- nome do orientador}
+\preambulo{TODO -- tipo do trabalho, objetivo, nome da instituição e área de concentração}
 
 \begin{document}
 
-\maketitle
-\tableofcontents
+\frenchspacing
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\pretextual
+
+\imprimircapa
+\imprimirfolhaderosto
+
+\begin{resumo}
+TODO -- inserir resumo (objetivo, método, resultados e conclusões), seguido
+das palavras-chave.
+
+\textbf{Palavras-chave}: TODO.
+\end{resumo}
+
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
 
 \input{chapters/01-Introducao}
 \input{chapters/02-Desindustrialização (Teoria)}
@@ -45,7 +113,11 @@
 \input{chapters/07-Discussão}
 \input{chapters/08-Conclusão}
 
-\bibliographystyle{apalike}
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
 \bibliography{references}
 
 \end{document}

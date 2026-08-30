@@ -12,7 +12,11 @@ Ferramentas necessárias para rodar este projeto em qualquer máquina. Não há 
 
 ### Pacotes LaTeX usados por `main.tex`
 
-`inputenc`, `fontenc` (T1), `babel` (brazil), `graphicx`, `csvsimple`, `xcolor`, `ulem`, `natbib`, `url`, `longtable`, `booktabs`, `array`, `calc` — distribuições completas (MiKTeX com instalação automática de pacotes, ou TeX Live `full`) já cobrem todos eles.
+Desde a formatação ABNT (rodada atual), `main.tex` usa a classe `abntex2` (baseada em `memoir`) em vez de `report` puro — ela já configura margens (3cm/2cm/3cm/2cm), espaçamento 1,5 e idioma (`babel[brazil]`) por padrão, conforme ABNT NBR 14724. Pacotes carregados manualmente: `inputenc`, `fontenc` (T1), `mathptmx` (fonte Times), `indentfirst`, `graphicx`, `csvsimple`, `xcolor`, `ulem`, `url`, `longtable`, `booktabs`, `array`, `calc`, `microtype`, `abntex2cite` (citações/referências ABNT NBR 10520/6023, estilo `alf`) — distribuições completas (MiKTeX com instalação automática de pacotes, ou TeX Live `full`) já cobrem todos eles.
+
+- **`natbib` foi removido** em favor de `abntex2cite`. `abntex2cite` não define `\citep`/`\citet`/`\citeyearpar` nativamente (usa `\cite`/`\citeonline`/`\citeyear`) — `main.tex` define wrappers de compatibilidade no preâmbulo para que as citações já escritas nos capítulos continuem funcionando sem editá-las.
+- **`microtype` com `expansion=false`**: a expansão de fonte do `microtype` não funciona com o Times (`mathptmx`) nesta instalação MiKTeX (`pdfTeX error (font expansion): auto expansion is only possible with scalable fonts`). Mantido só o protrusion (`expansion=false`).
+- **`\hypersetup{unicode=false}`**: a classe `abntex2` carrega `hyperref`+`bookmark`, que por padrão gravam os bookmarks de PDF (títulos de capítulo) em UTF-16 dentro de `main.aux` — isso inclui bytes NUL para caracteres ASCII, e o `bibtex` (parser não é 8-bit-clean) trava com `! Text line contains an invalid character.` ao ler esse `main.aux`. Como os acentos do português cabem em PDFDocEncoding (1 byte), forçar `unicode=false` evita os bytes NUL sem perder a acentuação nos bookmarks.
 
 ### Notas de importação docx → LaTeX (aprendido na rodada `2026-08-29_capitulo_historico_1_review`)
 
