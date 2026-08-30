@@ -1,0 +1,9 @@
+Indicador,Vantagens,Limitações,Exemplos de uso
+Participação no PIB,Captura peso do setor econômico frente outros setores,Forte influência da inflação,Oreiro e Feijó \citeyearpar{oreiro_desindustrializacao_2010}
+Crescimento real dos subsetores industriais,Não sofre influência da inflação e permite comparações com PIB,Desconsidera peso relativo do setor para a indústria geral,"Não diretamente usado na literatura nacional, uso similar em \aiflag{Rajan e Subramanian (2011)}"
+Empregos industriais,Captura efeito relevante para comunidades e trabalhadores,Não captura peso econômico da atividade,\aiflag{Cruz (2014)}
+Produção industrial,Permite entender diversidade da capacidade produtiva,Difícil comparação com setores não industriais,\aiflag{Sobral (2017)}
+Número de estabelecimentos industriais,Captura características e densidade do setor industrial,Perde visão agregada do valor da indústria; perde diferenciação entre estabelecimentos,\aiflag{Sobral (2016)}
+Balança comercial,Captura relação do setor com mercado externo,Não permite leitura adequada do mercado interno,Marconi e Rocha \citeyearpar{marconi_taxa_2012}
+Investimentos externos,Captura relação do capital estrangeiro com indústria nacional,Apenas captura parte pequena do horizonte de investimentos,\aiflag{Curado e Cruz (2008)}
+Densidade industrial,Conjunto de mensurações sobre concentração e dispersão da indústria,Não captura impacto agregado da capacidade industrial,\aiflag{Morceiro e Guilhoto (2020)}

@@ -1,6 +1,19 @@
-# Skills Propostas (não instaladas)
+# Skills Propostas
 
 Lista de skills sugeridas para o projeto, a instalar/configurar quando fizer sentido (ver item "configurar skills" no roadmap). Esta lista é viva — atualizada a cada rodada de revisão, conforme a regra de manutenção de documentação em `specs/constitution.md`.
+
+## Instaladas (`.claude/skills/`)
+
+Instaladas em 30/08/2026, no início da rodada `2026-08-30_capitulo_metodologia_3_import`, por serem as skills diretamente necessárias para a importação do Capítulo 3 (docx + bib):
+
+- **`importar-docx-latex`**
+- **`consolidar-bibliografia-zotero`**
+- **`detectar-esboco`**
+- **`detectar-conteudo-nao-nativo`**
+
+Ver definição completa de cada uma em `.claude/skills/<nome>/SKILL.md`. As demais abaixo seguem como propostas, a instalar quando a fase do roadmap que as usa chegar.
+
+## Propostas (ainda não instaladas)
 
 - **`revisar-capitulo`** — roda a revisão de IA completa em um capítulo, conforme as regras da seção "Papel da IA na Revisão de Texto" em `specs/constitution.md` (gramática/ortografia, ideias repetidas, sugestão de posição para tabelas/imagens, checagem de consistência com `tables/`/`figures/`, formatação de citações), inserindo as marcações em vermelho/tachado diretamente no `.tex`.
 - **`importar-revisao-docx`** — extrai alterações rastreadas e comentários de um `.docx` devolvido pelo orientador e gera `advisor_reviews/<data>_<descrição>/review_task_lists.md`.
@@ -21,5 +34,13 @@ Lista de skills sugeridas para o projeto, a instalar/configurar quando fizer sen
 - **`detectar-conteudo-nao-nativo`** (nova proposta) — dado um capítulo importado de docx, aponta trechos que parecem ser um documento diferente colado por inteiro (título + resumo + palavras-chave + currículo de autor, ou uma lista de referências formatada ao final que duplica `references.bib`) — sinal de que o trecho precisa de adaptação estrutural (não é só limpeza de citação) antes de virar prosa de capítulo. Achado nesta rodada: metade do capítulo 2 era um artigo publicável separado, não uma subseção de tese.
 - **`consolidar-bibliografia-zotero`** (ajuste) — cobre também o caso de mesclar um arquivo `.bib` novo e completo (não só stubs) a um `references.bib` existente: checar colisões de chave, pular duplicatas idênticas, e sinalizar (não silenciar) quando uma citação do capítulo não tem entrada em *nenhum* dos `.bib` disponíveis — nesta rodada, ~38 de 66 citações da seção brasileira do capítulo 2 caíram nesse caso porque cobriam um universo bibliográfico (economia política brasileira) fora do escopo do `.bib` fornecido.
 
+## Validação após a rodada `2026-08-30_capitulo_metodologia_3_import` (terceira rodada, primeira usando as skills instaladas)
+
+- **`importar-docx-latex`** — validada de ponta a ponta sem ajuste necessário: capítulo com formato de citação único (só link Google Docs/Zotero, ao contrário da mistura do capítulo 2), sem conteúdo colado de outro documento. Achado novo (não é ajuste da skill em si, mas do processo): `\footnote{}` dentro de `\caption{}` gerado pelo pandoc quebra a compilação (`Runaway argument`) — documentado em `specs/environment.md` como gotcha de build, não como regra da skill.
+- **`consolidar-bibliografia-zotero`** — validada: `.bib` fornecido (44 entradas) sem nenhum stub, zero colisões de chave com `references.bib`. Caso mais simples até agora.
+- **`detectar-esboco`** — aplicada a um bloco pequeno (4 linhas de outline no topo do capítulo); comportamento conforme esperado.
+- **`detectar-conteudo-nao-nativo`** — nada a detectar nesta rodada (capítulo 100% nativo), o que também é um resultado válido — confirma que a skill não gera falso positivo em capítulo limpo.
+- Achado novo, fora do escopo das 4 skills atuais: **ambiguidade de sufixo autor/ano** (Perissinotto 2023a vs. 2023b, citado no texto mas com só uma entrada correspondente em `references.bib`) — tratado como `\aiflag{}` seguindo a regra geral da constituição, não exigiu skill nova. Vale observar se recorrer em rodadas futuras antes de propor algo dedicado.
+
 ---
-*Nenhuma dessas skills foi instalada ainda — esta é só a lista de propostas.*
+*As 4 skills da seção "Instaladas" acima já estão em `.claude/skills/`; as demais seguem como propostas.*

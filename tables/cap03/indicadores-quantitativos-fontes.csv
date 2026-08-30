@@ -1,0 +1,12 @@
+Indicador,Fonte(s),Granularidade
+Dados do PIB nacional e setores,Contas Nacionais,Captura até o nível do sub-setor (ex. Indústria de transformação)
+Dados do PIB estadual e setores,Contas Regionais,Captura até o nível do sub-setor (ex. Indústria de transformação)
+Dados do PIB municipal e setores,PIB Municipal,Captura apenas até setor (indústria)
+Dados do PIB internacional,World Bank,Granularidade do dado varia por país e período
+Empregos industriais e mercado de trabalho,RAIS - Min. da Economia,"Subsetores industriais e, em alguns períodos, setores da CNAE, granularidade pode ser menos para estados"
+Produção industrial,PIM-IBGE / PIA-IBGE,"Subsetores industriais e, em alguns períodos, setores da CNAE, granularidade pode ser menos para estados"
+Número de estabelecimentos industriais,PIM-IBGE / PIA-IBGE,"Subsetores industriais e, em alguns períodos, setores da CNAE, granularidade pode ser menos para estados"
+Taxa de câmbio,IPEA ou Banco Central,-
+Preço commodities,Diversos,-
+Taxa de juros nacional,Banco Central,-
+Taxas de juros internacionais,Diversos / FED,-

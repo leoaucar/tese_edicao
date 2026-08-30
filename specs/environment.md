@@ -46,6 +46,10 @@ Ao mesclar um `.bib` exportado do Zotero, duas categorias de erro já quebraram 
 - **Tabelas do Word**: pandoc converte para `longtable` com larguras de coluna calculadas via `\real{}` — isso requer o pacote `calc`, que não vem com um preâmbulo mínimo.
 - **Citações do Zotero (plugin do Google Docs/Word)**: viram `\href{https://www.zotero.org/...}{(Autor, Ano)}` — não são links reais e precisam ser convertidos manualmente/por script para `\citep`/`\citet`/`\citeyearpar` (`natbib`), gerando ao mesmo tempo entradas *stub* em `references.bib` até a biblioteca real do Zotero ser exportada.
 
+### Problema de compilação em `\caption{}` (aprendido na rodada `2026-08-30_capitulo_metodologia_3_import`)
+
+- **`\footnote{}` dentro de `\caption{}` quebra a Lista de Tabelas**: o pandoc às vezes converte uma nota do Word que originalmente ancorava numa legenda de tabela para dentro do próprio `\caption{...}` gerado. Isso causa `! Runaway argument?`/`! File ended while scanning use of \@caption` — fatal, aborta a compilação inteira — porque o mecanismo de Lista de Tabelas do LaTeX reprocessa o conteúdo do `\caption` num contexto que não aceita notas de rodapé. Correção: mover a nota para uma frase do corpo do texto que introduz a tabela (antes ou depois do `\begin{table}`), preservando o conteúdo da nota, em vez de deixá-la dentro do `\caption{}`.
+
 ## Instalação por sistema
 
 **Windows**

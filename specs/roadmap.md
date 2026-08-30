@@ -6,7 +6,7 @@ Alinhado ao workflow de capítulos definido em `specs/constitution.md` e ao stat
 
 - [x] **Preparar projeto** — importado o docx do Capítulo empírico 1 (ver `specs/2026-08-29_capitulo_historico_1_review/`); bibliografia populada como stubs em `references.bib` (autor/ano; falta exportação real do Zotero).
 - [~] **Exportar para DOCX** — tooling criado em `scripts/export_docx/` (ver `specs/environment.md`) e testado exportando o Capítulo 4 completo (tabelas + marcação `\aiflag` em vermelho preservadas). Falta apenas a exportação do "copião" unificado (`main.tex` inteiro) — não bloqueante, já que o fluxo de revisão é por capítulo.
-- [ ] **Configurar skills** — não iniciado; ver `specs/proposed_skills.md` (lista revisada após esta rodada).
+- [~] **Configurar skills** — 4 skills instaladas em `.claude/skills/` (`importar-docx-latex`, `consolidar-bibliografia-zotero`, `detectar-esboco`, `detectar-conteudo-nao-nativo`), diretamente necessárias para a rodada `2026-08-30_capitulo_metodologia_3_import`; as demais seguem como propostas em `specs/proposed_skills.md`, a instalar quando sua fase do roadmap chegar.
 
 ## Semana 1 (01–07/09/2026) — Finalizar Capítulo Empírico 1
 

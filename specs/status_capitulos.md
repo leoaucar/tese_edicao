@@ -66,8 +66,10 @@ Prazo final: 30/11/2026
 
 ### Metodologia — `chapters/03-Metodologia.tex`
 
-- [~] Escrita
-- [ ] Revisão de texto e citações
+> Atualizado em 30/08/2026 após a rodada `specs/2026-08-30_capitulo_metodologia_3_import/`: capítulo importado do docx fornecido — prosa finalizada em todas as 5 seções (nenhum conteúdo colado de outro documento, ao contrário do capítulo 2). Bibliografia (`metodologia.bib`, 44 entradas) mesclada a `references.bib` sem colisões. Das ~80 citações do texto, a maioria resolveu diretamente; 27 pares autor/ano (37 ocorrências no `.tex`, incluindo 2 dentro de células de tabela) não têm entrada em nenhum `.bib` disponível e foram marcadas com `\aiflag{}` em vez de resolvidas — concentradas em referências institucionalistas/de metodologia mais específicas (Bennett e Checkel, Skocpol 1984b, Pierson, Thelen, Scharpf, Streeck etc.) e em dados setoriais brasileiros (Morceiro, Torres e Cavalieri, IBGE). Inclui também a ambiguidade Perissinotto 2023a/2023b, confirmada com o usuário como pendente de esclarecimento. Ver `specs/2026-08-30_capitulo_metodologia_3_import/plan.md` para o relato completo.
+
+- [~] Escrita -- prosa completa nas 5 seções; falta resolver as 27 lacunas de bibliografia marcadas com `\aiflag{}` antes de considerar pronto.
+- [ ] Revisão de texto e citações -- primeira passada de IA aplicada (marcações em vermelho no `.tex`); aguardando o ciclo iterativo com o usuário.
 
 Prazo final: 15/12/2026
 
