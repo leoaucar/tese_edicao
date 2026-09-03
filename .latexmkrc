@@ -13,3 +13,8 @@ if ($root =~ m{^/([A-Za-z])/(.*)$}) {
     $root = "$1:/$2";
 }
 $ENV{'BIBINPUTS'} = $root . ';' . ($ENV{'BIBINPUTS'} // '');
+
+# All build artifacts (main.pdf, .aux, .log, ...) go to outputs/ instead of
+# cluttering the project root, matching the gitignored outputs/ convention.
+$out_dir = 'outputs';
+$pdf_mode = 1;

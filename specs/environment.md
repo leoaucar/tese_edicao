@@ -8,6 +8,7 @@ Ferramentas necessárias para rodar este projeto em qualquer máquina. Não há 
 |---|---|---|
 | Git | controle de versão | - |
 | Uma distribuição LaTeX (MiKTeX ou TeX Live) — fornece `pdflatex` | compilar `main.tex` | MiKTeX 25.12 |
+| Perl (ex.: Strawberry Perl no Windows) | `latexmk` é um script Perl — sem isso ele falha na inicialização com `MiKTeX could not find the script engine 'perl'`, mesmo com o `.tex` compilando normalmente via `pdflatex` puro | Strawberry Perl (winget) |
 | Pandoc | conversão docx → LaTeX (importação) e LaTeX → docx (exportação, ver `scripts/export_docx/`) | 3.8 |
 | Node.js | roda `scripts/export_docx/export.js` | - |
 
@@ -55,6 +56,7 @@ Ao mesclar um `.bib` exportado do Zotero, duas categorias de erro já quebraram 
 **Windows**
 ```powershell
 winget install --id MiKTeX.MiKTeX -e
+winget install --id StrawberryPerl.StrawberryPerl -e
 winget install --id JohnMacFarlane.Pandoc -e
 ```
 
@@ -93,8 +95,8 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   ```
-- Alternativa mais simples: `latexmk -pdf -output-directory=outputs main.tex` — detecta sozinho quantas passadas (e se `bibtex`) são necessárias e reroda até estabilizar. Preferível para iteração rápida durante revisão.
-- Se `pdflatex`/`latexmk` não forem encontrados no PATH mesmo após instalar o MiKTeX, abra um terminal novo (o PATH de usuário só é lido na criação do processo).
+- Alternativa mais simples: `latexmk -pdf main.tex` — detecta sozinho quantas passadas (e se `bibtex`) são necessárias e reroda até estabilizar; a saída já vai para `outputs/` porque `.latexmkrc` define `$out_dir = 'outputs'` (não precisa mais passar `-output-directory=outputs` manualmente). Preferível para iteração rápida durante revisão. Requer Perl (ver tabela de ferramentas acima).
+- Se `pdflatex`/`latexmk` não forem encontrados no PATH mesmo após instalar o MiKTeX (ou o Perl), abra um terminal novo (o PATH de usuário só é lido na criação do processo).
 
 ## Configuração do VS Code / LaTeX Workshop
 

@@ -10,7 +10,8 @@
 *.synctex.gz
 
 # Compiled outputs (optional: track PDFs using Git Tags instead)
-outputs/
+outputs/*
+!outputs/.gitkeep
 *.pdf
 
 # OS/Editor temp files
