@@ -166,35 +166,35 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
 
 ```json
 {
-  // Light theme for the whole window (VS Code themes are global, not
-  // per-language) — chosen for readability while writing prose-heavy .tex.
-  // "Light+" is this VS Code install's actual stored id for the built-in
-  // light theme (NOT "Default Light+", which looked right but silently
-  // matched nothing in the scoped customizations below).
-  "workbench.colorTheme": "Light+",
+  // Tema escuro para a janela inteira (temas do VS Code são globais, não
+  // por linguagem). "Visual Studio Dark" é o id real do tema embutido nesta
+  // instalação (rótulo "Dark (Visual Studio)" no seletor) — as customizações
+  // escopadas por tema mais abaixo dependem desse id exato; um id que não
+  // casa é ignorado silenciosamente.
+  "workbench.colorTheme": "Visual Studio Dark",
 
-  // O sidebar (explorer/busca/etc.) do tema claro é muito lavado — fundo
-  // cinza-claro e texto cinza de baixo contraste. Escurece o fundo e leva o
-  // texto para preto, para legibilidade. Deixado sem escopo de tema (fora de
-  // uma chave "[Nome do Tema]") para funcionar não importa qual tema claro
-  // esteja ativo.
+  // Sidebar (explorer/busca/etc.) com mais contraste que o padrão do tema
+  // (fundo #252526, texto cinza #CCCCCC): fundo um pouco mais escuro que o
+  // do editor (#1E1E1E), para separar os dois painéis, e texto quase branco.
+  // Deixado sem escopo de tema (fora de uma chave "[Nome do Tema]"), então
+  // vale para qualquer tema ativo — se voltar para um tema claro, estas
+  // cores precisam ser trocadas junto.
   //
-  // O terminal é mantido deliberadamente numa paleta escura fixa (cores
-  // clássicas do Dark+) independente do tema do editor/sidebar — pedido
-  // explícito do usuário, já que o tema claro é para legibilidade de prosa
-  // nos .tex, não para o terminal.
+  // O terminal usa uma paleta escura fixa (cores clássicas do Dark+), que
+  // agora coincide com o tema; mantida explícita para não mudar se o tema
+  // do editor for trocado.
   "workbench.colorCustomizations": {
-    "sideBar.background": "#DCDCDC",
-    "sideBar.foreground": "#000000",
-    "sideBarTitle.foreground": "#000000",
-    "sideBarSectionHeader.background": "#CCCCCC",
-    "sideBarSectionHeader.foreground": "#000000",
-    "list.inactiveSelectionBackground": "#C4C4C4",
-    "list.hoverBackground": "#CACACA",
-    "list.activeSelectionBackground": "#B8B8B8",
-    "list.activeSelectionForeground": "#000000",
-    "list.focusForeground": "#000000",
-    "list.inactiveSelectionForeground": "#000000",
+    "sideBar.background": "#181818",
+    "sideBar.foreground": "#F0F0F0",
+    "sideBarTitle.foreground": "#FFFFFF",
+    "sideBarSectionHeader.background": "#2A2A2A",
+    "sideBarSectionHeader.foreground": "#FFFFFF",
+    "list.inactiveSelectionBackground": "#37373D",
+    "list.hoverBackground": "#2A2D2E",
+    "list.activeSelectionBackground": "#094771",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.focusForeground": "#FFFFFF",
+    "list.inactiveSelectionForeground": "#FFFFFF",
 
     "terminal.background": "#1E1E1E",
     "terminal.foreground": "#CCCCCC",
@@ -234,13 +234,10 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
 
-  // Cores mais contrastantes/diferenciadas para tokens LaTeX. Escopadas por
-  // nome de tema (o VS Code só aplica o bloco correspondente quando aquele
-  // tema está ativo) — as regras originais, ajustadas para fundo escuro,
-  // continuam funcionando se você voltar para "Visual Studio Dark"; um
-  // segundo conjunto, com cores mais escuras/legíveis em fundo claro, vale
-  // para "Light+" (id real do tema claro embutido — não "Default Light+",
-  // que parecia certo mas não casava com nada). Atuam sobre escopos
+  // Cores mais contrastantes/diferenciadas para tokens LaTeX, escolhidas
+  // para fundo escuro. Escopadas por nome de tema (o VS Code só aplica o
+  // bloco quando aquele tema está ativo) — se trocar de tema, é preciso
+  // criar um bloco "[Nome do Tema]" correspondente. Atuam sobre escopos
   // TextMate, então valem para qualquer \comando / ambiente / comentário,
   // mas NÃO conseguem distinguir um macro específico como \aiflag — escopos
   // TextMate não diferenciam pelo nome literal do comando, só pelo papel
@@ -269,30 +266,6 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
           "settings": { "foreground": "#D4D4D4" }
         }
       ]
-    },
-    "[Light+]": {
-      "textMateRules": [
-        {
-          "scope": "comment.line.percentage.tex",
-          "settings": { "foreground": "#4B8B3B", "fontStyle": "italic" }
-        },
-        {
-          "scope": ["support.function.general.tex", "support.function.section.latex"],
-          "settings": { "foreground": "#0E7490", "fontStyle": "bold" }
-        },
-        {
-          "scope": "keyword.control.tex",
-          "settings": { "foreground": "#A626A4", "fontStyle": "bold" }
-        },
-        {
-          "scope": "constant.character.escape.tex",
-          "settings": { "foreground": "#986801" }
-        },
-        {
-          "scope": ["punctuation.definition.arguments.begin.latex", "punctuation.definition.arguments.end.latex"],
-          "settings": { "foreground": "#444444" }
-        }
-      ]
     }
   },
 
@@ -300,7 +273,9 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   // instalar manualmente via Ctrl+Shift+X, buscar "Highlight". Destaca
   // \aiflag{...} (sugestão da IA, ver specs/constitution.md) e blocos
   // \begin{esboco}...\end{esboco} (rascunho do autor) com fundo chamativo
-  // para não passarem despercebidos durante a leitura/edição.
+  // para não passarem despercebidos durante a leitura/edição. Cores
+  // pensadas para fundo escuro: texto branco sobre vermelho translúcido no
+  // \aiflag, véu cinza translúcido no esboco.
   "highlight.regexes": {
     "(\\\\aiflag\\{)": {
       "filterFileRegex": ".*\\.tex$",
