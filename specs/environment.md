@@ -220,13 +220,25 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
   "latex-workshop.latex.outDir": "%DIR%/outputs",
 
   // Fonte um pouco maior e mais legível para edição de prosa em .tex.
+  // Quebra de linha visual (soft wrap): "bounded" quebra na coluna
+  // wordWrapColumn ou na largura da janela, o que for menor. É só
+  // visualização — não insere quebras no arquivo, então parágrafos
+  // continuam sendo uma linha só no .tex e os diffs do git não mudam.
+  // wrappingIndent "same" alinha as linhas de continuação à indentação
+  // da linha original.
   "[latex]": {
     "editor.fontSize": 16,
-    "editor.lineHeight": 26
+    "editor.lineHeight": 26,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "editor.wrappingIndent": "same"
   },
   "[tex]": {
     "editor.fontSize": 16,
-    "editor.lineHeight": 26
+    "editor.lineHeight": 26,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "editor.wrappingIndent": "same"
   },
 
   // Colore pares de {...}/[...] aninhados — LaTeX aninha chaves com
