@@ -69,6 +69,70 @@ brew install pandoc
 sudo apt install texlive-full pandoc
 ```
 
+**Linux sem sudo (instalação em nível de usuário)** — usada no Linux Mint 22.3 em 2026-10-11. Alternativa ao `apt` acima: não exige senha de administrador e traz versões atuais (o `apt` do Mint 22.3 só oferece TeX Live 2023, Pandoc 3.1.3 e Node 18). Tudo fica dentro de `~` e os binários são expostos em `~/.local/bin`, que já está no `PATH` (inclusive para o VS Code aberto pelo menu, sem depender do `~/.bashrc`).
+
+Versões testadas nesta máquina: TeX Live 2026 (pdfTeX 1.40.29), Pandoc 3.8, Node 24.21 (LTS), VS Code 1.141.
+
+1. **TeX Live** via `install-tl`, com `scheme-medium` + as coleções que `main.tex` usa (~3,4 GB, contra ~8 GB do `scheme-full`):
+   ```bash
+   mkdir -p ~/tl-install && cd ~/tl-install
+   curl -fsSL -o install-tl-unx.tar.gz https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+   tar xzf install-tl-unx.tar.gz
+   cat > tl.profile <<EOF
+   selected_scheme scheme-medium
+   TEXDIR $HOME/texlive/2026
+   TEXMFLOCAL $HOME/texlive/texmf-local
+   TEXMFSYSCONFIG $HOME/texlive/2026/texmf-config
+   TEXMFSYSVAR $HOME/texlive/2026/texmf-var
+   TEXMFHOME $HOME/texmf
+   TEXMFCONFIG $HOME/.texlive2026/texmf-config
+   TEXMFVAR $HOME/.texlive2026/texmf-var
+   collection-latexextra 1
+   collection-publishers 1
+   collection-bibtexextra 1
+   collection-langportuguese 1
+   collection-fontsrecommended 1
+   collection-binextra 1
+   tlpdbopt_install_docfiles 0
+   tlpdbopt_install_srcfiles 0
+   instopt_adjustpath 0
+   EOF
+   perl install-tl-*/install-tl -profile tl.profile
+   ```
+   Leva de 7 a 17 minutos (3474 pacotes). Se a instalação for interrompida, apagar `~/texlive/2026` e rodar de novo — a árvore parcial não é aproveitável. `collection-publishers` é a que traz a classe `abntex2`; `collection-binextra` traz o `latexmk`.
+
+   Depois, criar os links em `~/.local/bin` em vez de editar o `PATH`:
+   ```bash
+   T=~/texlive/2026/bin/x86_64-linux
+   $T/tlmgr option sys_bin ~/.local/bin
+   $T/tlmgr option sys_man ~/.local/share/man
+   $T/tlmgr option sys_info ~/.local/share/info
+   $T/tlmgr path add
+   ```
+   Pacote faltando no futuro: `tlmgr install <nome>` (sem sudo).
+
+2. **Pandoc 3.8** (binário estático do GitHub):
+   ```bash
+   curl -fsSL -o pandoc.tar.gz https://github.com/jgm/pandoc/releases/download/3.8/pandoc-3.8-linux-amd64.tar.gz
+   tar xzf pandoc.tar.gz
+   mkdir -p ~/.local/share/pandoc-3.8 && cp -r pandoc-3.8/* ~/.local/share/pandoc-3.8/
+   ln -sf ~/.local/share/pandoc-3.8/bin/pandoc ~/.local/bin/pandoc
+   ```
+
+3. **Node.js** via `nvm` (o instalador acrescenta as linhas de carga do `nvm` ao `~/.bashrc`):
+   ```bash
+   curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash
+   . ~/.nvm/nvm.sh && nvm install --lts
+   ln -sf "$(command -v node)" ~/.local/bin/node   # para processos que não leem o ~/.bashrc
+   ```
+
+4. **Verificar**: os dois comandos abaixo devem terminar sem erro (nesta máquina: PDF de 150 páginas, nenhuma citação indefinida).
+   ```bash
+   latexmk -pdf -interaction=nonstopmode -output-directory=outputs main.tex
+   node scripts/export_docx/export.js "chapters/02-Desindustrialização (Teoria).tex"
+   ```
+   O `.latexmkrc` monta o `BIBINPUTS` com `;` (separador do Windows); no Linux isso não atrapalhou — o `references.bib` da raiz do projeto é encontrado normalmente.
+
 ## Clonar o projeto em outra máquina
 
 ```bash
@@ -277,6 +341,23 @@ pdflatex -interaction=nonstopmode -output-directory=outputs main.tex
 - `ltex-plus.vscode-ltex-plus` baixa seu próprio runtime + modelos de idioma na primeira ativação (download maior, ocorre uma vez; depois funciona offline). Falsos positivos recorrentes (nomes próprios, siglas) devem ser adicionados a `ltex.dictionary.pt-BR` em vez de ignorados manualmente a cada vez.
 - Após criar/editar `.vscode/settings.json`, recarregar a janela do VS Code (`Ctrl+Shift+P` → "Reload Window") para aplicar.
 - `latex-workshop.latex.outDir` mantém o build automático do LaTeX Workshop (que roda a cada save) escrevendo em `outputs/`, em vez de poluir a raiz do projeto — ver a seção de compilação manual acima para o motivo.
+
+### Criando o Profile do VS Code pela linha de comando (Linux)
+
+No Linux Mint (2026-10-11) o CLI `code` funciona normalmente — o problema de `code --install-extension` descrito acima é específico da máquina Windows com Anaconda. Como o Settings Sync não estava ativo e não havia profile exportado, o profile "LaTeX - Tese" foi recriado do zero, separado do profile Default:
+
+```bash
+# O profile só passa a existir depois de aberto numa janela; --install-extension
+# sozinho responde "Profile 'LaTeX - Tese' not found".
+code --profile "LaTeX - Tese" --new-window
+code --profile "LaTeX - Tese" \
+  --install-extension james-yu.latex-workshop \
+  --install-extension fabiospampinato.vscode-highlight \
+  --install-extension ltex-plus.vscode-ltex-plus \
+  --install-extension anthropic.claude-code
+```
+
+Em seguida, recriar `.vscode/settings.json` com o bloco JSON acima e associar a pasta da tese ao profile: com a pasta aberta, engrenagem (canto inferior esquerdo) → Profiles → "LaTeX - Tese". O VS Code lembra a associação nas próximas aberturas. A troca de profile recarrega a janela (encerra terminais integrados em execução).
 
 ### Salvando um Profile do VS Code para edição de LaTeX
 
