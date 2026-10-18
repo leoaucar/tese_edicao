@@ -1,0 +1,185 @@
+SUGESTÕES DE REFERÊNCIAS: PASTAS A.1, A.2 E A.3 (Capítulo 2, Teoria)
+Rodada 2026-10-11_capitulo_02_teoria. Lista do autor organizada e avaliada pela IA
+em 2026-10-18.
+
+MARCAÇÕES
+  AUTOR:  texto do rascunho original do autor, mantido como escrito
+  IA:     acréscimo da IA (Claude): títulos completos, situação no Zotero,
+          avaliação, sugestão de pasta
+  [D]     decisão do autor tomada em 2026-10-18 (via perguntas da IA)
+
+Pastas no Zotero (1 Tese > 02 Teoria), após a renumeração de 2026-10-18:
+  A.1  Sociologia Econômica
+  A.2  Sociologia econômico-política (Contraponto: Marx, Estado, classes, desenvolvimento)
+  A.3  Institucionalismo e dependência
+
+Situação no Zotero (IA):  [PDF] registro com PDF | [sem PDF] registro sem PDF |
+                          [FALTA] não estava na biblioteca (criado em "A avaliar")
+Encaixe (IA):  ALTO = responde a um trecho do capítulo | MÉDIO = contexto ou exemplo
+Métricas (IA): citações no OpenAlex e percentil por área e ano (pNN), só com DOI.
+
+========================================================================
+1. A.1 E A.2 (QUANDO CABÍVEL)
+========================================================================
+AUTOR: A.1 e A.2 (quando cabível)
+
+1.1 Giovanni Arrighi
+  AUTOR: Giovanni Arrighi --> Adam Smith em Pequim e O Longo Século XX; sociologia
+         econômica/histórica que dialoga com referencial marxistas e institucionalista
+         (com Polanyi)
+  IA: O longo século XX (1994) [sem PDF] 33VCXGX3 | Adam Smith em Pequim (2007) [FALTA]
+  IA: pasta A.2. Encaixe ALTO: capitalismo como sistema histórico e hegemonia;
+      tópico "a disputa geopolítica em nível global (China...)".
+
+1.2 Beverly Silver
+  AUTOR: Beverly Silver --> Forces of Labour; exemplo de abordagem histórica e
+         marxista na sociologia econômica
+  IA: Forces of Labor: Workers' Movements and Globalization since 1870 (2003) [FALTA]
+      1.594 cit., p99.
+  IA: pasta A.2. Encaixe ALTO: movimentos operários e relocalização industrial desde
+      1870 ligam o Contraponto ao objeto da tese.
+
+1.3 Immanuel Wallerstein
+  AUTOR: Wallerstein --> Capitalismo e civilização capitalista; dialoga com
+         sociologia histórica e com perspectivas de rede
+  IA: Capitalismo histórico e civilização capitalista (1995; trad. 2001) [sem PDF]
+      CZFQF3F4 (estava só em 2 Projetos).
+  IA: pasta A.2. Encaixe MÉDIO: o sistema-mundo é tratado como paradigma em declínio
+      por Portes (2015) e Viterna & Robertson (2015); usar com essa ressalva.
+
+1.4 Harry Braverman
+  AUTOR: Braverman --> monopoly capital; discussão com sociologia do trabalho
+  IA: o livro é Labor and Monopoly Capital (1974) [sem PDF] 9KTHMGAT. "Monopoly
+      Capital" é de Baran & Sweezy (ver 2.3).
+  IA: pasta A.2. Encaixe MÉDIO: controle do trabalho; tópico "o poder e a violência
+      não simbólica".
+
+1.5 Peter Evans
+  AUTOR: Verificar se as obras chave de Evans estão --> 1979 (dependent development);
+         Birnging the state back in; Autonomy and embeddness
+  IA: as três estão na biblioteca, com PDF:
+      Dependent Development (1979) WZPXGURC -> arquivado em A.3 (encaixe ALTO);
+      Bringing the State Back In (1985) JL5FC6LB -> já em A.2 e A.3;
+      Embedded Autonomy (1995) 9LPKS5BX -> já em A.2.
+  [D] Incluir também o texto de Rueschemeyer sobre teoria da dependência ("talvez
+      seja apenas de Rueschemeyer").
+  IA: provável texto: Heller, Rueschemeyer & Snyder, "Dependency and Development in
+      a Globalized World: Looking Back and Forward", Studies in Comparative
+      International Development 44(4): 287-295 (2009) [FALTA, criado em A avaliar,
+      sugerido para A.3]. É a introdução a um número especial sobre a teoria da
+      dependência. CONFIRMAR se é este.
+  [D] Manter Evans e Rueschemeyer no plano: na parte de institucionalismo e num
+      tópico sobre o papel do Estado na A.1.
+  IA: arquivados em A.1 e A.3: Evans, Rueschemeyer & Stephens (orgs.), States
+      versus Markets in the World System (1985) Q5K2PC9L; Rueschemeyer & Evans, "The
+      State and Economic Transformation" (1985, cap. de Bringing the State Back In)
+      SQRWW3FJ. Tópicos sugeridos no capítulo: 2.2.1 (papel do Estado na vertente
+      institucional) e 2.2.4 (tópico 7).
+
+1.6 Francesco Duina
+  AUTOR: Duina --> Institutions and the economy
+  IA: Institutions and the Economy (2011) [PDF] XPFJ3I8L.
+  IA: pasta A.1. Encaixe MÉDIO: vertente institucional (2.2.1, parágrafo "Por fim,
+      instituições avançam...").
+
+1.7 Andre Gunder Frank
+  AUTOR: As obras de andre gunder frank
+  [D] Escolhidas: as três abaixo.
+  IA: "The development of underdevelopment", Monthly Review 18(4) (1966) [FALTA]
+      1.990 cit., p98 -> A.3, encaixe ALTO;
+      Capitalism and Underdevelopment in Latin America (1967) [FALTA] -> A.3, MÉDIO;
+      ReOrient: Global Economy in the Asian Age (1998) [FALTA] -> A.2, MÉDIO
+      (diálogo com Arrighi no tópico geopolítico).
+
+========================================================================
+2. A.2: DIÁLOGOS FORA DA SOCIOLOGIA
+========================================================================
+AUTOR: A.2 (alguns diálogos fora da sociologia)
+
+2.1 Ha-Joon Chang
+  AUTOR: Ja joon chang --> chutando a escada
+  IA: Chutando a escada / Kicking Away the Ladder (2002) [PDF] SDC89YHL.
+  IA: pasta A.2. Encaixe ALTO: tópicos "centralidade do Estado" e "Estado como
+      mediação do desenvolvimento". Também na biblioteca: The Political Economy of
+      Industrial Policy (1996) [PDF] DA4B4JP9 (não arquivado).
+
+2.2 Joseph Schumpeter
+  AUTOR: Schumpeter e dialogo com desenolvimento econômico --> tando o livro sobre
+         Economic Development quanto sua obra sobre destruição criativa (capitalism
+         and socialism)
+  IA: Teoria do desenvolvimento econômico (1911; ed. ingl. 1934) [FALTA];
+      Capitalismo, socialismo e democracia (1942) [FALTA].
+  IA: pasta A.2. Encaixe MÉDIO. Swedberg (1989), já em A.1, faz a ponte com a
+      sociologia econômica.
+
+2.3 Paul Baran e Paul Sweezy
+  AUTOR: Barran e Sweezy --> Monopoly Capitalism --> dialogo com sociologia economica
+         é possivel
+  IA: Monopoly Capital (1966) [PDF] S2YWK653 (estava em 5 Leituras).
+  IA: pasta A.2. Encaixe MÉDIO: economia política marxista; diálogo possível, mas
+      não é sociologia econômica.
+
+========================================================================
+3. AUTORES QUE DISCUTIRAM O BRASIL
+========================================================================
+AUTOR: No A.2 dialogaremos também com autores que discutiram o brasil (e seu
+       desenvolvimento econômico)
+[D] Pasta: majoritariamente A.3; A.2 só os muito relevantes.
+
+3.1 Paul Singer
+  AUTOR: As obras de Paul Singer
+  [D] Fica fora das pastas; as obras sugeridas vão para "A avaliar".
+  IA: Desenvolvimento econômico e evolução urbana (1968); A crise do "milagre"
+      (1976); Economia política da urbanização (1973) [FALTA, criados em A avaliar].
+
+3.2 Florestan Fernandes
+  AUTOR: As obras de Florestan Fernandes
+  [D] Escolhidas: as três abaixo.
+  IA: A revolução burguesa no Brasil (1975) [PDF] B64RQ6AR -> A.3 e A.2 (encaixe
+      ALTO; é o "muito relevante" da exceção);
+      Capitalismo dependente e classes sociais na América Latina (1973) [FALTA]
+      -> A.3, ALTO;
+      Sociedade de classes e subdesenvolvimento (1968) [FALTA] -> A.3, MÉDIO.
+
+3.3 Fernando Henrique Cardoso
+  AUTOR: Fernando Henrique Cardoso (especialmente desenvolvimento e dependência)
+  IA: Cardoso & Faletto, Dependência e desenvolvimento na América Latina (1970)
+      [PDF] FREUWVU8 -> A.3, ALTO (dependência associada; contraponto a Frank).
+
+3.4 João Manuel Cardoso de Mello
+  AUTOR: Mello (trabalho sobre o capitalismo tardio no brasil)
+  IA: O capitalismo tardio (1982) [PDF] YHBNSZT7 -> A.3, ALTO.
+
+3.5 Caio Prado Júnior
+  AUTOR: As obras de caio prado junior
+  [D] Escolhidas: as três abaixo.
+  IA: Formação do Brasil contemporâneo (1942) [sem PDF] PC4B87LX -> A.3, MÉDIO;
+      História econômica do Brasil (1945) [PDF] 94UI2T8H -> A.3, MÉDIO;
+      História e desenvolvimento (1968) [sem PDF] WR9NF7UU -> A.3, ALTO.
+
+3.6 Celso Furtado
+  AUTOR: as obras de celso furtado
+  [D] Escolhidas: as três abaixo.
+  IA: Formação econômica do Brasil (1959) [PDF] 5Q6VCQCV -> A.3, ALTO;
+      Desenvolvimento e subdesenvolvimento (1961) [FALTA] -> A.3, ALTO;
+      O mito do desenvolvimento econômico (1974) [FALTA] -> A.3, ALTO.
+
+========================================================================
+4. O QUE FOI FEITO NO ZOTERO (IA, 2026-10-18)
+========================================================================
+- Itens da biblioteca: só foi ADICIONADA a pasta indicada acima; nada saiu de
+  nenhuma pasta.
+- Itens [FALTA]: criados em "1 Tese > A avaliar", com a pasta sugerida e
+  "Sugerido pelo autor; metadados pela IA, conferir edição" no campo Extra.
+- Log em ~/Zotero-reorg-review/2026-10-18_teoria_A0_A1/.
+
+========================================================================
+5. TÓPICOS SUGERIDOS NO CAPÍTULO (IA, 2026-10-18)
+========================================================================
+Inseridos em chapters/02-Desindustrialização (Teoria).tex como
+\todoaiflag{}{...} (vermelho, "AI TODO"), logo após os esboços do autor, que não
+foram alterados. Nenhuma citação formal foi inserida.
+- 2.2.1, antes do parágrafo "Apesar das diferenças...": papel do Estado na
+  vertente institucional (A.1).
+- 2.2.3 Contraponto: 9 tópicos (A.2).
+- 2.2.4 Institucionalismo(s), desenvolvimento e dependência: 7 tópicos (A.3).

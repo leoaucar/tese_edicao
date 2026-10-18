@@ -1,0 +1,114 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[a4paper,landscape,margin=1.3cm]{geometry}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds}
+\usepackage{booktabs,tabularx,array,xcolor}
+\pagestyle{empty}
+\definecolor{feita}{HTML}{2E7D32}
+\definecolor{nova}{HTML}{1565C0}
+\definecolor{plan}{HTML}{757575}
+\definecolor{base}{HTML}{6D4C41}
+\tikzset{
+  sk/.style={draw, rounded corners=3pt, thick, align=center, font=\small, minimum height=1.05cm, text width=3.6cm, fill=white},
+  feita/.style={sk, draw=feita, fill=feita!8},
+  nova/.style={sk, draw=nova, fill=nova!8},
+  plan/.style={sk, draw=plan, dashed, fill=plan!6},
+  base/.style={sk, draw=base, fill=base!8},
+  art/.style={draw=black!40, align=center, font=\scriptsize\itshape, inner sep=3pt, fill=black!3},
+  fl/.style={-{Stealth[length=2.2mm]}, thick, black!65},
+  opt/.style={-{Stealth[length=2.2mm]}, thick, black!45, dashed},
+  lane/.style={draw=black!25, rounded corners=6pt, inner sep=8pt},
+  lanelabel/.style={font=\bfseries\small, anchor=north west}
+}
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Skills da tese e da academic-writing-skills}\\[2pt]
+{\small Mapa para revisão futura, gerado em 2026-10-18. As setas indicam a ordem de uso (o que alimenta o quê).}
+\end{center}
+\vspace{2pt}
+
+\begin{tikzpicture}[x=1cm,y=1cm]
+\tikzset{sk/.append style={text width=4.1cm, minimum height=1.35cm}}
+% colunas: 2.3, 7.7, 13.1, 18.5 | linhas: 0, -4, -8
+% ---------- faixa 1
+\node[art, text width=2.6cm] (docx) at (2.3,0) {capítulo .docx\\(recebido)};
+\node[feita] (imp) at (7.7,0) {\textbf{importar-docx-latex}\\[1pt]\scriptsize docx $\Rightarrow$ .tex do capítulo\\e stubs no .bib};
+\node[feita] (esb) at (13.1,0) {\textbf{detectar-esboco}\\[1pt]\scriptsize o que ainda é rascunho};
+\node[feita] (nat) at (18.5,0) {\textbf{detectar-conteudo-}\\\textbf{nao-nativo}\\[1pt]\scriptsize trechos colados de outro texto};
+\draw[fl] (docx) -- (imp);
+\draw[fl] (imp) -- (esb);
+\draw[fl] (esb) -- (nat);
+% ---------- faixa 2
+\node[base] (zo) at (2.3,-4) {\textbf{zotero-organization}\\[1pt]\scriptsize API do Zotero: tags, pastas,\\metadados, duplicatas};
+\node[nova] (busca) at (7.7,-4) {\textbf{busca-bibliografica-}\\\textbf{zotero}\\[1pt]\scriptsize nota da pasta + lacunas\\$\Rightarrow$ seleção de textos};
+\node[nova] (fich) at (13.1,-4) {\textbf{fichamento-zotero}\\[1pt]\scriptsize Ficha IA por item (fonte $\Rightarrow$ texto)\\mapa de afirmações (texto $\Rightarrow$ fontes)};
+\node[feita] (cons) at (18.5,-4) {\textbf{consolidar-}\\\textbf{bibliografia-zotero}\\[1pt]\scriptsize .bib do Zotero $\Rightarrow$ references.bib};
+\draw[fl] (zo) -- (busca);
+\draw[fl] (busca) -- (fich);
+\draw[fl] (fich) -- node[above, font=\scriptsize]{export .bib} (cons);
+% ---------- faixa 3
+\node[feita] (rev) at (2.3,-8) {\textbf{revisao-academica-ptbr}\\[1pt]\scriptsize repetição, clareza, gramática;\\cópia revisada + relatório};
+\node[plan] (v1) at (7.7,-8) {\textbf{verificacao-citacoes V1}\\[1pt]\scriptsize registro, autor/ano, citação direta,\\afirmação $\times$ fonte};
+\node[plan] (v2) at (13.1,-8) {\textbf{verificacao-citacoes V2}\\[1pt]\scriptsize índice semântico (RAG):\\sugerir referências};
+\node[art, text width=3.6cm] (sug) at (18.5,-8) {sugestões \texttt{\textbackslash aiflag\{\textbackslash citep\{...\}\}}\\ao lado do \texttt{\textbackslash todouser}\\(etapa manual hoje)};
+\draw[fl] (cons) -- (sug);
+\draw[opt] (fich) -- node[right, font=\scriptsize]{fichas e mapa como base} (v2);
+\draw[opt] (v2) -- node[above, font=\scriptsize]{automatiza} (sug);
+\draw[fl] (sug.south) -- ++(0,-0.6) -| node[pos=0.25, below, font=\scriptsize]{aceitas pelo autor} (v1.south);
+\draw[fl] (v1) -- node[above, font=\scriptsize]{depois} (rev);
+% ---------- faixas e rótulos
+\begin{scope}[on background layer]
+\node[lane, fit=(docx)(nat)] (l1) {};
+\node[lane, fit=(zo)(cons)] (l2) {};
+\node[lane, fit=(rev)(sug)] (l3) {};
+\end{scope}
+\node[lanelabel] at ([yshift=14pt]l1.north west) {1. Importação do capítulo \textmd{(projeto tese\_edicao)}};
+\node[lanelabel] at ([yshift=14pt]l2.north west) {2. Referências: Zotero $\Rightarrow$ bibliografia \textmd{(projeto tese\_edicao; base em \textasciitilde/.claude/skills)}};
+\node[lanelabel] at ([yshift=14pt]l3.north west) {3. Citações e revisão do texto \textmd{(academic-writing-skills; V1 e V2 ainda não construídas)}};
+% ---------- legenda
+\begin{scope}[shift={(0.3,-10.6)}]
+\tikzset{lg/.style={text width=2.3cm, minimum height=0.6cm, font=\scriptsize}}
+\node[feita, lg, anchor=west] (a) at (0,0) {construída};
+\node[nova, lg, right=0.3cm of a] (b) {nova (2026-10-18)};
+\node[plan, lg, right=0.3cm of b] (c) {planejada};
+\node[base, lg, right=0.3cm of c] (d) {base (usuário)};
+\node[art, right=0.3cm of d] (e) {artefato / etapa manual};
+\draw[fl] ([xshift=0.4cm]e.east) -- ++(0.9,0) node[right, font=\scriptsize, black]{fluxo};
+\draw[opt] ([xshift=2.6cm]e.east) -- ++(0.9,0) node[right, font=\scriptsize, black]{base / insumo};
+\end{scope}
+\end{tikzpicture}
+
+\newpage
+\begin{center}{\large\bfseries Referência rápida}\end{center}
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.6cm}p{3.3cm}p{1.9cm}X@{}}
+\toprule
+Skill & Onde fica & Situação & O que faz / saídas principais \\
+\midrule
+importar-docx-latex & tese\_edicao/.claude/skills & construída & Converte capítulo .docx em .tex com as convenções da constitution; cria stubs no .bib; figuras e tabelas externas. \\
+detectar-esboco & tese\_edicao/.claude/skills & construída & Aponta parágrafos que são esboço do autor (ambiente \texttt{esboco}). \\
+detectar-conteudo-nao-nativo & tese\_edicao/.claude/skills & construída & Aponta trechos colados de outro documento (artigo, currículo, lista de referências). \\
+consolidar-bibliografia-zotero & tese\_edicao/.claude/skills & construída & Mescla .bib do Zotero com references.bib; completa stubs; aponta colisões e citações sem entrada. \\
+busca-bibliografica-zotero & tese\_edicao/.claude/skills & nova & Lê a nota-critério da pasta e as lacunas do texto; propõe núcleo/complementar/online com métricas normalizadas por área; arquiva após aprovação. Scripts: indexar\_biblioteca, metricas\_citacao, lacunas\_citacao. \\
+fichamento-zotero & tese\_edicao/.claude/skills & nova & Triagem de PDFs (lista .txt dos que faltam); notas ``Ficha IA'' (resumo, como aborda o tema, ideias com página, onde usar por âncora); mapa de afirmações texto $\Rightarrow$ fontes. Scripts: triagem\_pdf, extrato\_pdf, ancora\_capitulo, fichas\_para\_zotero. \\
+zotero-organization & \textasciitilde/.claude/skills & construída & Base de acesso ao Zotero (zapi.py); vocabulário de tags; regras de pastas, metadados e duplicatas. \\
+revisao-academica-ptbr & academic-writing-skills & construída & Revisão de redação em cinco passadas; nunca edita o original; protege citações, comandos LaTeX e termos técnicos. \\
+verificacao-citacoes V1 & academic-writing-skills & planejada & Checar citações existentes: registro no Zotero, autor e ano, citações diretas e páginas, afirmação $\times$ fonte; relatório sem editar o original. \\
+verificacao-citacoes V2 & academic-writing-skills & planejada & Índice semântico integrado ao Zotero: sugerir referências para afirmações sem citação; busca de trechos por sentido. \\
+\bottomrule
+\end{tabularx}
+
+\vspace{8pt}
+\textbf{Documentos de apoio} (tese\_edicao): \texttt{specs/proposed\_skills.md};
+\texttt{specs/2026-10-11\_capitulo\_02\_teoria/} (guia\_insercao\_fontes.txt,
+handoff\_verificacao\_citacoes.md, fichas, análise da 2.1); \texttt{PROMPT\_proxima\_sessao.txt}.
+\textbf{academic-writing-skills}: \texttt{README.md}, \texttt{specs/roadmap.md} (Projeto A2 = V1; A3 = V2).
+
+\end{document}

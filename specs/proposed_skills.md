@@ -11,6 +11,11 @@ Instaladas em 30/08/2026, no início da rodada `2026-08-30_capitulo_metodologia_
 - **`detectar-esboco`**
 - **`detectar-conteudo-nao-nativo`**
 
+Instalada em 18/10/2026, na rodada `2026-10-11_capitulo_02_teoria`:
+
+- **`busca-bibliografica-zotero`**: preenche uma pasta temática do Zotero a partir da nota-critério da pasta e das marcas `\todouser{fonte}` do capítulo, com a biblioteca do usuário em primeiro lugar e OpenAlex/Crossref para lacunas e métricas normalizadas por área. Primeira aplicação: pastas A.0 e A.1 de `02 Teoria` (relatório e log em `~/Zotero-reorg-review/2026-10-18_teoria_A0_A1/`).
+- **`fichamento-zotero`**: etapa seguinte da busca; lê os textos de uma pasta (PDF, escaneado via imagem ou sem PDF sinalizado) e grava uma nota "Ficha IA" por item (resumo, como aborda o tema, ideias com página, onde usar no capítulo por âncora de seção e parágrafo). Primeira aplicação: 29 fichas nas pastas A.0 e A.2 de `02 Teoria`.
+
 Ver definição completa de cada uma em `.claude/skills/<nome>/SKILL.md`. As demais abaixo seguem como propostas, a instalar quando a fase do roadmap que as usa chegar.
 
 ## Propostas (ainda não instaladas)

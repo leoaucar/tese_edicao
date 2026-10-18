@@ -1,0 +1,69 @@
+GUIA: INSERÇÃO DE FONTES NO CAPÍTULO 2 (caminho sugerido)
+Rodada 2026-10-11_capitulo_02_teoria. Escrito pela IA em 2026-10-18.
+
+------------------------------------------------------------------------
+PONTO DE PARTIDA (o que já existe)
+------------------------------------------------------------------------
+- Zotero, 1 Tese > 02 Teoria: pastas A.0 a A.3 montadas; 29 notas "Ficha IA"
+  (A.0 e A.2) dizendo onde cada texto entra (seção + início do parágrafo).
+- Mapeamento autor -> trecho, nesta pasta:
+    analise_teoria_geral_2-1.md     lacunas da seção 2.1 -> fontes
+    proposta_A0_A1.md               textos de A.0/A.1 e o \todouser que resolvem
+    fichas_A0_A2.md                 cópia das Fichas IA
+    sugestoes_referencias_A1_A2.txt lista do autor (A.1 a A.3), avaliada
+- Capítulo: nenhum \cite novo foi inserido. Há \todouser{}{fonte} do autor e
+  \todoaiflag{}{SUGESTÃO DE TÓPICO...} da IA.
+- Estilo de citação do capítulo: \citep (parênteses), \citet (autor no texto),
+  \citeauthor, \citeyear. Chaves no padrão sobrenome_palavra_ano.
+
+------------------------------------------------------------------------
+PASSOS
+------------------------------------------------------------------------
+1. EXPORTAR (autor)
+   No Zotero, exportar as pastas A.0, A.1, A.2 e A.3 como BibTeX (Better BibTeX,
+   se for o que gerou as chaves atuais) e salvar o .bib nesta pasta.
+   Antes, resolver os itens de "A avaliar": arquivar ou descartar.
+
+2. MESCLAR (IA, skill consolidar-bibliografia-zotero)
+   Mesclar o .bib com references.bib: completar as entradas incompletas
+   (ex.: sautuetal2005, criada como stub na importação), apontar colisões de
+   chave e citações sem entrada. Nunca trocar uma chave já usada no .tex sem
+   atualizar o capítulo.
+
+3. SUGERIR AS CITAÇÕES (IA)
+   Para cada ponto mapeado, inserir a sugestão AO LADO da marca do autor, em
+   vermelho. A IA não insere citação direto no texto (constitution.md).
+     antes:  fenômeno \todouser{}{citar fonte}.
+     depois: fenômeno \todouser{}{citar fonte} \aiflag{\citep{abend_meaning_2008}}.
+   Onde não há \todouser (ex.: "ciência normal" sem Kuhn), só o \aiflag.
+   Página entra quando a ficha tem página: \citep[p.~137--139]{sautuetal2005}.
+   Ordem sugerida: primeiro a seção 2.1, como teste; depois 2.2 e o Contraponto.
+
+4. COMPILAR (IA)
+   pdflatex + bibtex + pdflatex x2 (ou latexmk): nenhuma chave indefinida e
+   nenhum erro. Atenção à regra da constitution: nunca "%" sem escape dentro de
+   \aiflag{}.
+
+5. REVISAR (autor)
+   No PDF as sugestões aparecem em vermelho. Para aceitar: apagar o \todouser e
+   tirar o \aiflag{} em volta do \citep. Para recusar: apagar o \aiflag inteiro.
+   No VS Code, recarregar o arquivo antes ("File: Revert File" se a aba tiver
+   alterações antigas não salvas) e nunca salvar uma aba desatualizada por cima.
+
+6. CHECAR (futuro, skill verificacao-citacoes)
+   Depois de aceitas: conferir que cada citação tem registro no Zotero, que
+   autor e ano batem, que citações diretas e páginas conferem com o PDF e que a
+   fonte sustenta o que o texto atribui a ela.
+
+------------------------------------------------------------------------
+EXEMPLOS PRONTOS (seção 2.1; chaves provisórias até a exportação)
+------------------------------------------------------------------------
+- parágrafo "Nas ciências sociais, raramente...": Abend 2008; Rueschemeyer 2009, p. 1
+- parágrafo "O caráter multiparadigmático...": Ritzer 1975; Handbook, cap. 1, p. 4
+- parágrafo "Dada a multiplicidade...", termo "ciência normal": Kuhn 1962
+- parágrafo "Essa característica implica...": Mills, p. 133; Bourdieu, Chamboredon e Passeron
+- parágrafo "Antes, porém, cabe explicar...", "teoria substantiva": Sautu et al. 2005, pp. 137-139
+- parágrafo "Em ambos os casos...", volumes "definidores": Skocpol 1984; Smelser e Swedberg 2005
+- parágrafo "Poderia ser argumentado...", "frames teóricos": Rueschemeyer 2009, pp. 1-16
+- parágrafo "Não existindo nenhuma área...", "paralisia": Portes 2015; Viterna e Robertson 2015; Leme 2015
+Lista completa e justificativas: analise_teoria_geral_2-1.md e Fichas IA.
