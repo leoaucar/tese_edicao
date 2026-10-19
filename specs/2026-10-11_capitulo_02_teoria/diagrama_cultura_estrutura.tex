@@ -1,0 +1,145 @@
+% Diagrama: controvérsias do debate cultura/agência x estrutura e leituras sociológicas recentes.
+% Rodada Cultura e Estrutura (2026-10-19). Compilar com pdflatex.
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[a4paper,landscape,margin=1.1cm]{geometry}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds}
+\usepackage{booktabs,tabularx,array,xcolor}
+\pagestyle{empty}
+\definecolor{agen}{HTML}{1565C0}   % polo cultura/agência
+\definecolor{estr}{HTML}{B71C1C}   % polo estrutura
+\definecolor{sint}{HTML}{2E7D32}   % mediações e sínteses
+\definecolor{contr}{HTML}{E65100}  % controvérsias
+\tikzset{
+  au/.style={draw, rounded corners=3pt, thick, align=center, font=\scriptsize, text width=4.3cm, minimum height=1.1cm, fill=white, inner sep=3pt},
+  ag/.style={au, draw=agen, fill=agen!7},
+  es/.style={au, draw=estr, fill=estr!7},
+  si/.style={au, draw=sint, fill=sint!8},
+  cx/.style={{Stealth[length=2mm]}-{Stealth[length=2mm]}, very thick, contr, dashed},
+  fl/.style={-{Stealth[length=2mm]}, thick, black!45},
+  num/.style={circle, fill=contr, text=white, font=\bfseries\scriptsize, inner sep=1.2pt},
+  per/.style={font=\bfseries\small, black!70},
+  lane/.style={rounded corners=6pt, inner sep=5pt}
+}
+\newcommand{\nz}{\textsuperscript{\,Z}}
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Cultura/agência $\times$ estrutura: da polêmica marxista à sociologia}\\[2pt]
+{\small Controvérsias centrais (\textcolor{contr}{\textbf{C1--C5}}) e posições por período. \textsuperscript{Z} = já no Zotero (A.0, A.1 ou A.2).}
+\end{center}
+\vspace{-2pt}
+
+\begin{tikzpicture}[x=1cm,y=1cm]
+% períodos
+\node[per] at (2.3,5.9) {Anos 1960--70};
+\node[per] at (8.0,5.9) {Anos 1980};
+\node[per] at (13.7,5.9) {Anos 1990};
+\node[per] at (19.6,5.9) {2000--2020};
+\foreach \x in {5.15,10.85,16.6} \draw[black!15, thick] (\x,6.1) -- (\x,-5.6);
+
+% faixas
+\node[font=\bfseries\scriptsize, agen, rotate=90] at (-0.75,3.6) {CULTURA / AGÊNCIA};
+\node[font=\bfseries\scriptsize, sint, rotate=90] at (-0.75,0) {MEDIAÇÕES / SÍNTESES};
+\node[font=\bfseries\scriptsize, estr, rotate=90] at (-0.75,-3.7) {ESTRUTURA};
+
+% polo agência
+\node[ag] (thompson) at (2.3,3.6) {\textbf{Thompson, \emph{Poverty of Theory} (1978)}\nz\\ experiência vivida; classe como processo; ``lógica histórica''};
+\node[ag] (touraine) at (8.0,4.2) {\textbf{Touraine, \emph{Le retour de l'acteur} (1984)}\nz\\ sociologia da ação e dos movimentos; fim da ``sociedade'' como sistema};
+\node[ag] (virada) at (13.7,3.6) {\textbf{Virada cultural}\\ linguagem, discurso, identidade; balanço crítico em Bonnell \& Hunt (1999)\nz};
+\node[ag] (fuchs) at (19.6,3.6) {\textbf{Fuchs (2023)}\nz\\ marxismo humanista: estruturas só agem através de práticas humanas};
+
+% mediações
+\node[si] (hall) at (2.3,0) {\textbf{Hall, ``Two paradigms'' (1980) e ``In defence of theory'' (1981)}\nz\\ nomeia culturalismo $\times$ estruturalismo; Gramsci e hegemonia como ponte};
+\node[si] (anderson) at (8.0,1.4) {\textbf{Anderson (1980)}\nz\\ experiência filtrada pela ideologia; agência desigual e datada};
+\node[si] (bgid) at (8.0,-1.0) {\textbf{Bourdieu, \emph{Distinction} (1979/84)}\nz{} habitus = estrutura incorporada\\[1pt] \textbf{Giddens (1984)}\nz{} dualidade da estrutura};
+\node[si] (archer) at (13.7,0) {\textbf{Archer (1995)}\nz\\ realismo crítico: estrutura e agência distintas e sequenciais (morfogênese)};
+\node[si] (recentes) at (19.6,0) {\textbf{Leituras recentes} (ver p. 2)\\ Sewell 1992; Emirbayer \& Mische 1998; Fligstein \& McAdam 2012\nz; Chibber 2022};
+
+% polo estrutura
+\node[es] (althusser) at (2.3,-2.6) {\textbf{Althusser, \emph{Pour Marx} (1965)}\nz\\ sujeitos como ``suportes''; sobredeterminação; última instância};
+\node[es] (poul) at (2.3,-4.7) {\textbf{Poulantzas (1968/73; NLR 1969)}\nz\\ Estado definido pela posição na estrutura; autonomia relativa};
+\node[es] (mili) at (8.0,-4.7) {\textbf{Miliband (1969; NLR 1970, 1973)}\nz\\ elites e vínculos com o capital; crítica ao ``superdeterminismo''};
+\node[es] (block) at (8.0,-3.0) {\textbf{Block (1977); Therborn (1978)}\nz\\ ``a classe dominante não governa''; aparelhos de Estado comparados};
+\node[es] (jameson) at (13.7,-3.7) {\textbf{Jameson (1991); Mészáros (1989)}\nz\\ cultura e ideologia como expressão do capitalismo tardio};
+\node[es] (panitch) at (19.6,-3.0) {\textbf{Panitch \& Gindin (2012)}\nz\\ globalização construída pelo Estado dos EUA};
+\node[es] (burrell) at (19.6,-4.75) {\textbf{Burrell \& Fourcade (2021)}\nz\\ elite do código $\times$ cibertariado; propriedade dos meios digitais};
+
+% fluxos (influência / resposta)
+\draw[fl] (thompson) -- (hall);
+\draw[fl] (althusser) -- (hall);
+\draw[fl] (hall) -- (anderson.west);
+\draw[fl] (hall) -- (bgid.west);
+\draw[fl] (bgid) -- (archer);
+\draw[fl] (archer) -- (recentes);
+\draw[fl] (touraine) -- (virada);
+\draw[fl] (virada) -- (fuchs);
+\draw[fl] (althusser) -- (poul);
+\draw[fl] (block) -- (panitch);
+\draw[fl] (jameson) -- (burrell);
+\draw[fl] (hall.north east) to[out=40,in=200] (virada.west);
+
+% controvérsias
+\draw[cx] (thompson.east) -- ++(0.32,0) |- node[num, pos=0.25] {C1} (althusser.east);
+\draw[cx] (poul) -- node[num] {C2} (mili);
+\draw[cx] (bgid.east) to[out=0,in=180] node[num, pos=0.55] {C3} (archer.west);
+\draw[cx] (virada.east) -- ++(0.35,0) |- node[num, pos=0.25] {C4} (jameson.east);
+\draw[cx] (fuchs.south) to[out=-90,in=90] node[num, pos=0.25] {C5} (recentes.north);
+\draw[cx] (recentes.south) -- (panitch.north);
+\end{tikzpicture}
+
+\vspace{2pt}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\color{contr}}l >{\raggedright\arraybackslash}p{6.2cm} X@{}}
+C1 & Thompson $\times$ Althusser (1978) & \emph{Quem faz a história?} Sujeitos e experiência contra ``processo sem sujeito''. Hall e Anderson mediam; ninguém vence. \\
+C2 & Miliband $\times$ Poulantzas (1969--73) & \emph{De onde vem o caráter de classe do Estado?} Das elites e de seus laços, ou da posição do Estado na estrutura. Saídas: Block, Therborn; depois Evans (autonomia inserida, A.3). \\
+C3 & Giddens $\times$ Archer (1984--95) & \emph{Estrutura e agência são separáveis?} Dualidade (as duas se constituem na prática) contra dualismo analítico (distintas e sucessivas no tempo). \\
+C4 & Virada cultural $\times$ contracorrente material (1990--) & \emph{A cultura explica ou é explicada?} Discurso e identidade contra cultura como expressão do capitalismo e do poder do Estado. \\
+C5 & Capitalismo digital (2020--) & \emph{O código é poder cultural ou material?} Reabre C1 e C4: Fuchs contra o estruturalismo de Hall; Burrell \& Fourcade e a disputa por datacenters, energia e chips. \\
+\end{tabularx}
+
+\newpage
+\begin{center}
+{\Large\bfseries Leituras sociológicas recentes e pontos de acordo}\\[2pt]
+{\small Todas já no Zotero (\textbf{Z}, com chave e pasta) e com nota Ficha IA. Fichas sem PDF: conferir antes de citar.}
+\end{center}
+
+\footnotesize
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{5.3cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{2.2cm} >{\raggedright\arraybackslash}p{3.6cm}@{}}
+\toprule
+\textbf{Obra} & \textbf{Ideia central} & \textbf{Responde a} & \textbf{Status / uso na tese} \\
+\midrule
+Sewell, ``A theory of structure: duality, agency, and transformation'', \emph{AJS} 98(1), 1992 (3.257 cit.) & Estruturas são esquemas culturais \emph{e} recursos materiais; mudam quando esquemas são transpostos para outros contextos. Corrige Giddens, juntando cultura e materialidade. & C3, C4 & \textbf{Z} GFCUPPF5 (A.0). Núcleo para 2.1 e 2.2.2 \\
+Hays, ``Structure and agency and the sticky problem of culture'', \emph{Sociological Theory} 12(1), 1994 & A cultura é ela mesma uma estrutura, e não o lado da agência; desfaz a equação cultura = liberdade. & C4 & \textbf{Z} F3SSXDVX (A.0). 2.2.2 (``qual cultura?'') \\
+Emirbayer \& Mische, ``What is agency?'', \emph{AJS} 103(4), 1998 (4.689 cit.) & Agência temporal: hábito (passado), projeto (futuro) e julgamento prático (presente). & C1, C3 & \textbf{Z} 83ISKEKN (A.0). 2.1 \\
+Swidler, ``Culture in action'', \emph{ASR} 51(2), 1986 (5.470 cit.) & Cultura como repertório (\emph{toolkit}); pesa mais em períodos instáveis. & C4 & \textbf{Z} R7DAG4X4 (A.0). 2.2.2 \\
+Vaisey, ``Motivation and justification'', \emph{AJS} 114(6), 2009 & Modelo dual: cultura motiva por disposições incorporadas e justifica por discurso. & C4 & \textbf{Z} E5MECRUA (A.0). Complementar \\
+Elder-Vass, \emph{The causal power of social structures} (Cambridge UP, 2010) & Realismo crítico: estruturas como propriedades emergentes com poder causal próprio. & C3 & \textbf{Z} V8G4S3IA (A.0). Complementar a Archer \\
+Fligstein \& McAdam, \emph{A theory of fields} (Oxford UP, 2012) & Campos de ação estratégica; o Estado como ``campo de campos''; atores hábeis em estruturas. & C2, C3 & \textbf{Z} (9ELTT7CG, A.1). Já citado em 2.2.1 \\
+Fourcade \& Healy, ``Classification situations'', \emph{Accounting, Organizations and Society} 38(8), 2013 & Classificação por dados como novo mecanismo de estratificação (Weber + Bourdieu). & C5 & \textbf{Z} FKZS97EK (A.2). Par de Burrell \& Fourcade \\
+Chibber, \emph{The class matrix: social theory after the cultural turn} (Harvard UP, 2022) & A estrutura de classe constrange materialmente; a cultura molda \emph{como} os agentes respondem. Acordo materialista com a virada cultural. & C1, C4 & \textbf{Z} H85AW9RK (A.2, A.0). \textbf{Núcleo} para o Contraponto \\
+\bottomrule
+\end{tabularx}
+
+\vspace{8pt}
+\begin{tikzpicture}
+\node[draw=sint, thick, rounded corners=4pt, fill=sint!6, text width=\linewidth-20pt, inner sep=6pt, align=left, font=\footnotesize] {
+\textbf{\color{sint}Pontos de acordo (o que a sociologia recente compartilha)}
+\begin{enumerate}\setlength{\itemsep}{1pt}
+\item \textbf{Nem estruturas que agem, nem indivíduos livres.} Estruturas só existem por meio de práticas, mas preexistem aos indivíduos e os condicionam (Giddens, Archer, Sewell, Fuchs). A divergência que resta é se convém separá-las analiticamente (C3).
+\item \textbf{O tempo resolve parte do dilema.} A relação estrutura--agência se observa em sequências: condicionamento, ação e reprodução ou transformação (Archer; Sewell; Emirbayer \& Mische). Útil para um processo de longa duração como a desindustrialização.
+\item \textbf{A cultura conta, mas não sozinha.} Esquemas culturais operam junto com recursos materiais (Sewell); a questão é \emph{quando} a cultura pesa mais (Swidler). Apoia a crítica do autor ao viés culturalista (2.2.2) sem descartar a cultura.
+\item \textbf{Volta da classe e do material.} Depois da virada cultural, classe, propriedade e Estado voltam ao centro (Chibber; Panitch \& Gindin; Burrell \& Fourcade). É o argumento do Contraponto (2.2.3).
+\item \textbf{Bourdieu como elo perdido (tópico novo em 2.2.2).} O Bourdieu da economia é estrutural: dominação pela posição no campo, Estado e classe como distribuição de capitais (Bourdieu 2005, pp. 76, 81, 84; 1985; 1979; Swedberg 2004, p. 12; Raud 2007). A sociologia econômica culturalista usa sobretudo o habitus cultural (Lizardo 2011; Swedberg 2011). Ressalvas: Burawoy 2010 e Desan 2013.
+\end{enumerate}
+\textbf{\color{contr}Em aberto:} quanto o Estado é autônomo (C2), resolvido de forma histórica e não teórica por Block e por Evans (autonomia inserida); e se o capitalismo digital é sobretudo poder cultural ou material (C5).
+};
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,74 @@
+FALTAM PDF — rodada Cultura e Estrutura (2026-10-19)
+Itens criados no Zotero sem PDF. A Ficha IA foi feita pelo conhecimento da obra
+("SEM PDF — conferir antes de citar"). Ao anexar o PDF, refazer a ficha com páginas.
+
+A.0 Teoria Social Geral vs Específica
+  6XTZD7DV  Hall (1980) Cultural studies: two paradigms. Media, Culture & Society 2(1)  DOI 10.1177/016344378000200106
+  FHPKTGHN  Hall (1981) In defence of theory. In Samuel (org.), People's history and socialist theory
+  3PT3P8PF  Anderson (1980) Arguments within English Marxism
+  H7XC2SUD  Althusser (1965/1969) For Marx
+  CRRMHJFM  Bourdieu (1979/1984) Distinction  (também A.1)
+  M5P4MDXP  Giddens (1984) The constitution of society
+  XIM363DE  Archer (1995) Realist social theory
+  JPSDFBQ8  Touraine (1984/1988) Return of the actor
+  QUI5U7DN  Bonnell & Hunt (orgs.) (1999) Beyond the cultural turn
+
+A.2 Sociologia econômico-política
+  8V4SCAC6  Poulantzas (1968/1973) Political power and social classes
+  SXJKBXU4  Poulantzas (1969) The problem of the capitalist state. NLR I/58  DOI 10.64590/wmu
+  CUS6IG6W  Miliband (1970) The capitalist state: reply to Nicos Poulantzas. NLR I/59  DOI 10.64590/tlh
+  RKNXZ8EW  Miliband (1973) Poulantzas and the capitalist state. NLR I/82  DOI 10.64590/el6
+  XKCQDQZE  Miliband (1969) The state in capitalist society
+  6VXD3INT  Therborn (1978) What does the ruling class do when it rules?
+  QTB62GKQ  Panitch & Gindin (2012) The making of global capitalism
+  75985898  Jameson (1991) Postmodernism, or, the cultural logic of late capitalism
+  CT4R4DP7  Mészáros (1989) The power of ideology
+
+Com PDF (lidos): QZBS2KST Fuchs (2023); ZU5EQHF3 Burrell & Fourcade (2021).
+
+
+Acréscimos (parte 2 e cobertura completa de A.1/A.2, 2026-10-19): fichas sem leitura do PDF
+  GFCUPPF5  [A.0]  Artigo de William Sewell (*AJS*, 1992), um dos mais citados da teoria sociológica. Reformula a dualidade da es
+  F3SSXDVX  [A.0]  Artigo de Sharon Hays (*Sociological Theory*, 1994) que critica a equação, comum na teoria, entre estrutura = 
+  83ISKEKN  [A.0]  Artigo de Emirbayer e Mische (*AJS*, 1998) que reconstrói o conceito de agência como processo temporal com trê
+  R7DAG4X4  [A.0]  Artigo de Ann Swidler (*ASR*, 1986). Contra a ideia de que a cultura orienta a ação por valores últimos, propõ
+  E5MECRUA  [A.0]  Artigo de Stephen Vaisey (*AJS*, 2009) que propõe um modelo de "processo dual" da cultura: disposições prática
+  V8G4S3IA  [A.0]  Livro de Dave Elder-Vass (2010) que, a partir do realismo crítico, trata estruturas sociais como propriedades 
+  FKZS97EK  [A.2]  Artigo de Fourcade e Healy (*Accounting, Organizations and Society*, 2013) que propõe o conceito de "situações
+  H85AW9RK  [A.2]  Livro de Vivek Chibber (2022) que responde à virada cultural a partir do marxismo. A estrutura de classe é mat
+  EJVBB5FQ  [A.1]  Artigo de Swedberg (*Cultural Sociology*, 2011) que fala em "sociologias econômicas" de Bourdieu, no plural. A
+  WAVTE6IP  [A.1]  Artigo de Bourdieu (*Theory and Society*, 1985) que apresenta o espaço social como espaço multidimensional de 
+  VSPNB9JV  [A.1]  Conferência de Bourdieu (*Berkeley Journal of Sociology*, 1987) sobre a existência teórica e prática das class
+  KFSMSRFZ  [A.1]  Livro de Bourdieu (2000; trad. inglesa 2005) sobre o mercado da casa própria na França. Mostra que o mercado é
+  9CTJGM9N  [A.1]  Livro de Bourdieu (orig. *Algérie 60*, 1977) sobre a Argélia colonial. Mostra que as disposições econômicas (c
+  4MZJIEPF  [A.1]  Artigo de Omar Lizardo (*Cultural Sociology*, 2011) sobre a dupla recepção de Bourdieu. Na antropologia, Bourd
+  46EQG6BT  [A.1]  Artigo de Roy Boyne (*Theory, Culture & Society*, 2002) sobre o deslocamento, na obra e na recepção de Bourdie
+  828KGN7U  [A.2]  Artigo de Mathieu Desan (*Sociological Theory*, 2013) que contesta a tese de que Bourdieu supera o economicism
+  NSCIEDWJ  [A.1]  Artigo de Loïc Wacquant (*Journal of Classical Sociology*, 2013) que reconstrói a reformulação da classe em Bo
+  AQ52MXD7  [A.1]  Artigo de Frédéric Lebaron (*Theory and Society*, 2003) sobre a relação de Bourdieu com a economia: usa modelo
+  V2P5PXDB  [A.1]  Capítulo de Elliot Weininger em *Approaches to Class Analysis* (org. Erik Olin Wright, 2005), coletânea que co
+  G2ZRNQ7G  [A.1]  Artigo de Cécile Raud (*Tempo Social*, 2007) sobre a sociologia do mercado de Bourdieu. Conclui que é uma anál
+  59E9N2MP  [A.1]  Artigo de Roberto Grün (*Tempo Social*, 2004) que apresenta a sociologia das finanças (anglo-saxã e francesa) 
+  VB5ZF5XA  [A.1]  Artigo de Roberto Grün (*Mana*, 2007) que sustenta a existência de um "modo financeiro de dominação" no Brasil
+  3FSIXK2N  [A.1]  Artigo de Lucas Flôres Vasques e Maria Chaves Jardim (*Ensaios*, 2021) que responde ao chamado de Berezin (Han
+  62GQ79K3  [A.1]  Artigo de Ricardo Abramovay (*Tempo Social*, 2004). A nova sociologia econômica estuda mercados como construçõ
+  YMR5ITLS  [A.1]  Livro de Granovetter (*Getting a Job*, 1974; 2ª ed. 1995) sobre como profissionais de Newton (Massachusetts) c
+  8TULSF8A  [A.1]  Livro de Granovetter (*Society and Economy: Framework and Principles*, 2017), síntese de décadas de trabalho. 
+  54N2XKJH  [A.1]  Artigo de Greta Krippner (*Theory and Society*, 2001) sobre o conceito de mercado na sociologia econômica. Mos
+  X9WZW37M  [A.1]  Capítulo de Jens Beckert em *Market and Society: The Great Transformation Today* (Hann e Hart, orgs., 2009), "
+  6WK9MSS9  [A.1]  *Sociologia e antropologia* de Marcel Mauss (ed. brasileira), que reúne o *Ensaio sobre a dádiva* (1925). A dá
+  LSG47PE5  [A.1]  *Da divisão do trabalho social* de Durkheim (1893; ed. brasileira 1999). A divisão do trabalho produz solidari
+  2A7LMBL6  [A.1]  *A ética protestante e o "espírito" do capitalismo* de Max Weber (ed. brasileira 2004). Relaciona a ética ascé
+  ZNEVSUGQ  [A.1]  *Economia e sociedade* de Max Weber (ed. brasileira). O cap. 2 da primeira parte, "Categorias sociológicas fun
+  77YU9XAH  [A.1]  *The Architecture of Markets* de Fligstein (2001; registro de 2018). Desenvolve a abordagem político-cultural 
+  SZM6UCU6  [A.1]  Artigo de Walmrath e Santos (*Revista Brasileira de Ciências Sociais*, 2024) sobre o enraizamento político e i
+  Q5K2PC9L  [A.1]  Coletânea *States versus Markets in the World System* (Evans, Rueschemeyer e Stephens, orgs., 1985). Discute a
+  SQRWW3FJ  [A.1]  Capítulo de Rueschemeyer e Evans em *Bringing the State Back In* (Evans, Rueschemeyer e Skocpol, orgs., 1985),
+  MZ9I9LZA  [A.1]  Coletânea *The New Institutionalism in Organizational Analysis* (Powell e DiMaggio, orgs., 1991), o "livro lar
+  6P6FR9JZ  [A.1]  Artigo de Harrison White (*AJS* 87(3), 1981), "Where do markets come from?". Mercados de produção são estrutur
+  QFRWKSHJ  [A.1]  *Razões práticas: sobre a teoria da ação* de Bourdieu (ed. brasileira). Reúne conferências: "Espaço social e e
+  97AMUYZR  [A.1]  Capítulo de Vereta-Nahoum (em *Sociologia Brasileira Hoje*, org. Sergio Miceli e Carlos Benedito Martins, 2017
+  9KTHMGAT  [A.2]  Livro de Harry Braverman (*Labor and Monopoly Capital*, 1974). A gerência científica e a mecanização degradam 
+  33VCXGX3  [A.2]  *O longo século XX* de Giovanni Arrighi (1994; ed. brasileira). Reconstrói a história do capitalismo como suce
+  CZFQF3F4  [A.2]  *Capitalismo histórico e civilização capitalista* de Immanuel Wallerstein (ed. brasileira 2001). Síntese da an
+  B64RQ6AR  [A.2]  *A revolução burguesa no Brasil* de Florestan Fernandes (1975; ed. 2020). Interpreta a formação do capitalismo
