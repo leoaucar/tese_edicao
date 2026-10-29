@@ -122,10 +122,9 @@ material do poder digital (C5).
 
 ## 3. Achados para o autor (não aplicados)
 
-- **Metadados a corrigir no Zotero:** 8QXAWRAG (autor "work(s):"); X9WZW37M (Hann e Hart
-  como autores: são organizadores); F7Y5JEWD (autora do capítulo é Opper; Maurer é
-  organizador); 97AMUYZR (Miceli e Martins como autores: são organizadores); UVV7KPJ3
-  (ano 1993; original 1990); 77YU9XAH (ano 2018; original 2001).
+- **Metadados (revisto em 2026-10-19):** os criadores de 8QXAWRAG, X9WZW37M, F7Y5JEWD e 97AMUYZR
+  já estavam corretos (autor + organizadores). UVV7KPJ3 (1993) e 77YU9XAH (2018) são edições reais;
+  receberam `original-date` (1990 e 2001) no campo Extra.
 - **O trecho de Swedberg sobre Marx existe em duas versões:** Tempo Social 2004 (p. 16) e Nee
   e Swedberg 2005 (p. 791). Citar a que for lida.
 - **Ressalva honesta para o novo tópico:** Burawoy (2010, p. 34) mostra que o próprio Bourdieu

@@ -72,3 +72,47 @@ Acréscimos (parte 2 e cobertura completa de A.1/A.2, 2026-10-19): fichas sem le
   33VCXGX3  [A.2]  *O longo século XX* de Giovanni Arrighi (1994; ed. brasileira). Reconstrói a história do capitalismo como suce
   CZFQF3F4  [A.2]  *Capitalismo histórico e civilização capitalista* de Immanuel Wallerstein (ed. brasileira 2001). Síntese da an
   B64RQ6AR  [A.2]  *A revolução burguesa no Brasil* de Florestan Fernandes (1975; ed. 2020). Interpreta a formação do capitalismo
+
+
+Acréscimos 2026-10-20 (1 Tese > 03 Metodologia; textos citados na Introdução de Silver 2003, Forces of Labor)
+Ficha IA feita por busca online + citações em Silver ("SEM PDF — conferir antes de citar"). Ao anexar o PDF, refazer a ficha com páginas.
+  ZU66AMAN  McMichael (1990) Incorporating comparison within a world-historical perspective: an alternative comparative method. ASR 55(3): 385-397  DOI 10.2307/2095763  (há cópia aberta em swop.org.za)
+  H3G4WGE2  Griffin (1992) Temporality, events, and explanation in historical sociology: an introduction. Sociological Methods & Research 20(4): 403-427  DOI 10.1177/0049124192020004001  (registro já existia, sem PDF)
+  CWVUQ4J5  Quadagno & Knapp (1992) Have historical sociologists forsaken theory? Sociological Methods & Research 20(4): 481-507  DOI 10.1177/0049124192020004004
+  X6KPBUBK  Katznelson & Zolberg (orgs.) (1986) Working-class formation: nineteenth-century patterns in Western Europe and the United States. Princeton UP  (prioridade: introdução de Katznelson)
+
+
+Acréscimos 2026-10-29 (A.3 Institucionalismo e dependência; busca + fichamento)
+Ficha IA ("Pasta: A.3…", 2026-10-29) feita SEM PDF, por conhecimento da obra + metadados conferidos online
+(Crossref/OpenAlex) ou por citações em textos lidos (Bastos 2025, Giorgini e Iumatti 2025, Corsi 2022).
+[REFAZER NOTA] = ao anexar o PDF, refazer a Ficha IA A.3 com páginas (não apagar as fichas de outras pastas).
+  Prioridade 1 (núcleo do esboço da 2.2.4):
+  5ESZVDRR  [REFAZER NOTA] Heller, Rueschemeyer & Snyder (2009) Dependency and development in a globalized world. SCID 44(4)  ("texto reuschmayer")
+  M9XTC3JF  [REFAZER NOTA] Palma (1978) Dependency: a formal theory… or a methodology…? World Development 6(7-8): 881-924  DOI 10.1016/0305-750X(78)90051-7
+  Q5M29FNT  [REFAZER NOTA] Cardoso (1977) The consumption of dependency theory in the United States. LARR 12(3): 7-24  DOI 10.1017/S0023879100030430
+  KZHPGKZS  [REFAZER NOTA] Kvangraven (2021) Beyond the stereotype. Development and Change 52(1): 76-112  DOI 10.1111/dech.12593
+  9NHVVXZC  [REFAZER NOTA] Silver & Arrighi (2003) Polanyi's "double movement". Politics & Society 31(2): 325-355  DOI 10.1177/0032329203031002005
+  DRUP46TH  [REFAZER NOTA] Quijano (2000) Coloniality of power and Eurocentrism in Latin America. International Sociology 15(2)  DOI 10.1177/0268580900015002005
+  NTIZ85GJ  [REFAZER NOTA] Furtado (1961) Desenvolvimento e subdesenvolvimento
+  A5E76S8M  [REFAZER NOTA] Furtado (1974) O mito do desenvolvimento econômico
+  Prioridade 2:
+  ECJKCQVI  [REFAZER NOTA] Dos Santos (1970) The structure of dependence. AER 60(2): 231-236 (JSTOR 1815811)
+  AW9BBE6P  [REFAZER NOTA] Marini (1973) Dialéctica de la dependencia. Era
+  RHKC2AT9  [REFAZER NOTA] Fernandes (1968) Sociedade de classes e subdesenvolvimento
+  X8B4PQDB  [REFAZER NOTA] Fernandes (1973) Capitalismo dependente e classes sociais na América Latina
+  IIHEPEVI  [REFAZER NOTA] Frank (1966) The development of underdevelopment. Monthly Review 18(4)
+  4H3SEFN6  [REFAZER NOTA] Frank (1967) Capitalism and underdevelopment in Latin America
+  QVFL7FRY  [REFAZER NOTA] Baran (1957/1968) The political economy of growth
+  8MMUGT6H  [REFAZER NOTA] Harvey (2003) The new imperialism. Oxford UP
+  J2EEHR68  [REFAZER NOTA] Fraser (2014) Can society be commodities all the way down? Economy and Society 43(4)  DOI 10.1080/03085147.2014.898822
+  UREXWGIX  [REFAZER NOTA] Ellner (2024) Dependency theory and its revival in the twenty-first century. LARR 59(3)  DOI 10.1017/lar.2024.12  (ficha só pelo resumo)
+  K4G5FXQR  [REFAZER NOTA] Antunes de Oliveira & Kvangraven (2023) Back to Dakar. RIPE 30(5)  DOI 10.1080/09692290.2023.2169322  (ficha só pelo resumo)
+  Q7M6IR6Z  [REFAZER NOTA] Arrighi (2008) Adam Smith em Pequim
+  Q5K2PC9L  [REFAZER NOTA] Evans, Rueschemeyer & Stephens (orgs.) (1985) States versus markets in the world system
+  PC4B87LX  [REFAZER NOTA] Prado Jr. (1942) Formação do Brasil contemporâneo
+  WR9NF7UU  [REFAZER NOTA] Prado Jr. História e desenvolvimento  (ficha usa a nota do autor; sem páginas)
+  Já listados antes (sem PDF; ficha A.3 nova também sem páginas): 33VCXGX3 Arrighi 1994; CZFQF3F4 Wallerstein; B64RQ6AR Fernandes 1975 (só link "Livro eletrônico");
+  X9WZW37M Beckert 2009; 54N2XKJH Krippner 2001; SQRWW3FJ Rueschemeyer & Evans 1985 (PDF no registro do livro JL5FC6LB).
+  Escaneados (ficha via notas do autor / textos secundários; ler em imagem se for citar página):
+  YHBNSZT7  Mello (1982) O capitalismo tardio;  5GBU8H88  Bambirra (1972/2013) O capitalismo dependente latino-americano
+  Outros: DJVMX8XC (Mahoney & Rodríguez-Franco 2018) tem anexo sem nome de arquivo: conferir.
