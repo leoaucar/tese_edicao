@@ -15,8 +15,8 @@ desde então.
   culturalista..." ("Ligação com...", "Formule assim...", "Papel da tese:"); conferir nas
   páginas as obras fora de Vereta-Nahoum (aviso `\todoaiflag` reposto); "(fonte)" do
   empreendedorismo como ideologia segue sem fonte.
-- Erro de compilação **anterior** a esta sessão: cap. 4, linha 1339 (`\aiflag` com `}` a
-  mais). O PDF sai com `latexmk -f`, mas o erro precisa ser corrigido.
+- Erro de compilação **anterior** a esta sessão: cap. 4, linha 1339 ("Too many }'s" num
+  `\aiflag`; causa não investigada). O PDF sai com `latexmk -f`, mas o erro precisa ser corrigido.
 
 **Skill `revisao-academica-ptbr`, teste em "Teoria do quê?"** (cap. 2, linhas 3-112),
 fora do Projeto B formal:
