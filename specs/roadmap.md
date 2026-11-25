@@ -18,6 +18,27 @@ Alinhado ao workflow de capítulos definido em `specs/constitution.md` e ao stat
 - [ ] Revisão de texto e citações -- primeira passada de IA aplicada; ciclo iterativo com o usuário ainda não começou.
 - [~] Exportação -- tooling pronto (`scripts/export_docx/`) e já usado para gerar um DOCX do capítulo; repetir a exportação a cada rodada de revisão antes de enviar para `advisor_reviews/`.
 
+## Gráficos pendentes — Capítulo empírico 1 (rodada de revisão de 16/09/2026)
+
+Levantamento feito ao resolver os marcadores `\todouser`/`\aiflag` de figura em
+`chapters/04-Processo de industrialização (1808-1973).tex`. 9 figuras já
+existentes foram inseridas/referenciadas nesta rodada (ver
+`specs/status_capitulos.md`); os itens abaixo ainda não têm imagem produzida.
+
+- [ ] Preço do café, décadas de 1870–1900 — nenhuma das imagens disponíveis (`preco_cafe_1901_1950.png`, `preco_cafe_1920_1980.png`, `preco_cafe_1901_2000.png`) cobre este período, pedido em dois pontos do texto (ciclos de preço do Vale do Paraíba/Oeste Paulista).
+- [ ] Desvalorização cambial pós-1889 — sem imagem nem CSV localizado.
+- [ ] Parceiros comerciais do Brasil, 1900–1939/1938–1987 — dado já coletado em `tables/cap04/exportacoes_importacoes/externo_1900_1939_paises.csv` e `externo_1938_1987_paises.csv`; falta apenas gerar o gráfico.
+- [ ] Gastos do Estado, fim do século XIX — sem imagem nem CSV localizado.
+- [ ] Importações e exportações, Primeira Guerra Mundial (c. 1914–1918) — dado já coletado em `tables/cap04/exportacoes_importacoes/externo_1900_1939.csv`; falta apenas gerar o gráfico.
+- [ ] Comércio externo (complemento à dívida externa, anos 1930–40) — dado já coletado em `externo_1900_1939.csv`/`externo_1900_2000.csv`; falta apenas gerar o gráfico.
+- [ ] Número de trabalhadores na indústria (governo Vargas) — sem imagem nem CSV localizado.
+- [ ] Gastos do Estado (governo Vargas, anos 1930) — sem imagem nem CSV localizado (item distinto do de fim do século XIX acima).
+- [ ] Tipos de indústria de transformação — sem imagem nem CSV localizado.
+- [ ] População imigrante especificamente (não apenas população total) — `populacao_1872_1920.png` foi inserida como aproximação nesta rodada, mas é população total por censo/estado, não série de entrada de imigrantes.
+
+Além disso, sugeridas para avaliação do usuário (não confirmadas como necessárias):
+- [ ] Balanço de pagamentos, 1945 — mencionado no texto sem imagem/CSV específico localizado.
+
 ## Restante do roadmap (estruturado para viabilizar `specs/cronograma.md`)
 
 ### Capítulo empírico 2 (entrega 30/09/2026)

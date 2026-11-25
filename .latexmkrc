@@ -12,4 +12,12 @@ my $root = getcwd();
 if ($root =~ m{^/([A-Za-z])/(.*)$}) {
     $root = "$1:/$2";
 }
-$ENV{'BIBINPUTS'} = $root . ';' . ($ENV{'BIBINPUTS'} // '');
+# Path-list separator differs by platform: Windows uses ';', POSIX (Linux/macOS,
+# including MSYS/Git Bash since it still invokes native Windows binaries) uses ':'.
+my $sep = ($^O eq 'MSWin32' || $^O eq 'msys' || $root =~ m{^[A-Za-z]:/}) ? ';' : ':';
+$ENV{'BIBINPUTS'} = $root . $sep . ($ENV{'BIBINPUTS'} // '');
+
+# All build artifacts (main.pdf, .aux, .log, ...) go to outputs/ instead of
+# cluttering the project root, matching the gitignored outputs/ convention.
+$out_dir = 'outputs';
+$pdf_mode = 1;
