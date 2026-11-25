@@ -20,12 +20,18 @@ Ver definição completa de cada uma em `.claude/skills/<nome>/SKILL.md`. As dem
 
 ## Propostas (ainda não instaladas)
 
-- **`revisar-capitulo`** — roda a revisão de IA completa em um capítulo, conforme as regras da seção "Papel da IA na Revisão de Texto" em `specs/constitution.md` (gramática/ortografia, ideias repetidas, sugestão de posição para tabelas/imagens, checagem de consistência com `tables/`/`figures/`, formatação de citações), inserindo as marcações em vermelho/tachado diretamente no `.tex`.
 - **`importar-revisao-docx`** — extrai alterações rastreadas e comentários de um `.docx` devolvido pelo orientador e gera `advisor_reviews/<data>_<descrição>/review_task_lists.md`.
 - **`exportar-copiao`** — compila `main.tex` (todos os capítulos) em PDF e exporta a versão unificada também em DOCX.
-- **`checar-citacoes`** — verifica todas as `\cite{}` dos capítulos contra `references.bib`, sinalizando chaves ausentes ou formatação incorreta.
 - **`atualizar-status`** — varre os capítulos em busca de marcações de revisão da IA (vermelho/tachado) e sugere atualizações nos checkboxes de `specs/status_capitulos.md`.
 - **`nova-rodada-revisao`** — cria uma nova branch `YYYY-MM-DD-descrição` e as pastas correspondentes em `specs/` e `advisor_reviews/` ao iniciar uma rodada de revisão.
+
+## Descartadas ou movidas (decisão do autor, 2026-11-25)
+
+- **`revisar-capitulo`**: descartada; substituída pela `revisao-academica-ptbr` (`~/Documents/academic-writing-skills`).
+- **`checar-citacoes`**: descartada; substituída pela `verificacao-citacoes` (mesmo repositório, item 8 do roadmap).
+- **`consolidar-bibliografia-zotero`** e `scripts/zotero_bib_export.py`: vão para a `verificacao-citacoes`.
+- **`fichamento-zotero`** e **`busca-bibliografica-zotero`**: vão para `~/Documents/agent-skills` e voltam aqui por symlink.
+- Ainda não movidas. Plano em `~/Documents/agent-skills/HANDOFF_2026-11-25_skills_organization.md`.
 
 ## Adicionadas após a rodada `2026-08-29_capitulo_historico_1_review` (primeiro teste real)
 
