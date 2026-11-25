@@ -1,41 +1,41 @@
 termo	status	ocorrencias	retomada	sentido	nota	vigiar
-sociologia	proposto	31				
-teoria	proposto	20				
-abordagens teóricas	proposto	12				
-teóricas	proposto	17				
-abordagens	proposto	16				
-trabalho	proposto	16				
-desindustrialização	proposto	12				
-sociologia econômica	proposto	8				
-fenômeno	proposto	11				
-fenômeno da desindustrialização	proposto	5				
-pesquisadores	proposto	10				
-campo	proposto	9				
-objeto	proposto	8				
-pesquisa	proposto	8				
-conjunto	proposto	6				
-mais próximo	proposto	4				
-sociologia do desenvolvimento	proposto	3				
-sociologia política	proposto	4				
-ciências	proposto	5				
-relevantes	proposto	5				
-sociais	proposto	5				
-temática	proposto	5				
-vertentes	proposto	5				
-conhecimento acumulado	proposto	3				
-linhas teóricas	proposto	3				
-sociologia histórica	proposto	3				
-teoria substantiva	proposto	3				
-apenas	proposto	4				
-conceitos	proposto	4				
-enquanto	proposto	4				
-escolhas	proposto	4				
-frequência	proposto	4				
-mobilizadas	proposto	4				
-número	proposto	4				
-problemas	proposto	4				
-processo	proposto	4				
-consequências	proposto	3				
-contribuição	proposto	3				
-dentro	proposto	3				
-disciplina	proposto	3				
+sociologia	aprovado	31				
+teoria	aprovado	20				
+abordagens teóricas	aprovado	12				
+teóricas	rejeitado	17				
+abordagens	rejeitado	16				
+trabalho	rejeitado	16				
+desindustrialização	aprovado	12				
+sociologia econômica	aprovado	8				
+fenômeno	rejeitado	11				
+fenômeno da desindustrialização	rejeitado	5				
+pesquisadores	rejeitado	10				
+campo	aprovado	9		apenas no sentido bourdiesiano de campo		
+objeto	aprovado	8		no sentido de objeto cientifico		
+pesquisa	rejeitado	8				
+conjunto	rejeitado	6				
+mais próximo	rejeitado	4				
+sociologia do desenvolvimento	aprovado	3				
+sociologia política	aprovado	4				
+ciências	rejeitado	5				
+relevantes	rejeitado	5				
+sociais	rejeitado	5				
+temática	rejeitado	5				
+vertentes	rejeitado	5				
+conhecimento acumulado	aprovado	3				
+linhas teóricas	aprovado	3				
+sociologia histórica	aprovado	3				
+teoria substantiva	aprovado	3				
+apenas	rejeitado	4				
+conceitos	rejeitado	4				
+enquanto	rejeitado	4				
+escolhas	rejeitado	4				
+frequência	rejeitado	4				
+mobilizadas	rejeitado	4				
+número	rejeitado	4				
+problemas	rejeitado	4				
+processo	rejeitado	4				
+consequências	rejeitado	3				
+contribuição	rejeitado	3				
+dentro	rejeitado	3				
+disciplina	rejeitado	3				

@@ -1,0 +1,73 @@
+tipo	linha	texto
+comando	3	\section
+aspas	5	teoria
+marca de rascunho	7	\todouser{}{citar fonte}
+comando	9	\sout
+marca de rascunho	9	\aiflag{multiparadigmático}
+marca de rascunho	9	\todouser{}{citar fonte}
+comando	10	\sout
+marca de rascunho	10	\aiflag{sequer}
+aspas	11	teoria
+aspas	12	linhas teóricas
+marca de rascunho	14	"\todoaiflag{}{SUGESTÃO DE TÓPICO (IA, 2026-10-19), pasta A.0: um exemplo concreto do caráter multiparadigmático é a oposição entre cultura/agência e estrutura, que atravessa a teoria social desde a polêmica Thompson × Althusser e foi nomeada por Hall como ""dois paradigmas"". As sínteses sociológicas (Bourdieu, Giddens, Archer) não encerraram a disputa, que segue viva (Fuchs 2023). Apoio: Hall 1980 e 1981; Thompson 1978; Anderson 1980; Giddens 1984; Archer 1995; Fuchs 2023.}"
+aspas	14	dois paradigmas
+marca de rascunho	18	\todouser{}{citar fontes}
+comando	21	\sout
+marca de rascunho	21	\aiflag{pressupõe}
+aspas	24	linha teórica
+comando	33	\emph
+marca de rascunho	33	\aiflag{que}
+marca de rascunho	39	\todouser{}{fonte}
+comando	39	\sout
+marca de rascunho	39	\aiflag{discutida}
+comando	39	\sout
+marca de rascunho	39	\aiflag{às}
+comando	45	\sout
+marca de rascunho	45	\aiflag{subdisciplinares}
+comando	49	\sout
+marca de rascunho	49	\aiflag{hiperespecificação}
+marca de rascunho	50	\todouser{pegar autor que embasa}{}
+aspas	50	de fora
+aspas	50	definidores
+aspas	50	Método e visão na Sociologia Histórica
+marca de rascunho	51	\todouser{}{fonte}
+marca de rascunho	51	\todouser{}{fonte}
+aspas	51	Handbook of Economic Sociology
+comando	53	\sout
+marca de rascunho	53	\aiflag{subdisciplinares}
+marca de rascunho	54	\todouser{}{fonte}
+aspas	54	frames teóricos
+comando	56	\sout
+marca de rascunho	56	\aiflag{algum(ns)}
+aspas	58	abordagem
+aspas	58	abordagens teóricas
+aspas	58	com o que
+aspas	58	com quem
+aspas	60	sociologia das emoções
+marca de rascunho	63	\todouser{}{fonte}
+aspas	63	sociologia da desindustrialização
+aspas	66	desindustrialização
+comando	69	\sout
+marca de rascunho	69	\aiflag{está}
+comando	69	\sout
+marca de rascunho	69	\aiflag{bourdieusiano}
+comando	69	\sout
+marca de rascunho	69	\aiflag{bourdieusiana}
+comando	69	\sout
+marca de rascunho	69	\aiflag{bourdieusiana}
+comando	69	\emph
+aspas	69	embaçado
+aspas	69	sociologia econômica de viés \sout{bourdiesiano}\aiflag{bourdieusiano}
+aspas	69	sociologia \sout{bourdiesiana}\aiflag{bourdieusiana} sobre a economia
+aspas	69	sociologia do mercado de arte \sout{bourdiesiana}\aiflag{bourdieusiana}
+marca de rascunho	73	\todouser{colocar fonte}{}
+marca de rascunho	73	\todouser{citar fonte}{}
+aspas	73	herança
+marca de rascunho	73	(fonte)
+marca de rascunho	73	(fonte)
+marca de rascunho	73	(fonte)
+marca de rascunho	73	(fonte nahoum)
+marca de rascunho	75	\aiflag{o}
+aspas	77	teoria
+comando	78	\sout
+marca de rascunho	78	\aiflag{teoria}

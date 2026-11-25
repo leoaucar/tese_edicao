@@ -1,0 +1,51 @@
+linhas	regra	trecho	motivo
+5-11	R53 Termo técnico: no máximo duas vezes por parágrafo	Nas ciências sociais	Depois da mudança proposta, "teoria" fica com duas ocorrências mais a palavra entre aspas, que é citação do conceito e não conta.
+29-36	marca de rascunho	\sout{pressupões}\aiflag{pressupõe} predeterminam	A frase fica com dois verbos seguidos: "quando não pressupõe predeterminam". Parece que "pressupões" sobrou de uma versão anterior; o mais provável é apagar o par \sout/\aiflag e ficar "quando não predeterminam".
+29-36	R53 Termo técnico: no máximo duas vezes por parágrafo	àquele campo de conhecimento	"campo" foi aprovado só no sentido de Bourdieu. Nesta seção nenhum uso é bourdieusiano (linhas 35, 75, 78, 88, 105, 108): não mexi neles, mas um leitor pode ler "campo" como conceito. Se quiser, troque os de sentido comum por "área".
+48-53	R53 Termo técnico: no máximo duas vezes por parágrafo	fenômeno da desindustrialização	Três ocorrências de "desindustrialização", todas necessárias: a última é o contraste com o fechamento de fábrica. Sem mudança.
+48-53	R39 Decida se o destaque é da informação ou do autor	Na seção 2.2 ... em 2.3	Números de seção digitados à mão. Se a ordem das seções mudar, ficam errados; \ref com \label resolve (a 2.3 já tem label).
+55-60	marca de rascunho	se refere \sout{as}\aiflag{às} ao repertório	A sugestão anterior da IA está errada: aceitar "às" deixa "se refere às ao repertório". O certo é apagar "as" e ficar "se refere ao repertório".
+55-60	R53 Termo técnico: no máximo duas vezes por parágrafo	sociologia do trabalho, sociologia do meio ambiente	"sociologia" aparece seis vezes, mas são nomes de subáreas numa enumeração. Repetição necessária; sem mudança.
+62-63	R21 Desfaça as cadeias de "de"	da capacidade de agregação das agendas de pesquisa dos pesquisadores	Cadeia de cinco "de" e "pesquisa dos pesquisadores". Uma saída: "sobretudo pelo esforço dos pesquisadores e pela capacidade de suas agendas de agregar trabalhos"; não propus porque muda um pouco o sentido.
+72-75	R04 Resolva a repetição reestruturando a frase	Argumento que, em ambos os casos	Dois "que" na frase, mas os dois são necessários ("argumento que" e a relativa de "frames teóricos") e a frase se lê bem. Sem mudança.
+77-80	Ortografia	do que frame	"frame" é palavra estrangeira e pede itálico (\emph{frame}). Não pus porque acrescentar um comando é mexer em conteúdo protegido.
+82-90	R04 Resolva a repetição reestruturando a frase	Dentro das abordagens teóricas	Com as mudanças propostas, o parágrafo cai de cinco para dois ou três "que".
+92-92	R08 Um parágrafo, uma ideia, enunciada no início	A seção seguinte desenvolverá	Duas ideias: o anúncio da seção seguinte com a fronteira "embaçada" entre vertentes, e a definição do que é teoria nesta tese. A segunda é a conclusão da seção inteira e talvez mereça parágrafo próprio. A última frase tem quatro "que" (D9).
+92-92	R04 Resolva a repetição reestruturando a frase	como a sobre se \sout{esta}\aiflag{está} se fazendo	"Como a sobre se está se fazendo" é difícil de ler. Sugestão: "como a de saber se se faz uma...". Não propus porque o trecho contém marcas de rascunho.
+99-99	R53 Termo técnico: no máximo duas vezes por parágrafo	Sobre esta última	"sociologia" sete vezes, quase todas como nome de subárea (do desenvolvimento, política, econômica). Sem mudança.
+99-99	marca de rascunho	Nahoum \todouser{citar fonte}{}	Vereta-Nahoum (2017) já está em references.bib como veretanahoum_sociologia_2017. A citação não foi inserida: é você quem decide a página. O mesmo vale para "(fonte nahoum)".
+99-99	R05 Cada conectivo marca uma relação, uma vez	Entretanto, essa dupla "herança"	"Entretanto" marca oposição, mas a frase não contraria a anterior: a dupla herança reforça o argumento. "Assim" ou "Essa dupla herança, portanto," seria a relação real. Não mudei porque depende do que você quis contrapor.
+101-111	R09 Enuncie cada tema uma vez; depois, só o que o tópico acrescenta	Já \aiflag{o} segundo item, discutido na seção 2.3	Na lista das linhas 44-46, a seção 2.3 é o terceiro item (conhecimento acumulado), não o segundo. Se "segundo" aqui quer dizer o segundo nível de teoria (a teoria substantiva, linhas 55-56), vale dizer isso; se é o item da lista, é "terceiro".
+101-111	R27 Use a primeira pessoa para os atos do autor	esse segundo uso de "teoria"	Confirma a leitura acima: "segundo uso" = teoria substantiva. Sugiro "Já a teoria substantiva, discutida na seção 2.3, ..." no início do parágrafo.
+11	marca de rascunho	\todouser{}{citar fonte}	Marca de rascunho mantida como está.
+13	marca de rascunho	\aiflag{multiparadigmático}	Marca de rascunho mantida como está.
+13	marca de rascunho	\todouser{}{citar fonte}	Marca de rascunho mantida como está.
+14	marca de rascunho	\aiflag{sequer}	Marca de rascunho mantida como está.
+21	marca de rascunho	\todoaiflag{}{SUGESTÃO DE TÓPICO (IA, 2026-10-19), pasta A.0: um exemplo concret	Marca de rascunho mantida como está.
+27	marca de rascunho	\todouser{}{citar fontes}	Marca de rascunho mantida como está.
+30	marca de rascunho	\aiflag{pressupõe}	Marca de rascunho mantida como está.
+49	marca de rascunho	\aiflag{que}	Marca de rascunho mantida como está.
+56	marca de rascunho	\todouser{}{fonte}	Marca de rascunho mantida como está.
+56	marca de rascunho	\aiflag{discutida}	Marca de rascunho mantida como está.
+56	marca de rascunho	\aiflag{às}	Marca de rascunho mantida como está.
+62	marca de rascunho	\aiflag{subdisciplinares}	Marca de rascunho mantida como está.
+66	marca de rascunho	\aiflag{hiperespecificação}	Marca de rascunho mantida como está.
+67	marca de rascunho	\todouser{pegar autor que embasa}{}	Marca de rascunho mantida como está.
+70	marca de rascunho	\todouser{}{fonte}	Marca de rascunho mantida como está.
+70	marca de rascunho	\todouser{}{fonte}	Marca de rascunho mantida como está.
+72	marca de rascunho	\aiflag{subdisciplinares}	Marca de rascunho mantida como está.
+73	marca de rascunho	\todouser{}{fonte}	Marca de rascunho mantida como está.
+75	marca de rascunho	\aiflag{algum(ns)}	Marca de rascunho mantida como está.
+83	marca de rascunho	\todouser{}{fonte}	Marca de rascunho mantida como está.
+92	marca de rascunho	\aiflag{está}	Marca de rascunho mantida como está.
+92	marca de rascunho	\aiflag{bourdieusiano}	Marca de rascunho mantida como está.
+92	marca de rascunho	\aiflag{bourdieusiana}	Marca de rascunho mantida como está.
+92	marca de rascunho	\aiflag{bourdieusiana}	Marca de rascunho mantida como está.
+99	marca de rascunho	\todouser{colocar fonte}{}	Marca de rascunho mantida como está.
+99	marca de rascunho	\todouser{citar fonte}{}	Marca de rascunho mantida como está.
+99	marca de rascunho	(fonte)	Marca de rascunho mantida como está.
+99	marca de rascunho	(fonte)	Marca de rascunho mantida como está.
+99	marca de rascunho	(fonte)	Marca de rascunho mantida como está.
+99	marca de rascunho	(fonte nahoum)	Marca de rascunho mantida como está.
+101	marca de rascunho	\aiflag{o}	Marca de rascunho mantida como está.
+109	marca de rascunho	\aiflag{teoria}	Marca de rascunho mantida como está.
